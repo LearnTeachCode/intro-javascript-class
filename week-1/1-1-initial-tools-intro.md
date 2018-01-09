@@ -6,6 +6,7 @@ Writing quality code is a form of *craftsmanship*, just like blacksmithing or ca
 
 ❓ **If you have any questions,** please ask on the private Slack channel for our class. (See below for an intro to Slack.)
 
+
 **Table of Contents:**
   - [1.1.1: Intro to Slack](#111-intro-to-slack)
   - [1.1.2: Intro to GitHub](#112-intro-to-github)
@@ -14,7 +15,7 @@ Writing quality code is a form of *craftsmanship*, just like blacksmithing or ca
   - [1.1.5: Intro to text editors: Visual Studio Code](#115-intro-to-text-editors-visual-studio-code)  
   - [1.1.6: Creating websites locally with VS Code](#116-creating-websites-locally-with-vs-code)
 
-
+<hr/>
 
 ## 1.1.1: Intro to Slack
 
