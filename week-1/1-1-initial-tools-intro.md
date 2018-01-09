@@ -120,7 +120,7 @@ Meet your new best friend: the dev tools built right into your web browser! This
   
   - [ ] Practice changing the text, background color, or other properties of your favorite websites by typing JavaScript code into the browser console. For example: `document.body.textContent = "Some new text here! Cool!";`
   
-  - [ ] Test out using the built-in `console.log()` function in your JavaScript file and then checking if your messages appear in the browser console when you refresh your web page/
+  - [ ] Test out using the built-in `console.log()` function in your JavaScript file and then checking if your messages appear in the browser console when you refresh your web page.
 
 **Chrome browser resources:**
 
