@@ -1,4 +1,4 @@
-# Programming concepts review and the Hangman game
+# 1.2: Programming concepts review and the Hangman game
 
 ❓ **If you have any questions**, please ask on the private Slack channel for our class. (See our [quick intro to Slack](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-1-initial-tools-intro.md#111-intro-to-slack) if you need a refresher.)
 
