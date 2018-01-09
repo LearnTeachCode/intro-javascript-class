@@ -10,9 +10,10 @@ Writing quality code is a form of *craftsmanship*, just like blacksmithing or ca
   - [1.1.1: Intro to Slack](#111-intro-to-slack)
   - [1.1.2: Intro to GitHub](#112-intro-to-github)
   - [1.1.3: Intro to Glitch](#113-intro-to-glitch)  
-  - [1.1.4: Intro to Chrome's developer tools and the browser console](#114-intro-to-chromes-developer-tools=and-the-browser-console)
+  - [1.1.4: Intro to Chrome's developer tools and the browser console](#114-intro-to-chromes-developer-tools-and-the-browser-console)
   - [1.1.5: Intro to text editors: Visual Studio Code](#115-intro-to-text-editors-visual-studio-code)  
-  - [1.1.6: Creating websites locally with VS Code](#116-creating-websites-locally-with-cs-code)
+  - [1.1.6: Creating websites locally with VS Code](#116-creating-websites-locally-with-vs-code)
+
 
 
 ## 1.1.1: Intro to Slack
@@ -154,7 +155,7 @@ Take the first step in setting up your local development environment by installi
   - [The State of JavaScript 2017 survey's page on text editors](https://stateofjs.com/2017/other-tools/), ranking Visual Studio Code as the most popular by a long shot!
 
 
-## 1.1.5: Intro to text editors: Visual Studio Code
+## 1.1.6: Creating websites locally with VS Code
 
 A quick overview of how to create a web page locally on your computer and then view it in your web browser.
 
@@ -166,5 +167,4 @@ A quick overview of how to create a web page locally on your computer and then v
   
   - [ ] Try making a typo in one of your file names or in the `<script>` or `<link>` tags in your HTML file, and see what happens when you load your web page. (Then don't forget to fix it again!)
 
-
-<br/><br/>👉 ***More class materials for class 1 will be posted, so stay tuned!***
+<br/>👉 **Next up, [Section 1.2: Programming concepts review and the Hangman game](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-2-review-hangman-game.md)!**
