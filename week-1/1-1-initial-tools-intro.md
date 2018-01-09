@@ -114,11 +114,9 @@ Meet your new best friend: the dev tools built right into your web browser! This
 
   - [ ] Make sure you have the latest version of Google Chrome; that's the browser we will be using in class! (Let us know if you have trouble getting it to work on your computer though.)
   
-  - [ ] Write down the keyboard shortcut for opening your browser console: 
+  - [ ] Write down the keyboard shortcut for opening your browser console: **Ctrl + Shift + J** on Windows, or **Cmd + Opt + J** on Mac.
   
   - [ ] Practice using the Inpsect tool to see the HTML and CSS of your favorite websites, and try changing something to see the page update instantly!
-  
-  - [ ] Write down the keyboard shortcut for opening your browser console: **Ctrl + Shift + J** on Windows, or **Cmd + Opt + J** on Mac.
   
   - [ ] Practice changing the text, background color, or other properties of your favorite websites by typing JavaScript code into the browser console. For example: `document.body.textContent = "Some new text here! Cool!";`
   
