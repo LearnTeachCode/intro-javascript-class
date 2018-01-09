@@ -6,11 +6,16 @@ Writing quality code is a form of *craftsmanship*, just like blacksmithing or ca
 
 ❓ **If you have any questions,** please ask on the private Slack channel for our class. (See below for an intro to Slack.)
 
+
 **Table of Contents:**
   - [1.1.1: Intro to Slack](#111-intro-to-slack)
   - [1.1.2: Intro to GitHub](#112-intro-to-github)
-  - [1.1.3: Intro to Glitch](#113-intro-to-glitch)
-  - [1.1.4: Intro to text editors: Visual Studio Code](#114-intro-to-text-editors-visual-studio-code)
+  - [1.1.3: Intro to Glitch](#113-intro-to-glitch)  
+  - [1.1.4: Intro to Chrome's developer tools and the browser console](#114-intro-to-chromes-developer-tools-and-the-browser-console)
+  - [1.1.5: Intro to text editors: Visual Studio Code](#115-intro-to-text-editors-visual-studio-code)  
+  - [1.1.6: Creating websites locally with VS Code](#116-creating-websites-locally-with-vs-code)
+
+<hr/>
 
 ## 1.1.1: Intro to Slack
 
@@ -97,7 +102,34 @@ Get started with Glitch, a web app that makes it easy to collaborate with others
   - [Liz teaching a workshop using Glitch (photo shared on Twitter)](https://twitter.com/LearningNerd/status/940623177700405248)
 
 
-## 1.1.4: Intro to text editors: Visual Studio Code
+
+
+## 1.1.4: Intro to Chrome's developer tools and the browser console
+
+Meet your new best friend: the dev tools built right into your web browser! This is a quick intro to opening the console, inspecting HTML with the Elements panel, and applying JavaScript code directly to the current web page.
+
+:tv: **Video: Intro to Chrome's developer tools and the browser console (4 min): https://youtu.be/O_sJE_3jKZ4**
+
+**Tasks to do:**
+
+  - [ ] Make sure you have the latest version of Google Chrome; that's the browser we will be using in class! (Let us know if you have trouble getting it to work on your computer though.)
+  
+  - [ ] Write down the keyboard shortcut for opening your browser console: **Ctrl + Shift + J** on Windows, or **Cmd + Opt + J** on Mac.
+  
+  - [ ] Practice using the Inpsect tool to see the HTML and CSS of your favorite websites, and try changing something to see the page update instantly!
+  
+  - [ ] Practice changing the text, background color, or other properties of your favorite websites by typing JavaScript code into the browser console. For example: `document.body.textContent = "Some new text here! Cool!";`
+  
+  - [ ] Test out using the built-in `console.log()` function in your JavaScript file and then checking if your messages appear in the browser console when you refresh your web page.
+
+**Chrome browser resources:**
+
+  - [Official Chrome DevTools documentation](https://developers.google.com/web/tools/chrome-devtools/)
+  
+  - The [Google Chrome Developers official YouTube channel](https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw) has lots of tutorials, interviews, and other interesting things to watch!
+
+
+## 1.1.5: Intro to text editors: Visual Studio Code
 
 Take the first step in setting up your local development environment by installing Visual Studio Code (VS Code), which is currently the most popular text editor in the JavaScript community.
 
@@ -122,4 +154,16 @@ Take the first step in setting up your local development environment by installi
   - [The State of JavaScript 2017 survey's page on text editors](https://stateofjs.com/2017/other-tools/), ranking Visual Studio Code as the most popular by a long shot!
 
 
-👉 ***More class materials for class 1 will be posted, so stay tuned!***
+## 1.1.6: Creating websites locally with VS Code
+
+A quick overview of how to create a web page locally on your computer and then view it in your web browser.
+
+:tv: **Video: Creating websites locally with VS Code (5 min): https://youtu.be/E4FmXNatxt0**
+
+**Tasks to do:**
+
+  - [ ] Practice creating a website on your computer in Visual Studio Code, or whichever text editor you prefer -- the steps are basically the same!
+  
+  - [ ] Try making a typo in one of your file names or in the `<script>` or `<link>` tags in your HTML file, and see what happens when you load your web page. (Then don't forget to fix it again!)
+
+<br/>👉 **Next up, [Section 1.2: Programming concepts review and the Hangman game](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-2-review-hangman-game.md)!**
