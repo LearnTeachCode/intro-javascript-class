@@ -5,16 +5,14 @@
 :clock2: **Time to complete: about 2 hours**, or more if you dive deeper into the topics and do your own research, which I always recommend!
 
 :books: **Prerequisites:**
-
   -  First review [Section 1.1: Getting started with our first software tools](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-1-initial-tools-intro.md).
-  
   - **Two *new* videos** have been added to section 1.1: [Intro to Chrome's developer tools and the browser console](https://youtu.be/O_sJE_3jKZ4) (4 min), and [Creating websites locally with VS Code](https://youtu.be/E4FmXNatxt0) (5 min).
 
 **Table of Contents:**  
   - [1.2.1: Flowcharting our Hangman game](#121-)
   - [1.2.2: Linking JavaScript to HTML](#122-)
   - [1.2.3: The DOM: Interacting with HTML and CSS using JavaScript](#123-)  
-  - [1.2.4: Intro to events and event listeners](#124-) event listeners
+  - [1.2.4: Intro to events and event listeners](#124-)
   - [1.2.5: Operators: Increment, decrement, and concatenate](#125-)
   - [1.2.6: Conditional statements and comparison operators](#126-)
   - [1.2.7: Putting it all together: Hangman and the cliffhanger bug](#127-)
@@ -24,7 +22,7 @@
 
 ## 1.2.1: Intro and flowcharts for our Hangman game
 
-:star: **First, be sure to try out the finished Hangman game here:** https://hangman-v0-final.glitch.me (Just promise not to look at the finished JavaScript code until you've done the homework -- no cheating!)
+:star: ***First, be sure to try out the finished Hangman game here:*** https://hangman-v0-final.glitch.me (Just promise not to look at the finished JavaScript code until you've done the homework -- no cheating!)
 
 :tv: **Video: Intro and flowcharts for our Hangman game (9 min): https://youtu.be/28r3b6E__Rs**
 
@@ -34,8 +32,8 @@
 
 **Flowcharting resources:**
   - ["How to Avoid Overcomplicating your Flowchart"](https://cacoo.com/blog/keep-it-simple-how-to-avoid-overcomplicating-your-flowcharts/): A quick overview with advice on effective flowcharting, a look at common flowchart symbols, and example images.
-  
   - ["What is a Flowchart"](https://www.lucidchart.com/pages/what-is-a-flowchart-tutorial): a pretty detailed overview, including the history of flowcharts, common flowchart symbols, and other background info.
+
 
 ## 1.2.2: Linking JavaScript to HTML
 
