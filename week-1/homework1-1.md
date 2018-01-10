@@ -1,4 +1,4 @@
-# Homework part 1 for class 1
+# Homework: Class 1, part 1
 
 :star: *I will be adding more homework and materials by the weekend, but wanted to share this first section with you ASAP so you can get started!*
 
