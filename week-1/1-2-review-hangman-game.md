@@ -9,7 +9,7 @@
   - **Two *new* videos** have been added to section 1.1: [Intro to Chrome's developer tools and the browser console](https://youtu.be/O_sJE_3jKZ4) (4 min), and [Creating websites locally with VS Code](https://youtu.be/E4FmXNatxt0) (5 min).
 
 **Table of Contents:**  
-  - [1.2.1: Flowcharting our Hangman game](#121-)
+  - [1.2.1: Flowcharting our Hangman game](#121-flowcharting-our-hangman-game)
   - [1.2.2: Linking JavaScript to HTML](#122-)
   - [1.2.3: Creating and changing variables](#123-)
   - [1.2.4: The DOM: Interacting with HTML and CSS using JavaScript](#124-)
@@ -21,7 +21,7 @@
 <hr/>
 
 
-## 1.2.1: Intro and flowcharts for our Hangman game
+## 1.2.1: Flowcharting our Hangman game
 
 :star: ***First, be sure to try out the finished Hangman game here:*** https://hangman-v0-final.glitch.me (Just promise not to look at the finished JavaScript code until you've done the homework -- no cheating!)
 
