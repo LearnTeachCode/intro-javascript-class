@@ -18,6 +18,8 @@
   - **Intro and flowcharts for our Hangman game (9 min): https://youtu.be/28r3b6E__Rs**
 
   - **Linking JavaScript to HTML (10 min): https://youtu.be/zn8JNXOBg7U**
+  
+  - **Creating and changing variables (8 min): https://youtu.be/a0GTqrB2k9c**
 
   - **The DOM: Interacting with HTML and CSS using JavaScript (34 min): https://youtu.be/ZUcTcNyGMlo**
 
