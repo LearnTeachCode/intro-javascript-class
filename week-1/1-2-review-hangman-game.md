@@ -48,8 +48,9 @@ How do you get these different languages -- HTML, CSS, and JavaScript -- to talk
   - ...
   
 **Extra resources:**
-  - ...
-  - ...
+  - [HTML <script> element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+  - [HTML <script> defer attribute](https://www.w3schools.com/tags/att_script_defer.asp)
+  - [HTML <head> element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)
 
 
 ## 1.2.3: Creating and changing variables
@@ -63,8 +64,9 @@ A first look at how to create new variables, change values of existing variables
   - ...
 
 **Extra resources:**
-  - ...
-  - ...
+  - [let - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+  - [Hoisting MDN](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
+  - [Hoisting W3Schools](https://www.w3schools.com/js/js_hoisting.asp)
 
 
 ## 1.2.4: The DOM: Interacting with HTML and CSS using JavaScript
@@ -77,10 +79,13 @@ A first look at how to create new variables, change values of existing variables
   - ...
   
 **Extra resources:**
-  - ...
-  - ...
-
-
+  - [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+  - [Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+  - [Document](https://developer.mozilla.org/en-US/docs/Web/API/document)
+  - [textContent Property](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
+  - [HTML attribute reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+  - [HTML Element style property](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style)
+  
 ## 1.2.5: Intro to events and event listeners
 
 :tv: **Video: Intro to events and event listeners (19 min): https://youtu.be/UbwCNBCUrhQ**
@@ -91,8 +96,8 @@ A first look at how to create new variables, change values of existing variables
   - ...
   
 **Extra resources:**
-  - ...
-  - ...
+  - [Event Listeners](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+  - [MDN Event Reference](https://developer.mozilla.org/en-US/docs/Web/Events)
 
 
 ## 1.2.6: Operators: Increment, decrement, and concatenate
@@ -107,9 +112,8 @@ Here's our first look at arithmetic operators and concatenation in JavaScript, w
   - ...
   
 **Extra resources:**
-  - ...
-  - ...
-
+  - [Increment and decrement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment_())
+  - [String operators and concatenation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#String_operators)
 
 ## 1.2.7: Conditional statements and comparison operators
 
@@ -121,8 +125,8 @@ Here's our first look at arithmetic operators and concatenation in JavaScript, w
   - ...
   
 **Extra resources:**
-  - ...
-  - ...
+  - [if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+  - [Comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 
 
 ## 1.2.8: Putting it all together: Hangman and the cliffhanger bug
