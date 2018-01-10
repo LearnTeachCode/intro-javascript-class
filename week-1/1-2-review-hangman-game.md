@@ -11,11 +11,12 @@
 **Table of Contents:**  
   - [1.2.1: Flowcharting our Hangman game](#121-)
   - [1.2.2: Linking JavaScript to HTML](#122-)
-  - [1.2.3: The DOM: Interacting with HTML and CSS using JavaScript](#123-)  
-  - [1.2.4: Intro to events and event listeners](#124-)
-  - [1.2.5: Operators: Increment, decrement, and concatenate](#125-)
-  - [1.2.6: Conditional statements and comparison operators](#126-)
-  - [1.2.7: Putting it all together: Hangman and the cliffhanger bug](#127-)
+  - [1.2.3: Creating and changing variables](#123-)
+  - [1.2.4: The DOM: Interacting with HTML and CSS using JavaScript](#124-)
+  - [1.2.5: Intro to events and event listeners](#125-)
+  - [1.2.6: Operators: Increment, decrement, and concatenate](#126-)
+  - [1.2.7: Conditional statements and comparison operators](#127-)
+  - [1.2.8: Putting it all together: Hangman and the cliffhanger bug](#128-)
 
 <hr/>
 
@@ -51,7 +52,22 @@ How do you get these different languages -- HTML, CSS, and JavaScript -- to talk
   - ...
 
 
-## 1.2.3: The DOM: Interacting with HTML and CSS using JavaScript
+## 1.2.3: Creating and changing variables
+
+A first look at how to create new variables, change values of existing variables, and how JavaScript reads your code in two separate stages.
+
+:tv: **Video: Creating and changing variables (8 min): https://youtu.be/a0GTqrB2k9c**
+
+**Practice challenges:**
+  - ...
+  - ...
+
+**Extra resources:**
+  - ...
+  - ...
+
+
+## 1.2.4: The DOM: Interacting with HTML and CSS using JavaScript
 
 :tv: **Video: The DOM: Interacting with HTML and CSS using JavaScript (34 min): https://youtu.be/ZUcTcNyGMlo**
 
@@ -65,7 +81,7 @@ How do you get these different languages -- HTML, CSS, and JavaScript -- to talk
   - ...
 
 
-## 1.2.4: Intro to events and event listeners
+## 1.2.5: Intro to events and event listeners
 
 :tv: **Video: Intro to events and event listeners (19 min): https://youtu.be/UbwCNBCUrhQ**
 
@@ -79,7 +95,7 @@ How do you get these different languages -- HTML, CSS, and JavaScript -- to talk
   - ...
 
 
-## 1.2.5: Operators: Increment, decrement, and concatenate
+## 1.2.6: Operators: Increment, decrement, and concatenate
 
 Here's our first look at arithmetic operators and concatenation in JavaScript, which we'll need in order to count down the number of guesses in our game.
 
@@ -95,7 +111,7 @@ Here's our first look at arithmetic operators and concatenation in JavaScript, w
   - ...
 
 
-## 1.2.6: Conditional statements and comparison operators
+## 1.2.7: Conditional statements and comparison operators
 
 :tv: **Video: Conditional statements and comparison operators (27 min): https://youtu.be/Sf7ZMqjXWHw**
 
@@ -109,7 +125,7 @@ Here's our first look at arithmetic operators and concatenation in JavaScript, w
   - ...
 
 
-## 1.2.7: Putting it all together: Hangman and the cliffhanger bug
+## 1.2.8: Putting it all together: Hangman and the cliffhanger bug
 
 :tv: **Video: Putting it all together: Hangman and the cliffhanger bug (13 min): https://youtu.be/OmTq8hkFov0**
 
