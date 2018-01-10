@@ -1,4 +1,4 @@
-# Homework: Class 1, part 1
+# Homework 1.1: Debugging the Hangman game
 
 :star: *I will be adding more homework and materials by the weekend, but wanted to share this first section with you ASAP so you can get started!*
 
