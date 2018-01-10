@@ -10,13 +10,13 @@
 
 **Table of Contents:**  
   - [1.2.1: Flowcharting our Hangman game](#121-flowcharting-our-hangman-game)
-  - [1.2.2: Linking JavaScript to HTML](#122-)
-  - [1.2.3: Creating and changing variables](#123-)
-  - [1.2.4: The DOM: Interacting with HTML and CSS using JavaScript](#124-)
-  - [1.2.5: Intro to events and event listeners](#125-)
-  - [1.2.6: Operators: Increment, decrement, and concatenate](#126-)
-  - [1.2.7: Conditional statements and comparison operators](#127-)
-  - [1.2.8: Putting it all together: Hangman and the cliffhanger bug](#128-)
+  - [1.2.2: Linking JavaScript to HTML](#122-linking-javascript-to-html)
+  - [1.2.3: Creating and changing variables](#123-creating-and-changing-variables)
+  - [1.2.4: The DOM: Interacting with HTML and CSS using JavaScript](#124-the-dom-interacting-with-html-and-css-using-javascript)
+  - [1.2.5: Intro to events and event listeners](#125-intro-to-events-and-event-listeners)
+  - [1.2.6: Operators: Increment, decrement, and concatenate](#126-operators-increment-decrement-and-concatenate)
+  - [1.2.7: Conditional statements and comparison operators](#127-conditional-statements-and-comparison-operators)
+  - [1.2.8: Putting it all together: Hangman and the cliffhanger bug](#128-putting-it-all-together-hangman-and-the-cliffhanger-bug)
 
 <hr/>
 
