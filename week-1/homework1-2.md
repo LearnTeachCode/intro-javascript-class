@@ -68,6 +68,8 @@ Based on what you've learned so far, you can already start digging into *how* yo
 
 Borrowing ideas from how we made a more detailed flowchart from our Hangman game (see [section 1.2 review materials](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-2-review-hangman-game.md)), start making a new flowchart for at least part of your app that includes some of the implementation details, showing what needs to happen in the code.
 
+**Upload your new flowchart to GitHub,** following [the instructions on how to upload a file](https://help.github.com/articles/adding-a-file-to-a-repository/) directly to their website. **Note:** The file size limit is 25MB.
+
 **Hangman flowchart with implementation details below, for reference:**
 
 ![Hangman flowchart with implementation details](https://raw.githubusercontent.com/LearnTeachCode/hangman-game/master/hangman-game-dev-1.png)
@@ -93,3 +95,5 @@ You can make your mockup using [Glitch](https://glitch.com/) or build it locally
   - For chunks of text beyond headings and short descriptions, just use some fake data! Try a [lorem ipsum generator](https://loremipsumgenerator.com/) to copy-paste paragraphs of text. That's what professional web and graphic designers do!
   
   - For images, you can generate some placeholder images of any size with these free tools: [PlaceIMG](https://placeimg.com/) or [Placeholder.com](https://placeholder.com/). Or feel free to leave out all the images entirely!
+
+Remember, there's *no right answer* for any of this either! Just get started, give it a try, and see what you come up with. Have fun with it and experiment! That's how you learn. :)
