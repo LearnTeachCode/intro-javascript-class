@@ -15,6 +15,7 @@
   2. Add your project planning notes
   3. Outline your first implementation details
   4. Sketch a flowchart with implementation details
+  5. Build a simplified HTML mockup
 
 <hr/>
   
@@ -72,3 +73,23 @@ Borrowing ideas from how we made a more detailed flowchart from our Hangman game
 ![Hangman flowchart with implementation details](https://raw.githubusercontent.com/LearnTeachCode/hangman-game/master/hangman-game-dev-1.png)
 
 Remember, there's *no right answer* for any of this! The point is just to practice thinking about how to translate your ideas into the more detailed steps required to bring your project to life as a functional piece of software. That skill is even more important than just knowing how to write the code itself, and it takes a lot of practice to develop an intuition for this stuff!
+
+## 5. Build a simplified HTML mockup
+
+Feel free to copy HTML and/or CSS from [the Hangman game](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-2-review-hangman-game.md) and modify it to start building a mockup of your project (at least part of it)!
+
+You can make your mockup using [Glitch](https://glitch.com/) or build it locally on your computer. But either way, **you should at some point upload your HTML and/or CSS files to GitHub**, following [those same instructions linked to above](https://help.github.com/articles/adding-a-file-to-a-repository/).
+
+  > **If you need a refresher:** Review [section 1.1 on how to use Glitch and Visual Studio Code](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-1-initial-tools-intro.md) to build projects locally.
+
+**Some tips:**
+
+  - The point here is just to *get started* and spark some ideas related to your project. Digging into some code, even just a little HTML, can help you look at your project from a different perspective.
+
+  - Please don't get too detailed with this just yet. Don't worry about making it look nice. For any parts that are tricky to display on the page (like a complicated layout), just put a placeholder there like I did with our Hangman game -- I left out the picture, which is possibly the most important part of that game! But that's OK for a first prototype.
+  
+  - Remember, there's no such thing as cheating here -- so you can browse the web and borrow from other people's code too! 
+  
+  - For chunks of text beyond headings and short descriptions, just use some fake data! Try a [lorem ipsum generator](https://loremipsumgenerator.com/) to copy-paste paragraphs of text. That's what professional web and graphic designers do!
+  
+  - For images, you can generate some placeholder images of any size with these free tools: [PlaceIMG](https://placeimg.com/) or [Placeholder.com](https://placeholder.com/). Or feel free to leave out all the images entirely!
