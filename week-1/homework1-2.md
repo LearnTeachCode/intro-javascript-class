@@ -34,7 +34,7 @@ On GitHub, projects are called "repositories" or "repos" for short. GitHub is a 
 
 Remember those user stories, feature ideas, and flowcharts you worked on for your project? It's time to make that documentation a bit more official by adding it all to your `README.md` file!
 
-  - [ ] Following [GitHub's instructions](https://help.github.com/articles/create-a-repo/#commit-your-first-change), add your previous notes and save the changes.
+  - [ ] Following [GitHub's instructions](https://help.github.com/articles/create-a-repo/#commit-your-first-change), add your previous notes to your `README.md` file and save the changes.
 
   - [ ] You can make the formatting nicer by using Markdown, a popular formatting language that's easier and faster to write than HTML. (It's the standard used by GitHub and StackOverflow!) See [GitHub's Markdown reference page](https://guides.github.com/features/mastering-markdown/).
   
@@ -43,7 +43,7 @@ Remember those user stories, feature ideas, and flowcharts you worked on for you
 
 ## 3. Outline your first implementation details
 
-Based on what you've learned so far, you can already start digging into *how* you'll start building the first prototype for your project! In your `README.md` file, write down some notes based on the following prompts. It's OK if they're just bullet points.
+Based on what you've learned so far, you can already start digging into *how* you'll start building the first prototype for your project! **In your `README.md` file, write down some notes based on the following prompts.** It's OK if they're just bullet points.
 
   1. **How would you describe the inputs of your app?**
   <br/>What goes in? What data does your app take in from the user, if any? Will it get data from a databse or from a third-party service?
@@ -68,7 +68,7 @@ Based on what you've learned so far, you can already start digging into *how* yo
 
 Borrowing ideas from how we made a more detailed flowchart from our Hangman game (see [section 1.2 review materials](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-2-review-hangman-game.md)), start making a new flowchart for at least part of your app that includes some of the implementation details, showing what needs to happen in the code.
 
-**Upload your new flowchart to GitHub,** following [the instructions on how to upload a file](https://help.github.com/articles/adding-a-file-to-a-repository/) directly to their website. **Note:** The file size limit is 25MB.
+:star: **Upload your new flowchart to GitHub,** following [the instructions on how to upload a file](https://help.github.com/articles/adding-a-file-to-a-repository/) directly to their website. **Note:** The file size limit is 25MB.
 
 **Hangman flowchart with implementation details below, for reference:**
 
@@ -80,7 +80,7 @@ Remember, there's *no right answer* for any of this! The point is just to practi
 
 Feel free to copy HTML and/or CSS from [the Hangman game](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-2-review-hangman-game.md) and modify it to start building a mockup of your project (at least part of it)!
 
-You can make your mockup using [Glitch](https://glitch.com/) or build it locally on your computer. But either way, **you should at some point upload your HTML and/or CSS files to GitHub**, following [those same instructions linked to above](https://help.github.com/articles/adding-a-file-to-a-repository/).
+:star: You can make your mockup using [Glitch](https://glitch.com/) or build it locally on your computer. But either way, **you should at some point upload your HTML and/or CSS files to GitHub**, following [those same instructions linked to above](https://help.github.com/articles/adding-a-file-to-a-repository/).
 
   > **If you need a refresher:** Review [section 1.1 on how to use Glitch and Visual Studio Code](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-1-initial-tools-intro.md) to build projects locally.
 
