@@ -1,4 +1,4 @@
-# Homework 1.2: Seetting up personal projects
+# Homework 1.2: Setting up personal projects
 
 ✔️ **To submit this assignment:** Send me a link to your new GitHub repo! (We'll also be presenting these in a future class.)
 
@@ -82,7 +82,7 @@ Feel free to copy HTML and/or CSS from [the Hangman game](https://github.com/Lea
 
 :star: You can make your mockup using [Glitch](https://glitch.com/) or build it locally on your computer. But either way, **you should at some point upload your HTML and/or CSS files to GitHub**, following [those same instructions linked to above](https://help.github.com/articles/adding-a-file-to-a-repository/).
 
-  > **If you need a refresher:** Review [section 1.1 on how to use Glitch and Visual Studio Code](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-1-initial-tools-intro.md) to build projects locally.
+  > **If you need a refresher:** Review [section 1.1 on how to use Glitch and Visual Studio Code](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-1-initial-tools-intro.md).
 
 **Some tips:**
 
