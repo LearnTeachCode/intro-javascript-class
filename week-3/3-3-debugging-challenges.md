@@ -55,7 +55,7 @@ if (dogsWalked < 2) {
 }
 ```
 
-## 3.3.2: Arrays
+## 3.3.3: Arrays
 
 *Challenge 1: output should be an array with the values 1 through 5*
 ```
