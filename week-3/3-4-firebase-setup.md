@@ -1,16 +1,18 @@
+# 3.4: Setting up your own Firebase app
+
 [Firebase](https://firebase.google.com/) is a set of tools (now owned by Google) that help software developers build web and mobile apps more quickly and easily. We'll be using their real-time database platform as the backend for our app, so we don't have to worry about setting up or maintaining our own server! It's a great beginner-friendly way to start learning about databases, and these "Backend as a Service" (BaaS) tools are a huge trend in the tech industry right now!
 
 **Watch this 2-minute video introducing the Firebase database service:** 
 https://www.youtube.com/watch?v=U5aeM5dvUpA
 
 **Table of Contents:**  
-  - 3.2.1: [Including the Firebase Library in Your Project](#321-including-the-firebase-library-in-your-project)
-  - 3.2.2: [Creating a Firebase App](#322-creating-a-firebase-app)
-  - 3.2.3: [Displaying Data from Your Firebase Database](#323-displaying-data-from-your-firebase-database)
+  - 3.4.1: [Including the Firebase Library in Your Project](#321-including-the-firebase-library-in-your-project)
+  - 3.4.2: [Creating a Firebase App](#322-creating-a-firebase-app)
+  - 3.4.3: [Displaying Data from Your Firebase Database](#323-displaying-data-from-your-firebase-database)
 
 <hr/>
 
-## 3.2.1: Including the Firebase Library in Your Project
+## 3.4.1: Including the Firebase Library in Your Project
 
 First create a new website project in [Glitch](https://glitch.com/) (or feel free to use any other tool, or develop this app locally on your computer if you prefer).
 In your HTML file, before your existing <script> tag that imports your JavaScript file, import the Firebase library code by copy-pasting the code below:
@@ -20,7 +22,7 @@ In your HTML file, before your existing <script> tag that imports your JavaScrip
 So your HTML page should look like it does in this example: 
 https://glitch.com/edit/#!/firebase-starter1?path=index.html:1:0
 
-## 3.2.2 Creating a Firebase App
+## 3.4.2 Creating a Firebase App
 
 1) Open the Firebase console (which is just a web page that lets you manage your app) and login using your Google account.
  
@@ -57,7 +59,7 @@ Congrats, you now have a Firebase app! :) To recap, your project should look sim
 https://glitch.com/edit/#!/firebase-starter1 
 
 
-## 3.2.3 Displaying Data from Your Firebase Database
+## 3.4.3 Displaying Data from Your Firebase Database
 
 Now let’s make sure your Firebase app is working! 
 
