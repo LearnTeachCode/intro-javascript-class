@@ -1,18 +1,18 @@
-# 3.3: Debugging and Review Challenges
+# 3.2: Debugging and Review Challenges
 
 [Python Tutor](http://pythontutor.com/javascript.html#mode=edit) is an excellent resource for debugging, and better understanding the execution of your code.
 
 **Table of Contents:**  
-  - 3.3.1: [Declaring Variable](#331-declaring-variables)
-  - 3.3.2: [Loops](#332-loops)
-  - 3.3.3: [Arrays](#333-arrays)
-  - 3.3.4: [Objects](#334-objects)
-  - 3.3.5: [Glitch Challenges](#335-glitch-challenges)
+  - 3.2.1: [Declaring Variable](#331-declaring-variables)
+  - 3.2.2: [Loops](#332-loops)
+  - 3.2.3: [Arrays](#333-arrays)
+  - 3.2.4: [Objects](#334-objects)
+  - 3.2.5: [Glitch Challenges](#335-glitch-challenges)
 
 <hr/>
 
 
-## 3.3.1: Declaring Variables
+## 3.2.1: Declaring Variables
 Debug the following code challenges
 
 *Challenge 1: output should be 5*
@@ -43,7 +43,7 @@ function pointlessFun() {
 console.log(localX);
 ```
 
-## 3.3.2: Loops
+## 3.2.2: Loops
 Complete the following challenges on loops. To avoid infinite loops crashing your browser, run your code using [Python Tutor](http://pythontutor.com/javascript.html#mode=edit).
 
 *Challenge 1: output should be 99 through 0 bottles of beer on the wall*
@@ -63,7 +63,7 @@ if (dogsWalked < 2) {
 }
 ```
 
-## 3.3.3: Arrays
+## 3.2.3: Arrays
 
 *Challenge 1: output should be an array with the values 1 through 5*
 ```
@@ -84,7 +84,7 @@ let arr = [0, 1, 2, 3, 4];
 console.log(length);
 ```
 
-## 3.3.4: Objects
+## 3.2.4: Objects
 
 *Challenge 1: output should be an object with the key:value pairs 1:a and 2:b*
 ```
@@ -132,7 +132,7 @@ let myObject = {
 console.log(flightAbility);
 ```
 
-## 3.3.5: Glitch Challenges
+## 3.2.5: Glitch Challenges
 *Challenge 1:*
 https://glitch.com/edit/#!/ltc-wk3-challenge-1
 
