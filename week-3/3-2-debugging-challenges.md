@@ -39,6 +39,7 @@ console.log(myVariableName);
 ```
 function pointlessFun() {
    var localX = 5;
+   return localX;
 }
 console.log(localX);
 ```
@@ -48,7 +49,7 @@ Complete the following challenges on loops. To avoid infinite loops crashing you
 
 *Challenge 1: output should be 99 through 0 bottles of beer on the wall*
 ```
-let bottesOfBeer = 99;
+let bottlesOfBeer = 99;
 while (bottlesOfBeer >= 0) {
   console.log(bottlesOfBeer + ' bottles of beer on the wall');
 }
