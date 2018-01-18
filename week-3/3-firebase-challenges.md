@@ -1,4 +1,4 @@
-# 3.****: Firebase practice challenges (in class)
+# 3.3: Firebase practice challenges (in class)
 
 Let's tinker with Firebase, jumping in with some practice challenges to learn how to display, add, update, and delete data from our shared Firebase database!
 
