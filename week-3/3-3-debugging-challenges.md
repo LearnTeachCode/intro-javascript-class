@@ -35,6 +35,14 @@ myVariobleName = 'some other value';
 console.log(myVariableName);
 ```
 
+*Challenge 4: output should be 5*
+```
+function pointlessFun() {
+   var localX = 5;
+}
+console.log(localX);
+```
+
 ## 3.3.2: Loops
 Complete the following challenges on loops. To avoid infinite loops crashing your browser, run your code using [Python Tutor](http://pythontutor.com/javascript.html#mode=edit).
 
@@ -74,16 +82,6 @@ console.log(arr);
 ```
 let arr = [0, 1, 2, 3, 4];
 console.log(length);
-```
-
-*Challenge 4: output should be the last element in the array, regardless of array size*
-```
-let arr = [],
-    randomLength = Math.floor(Math.random * 100);
-for (let i = 0; i <= randomLength; i++) {
-  arr[i] = i;
-}
-console.log(lastElement);
 ```
 
 ## 3.3.4: Objects
