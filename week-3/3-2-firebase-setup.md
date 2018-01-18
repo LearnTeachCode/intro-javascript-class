@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=U5aeM5dvUpA
 First create a new website project in [Glitch](https://glitch.com/) (or feel free to use any other tool, or develop this app locally on your computer if you prefer).
 In your HTML file, before your existing <script> tag that imports your JavaScript file, import the Firebase library code by copy-pasting the code below:
 ```
-<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js" defer></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js" defer></script>
 ```
 So your HTML page should look like it does in this example: 
 https://glitch.com/edit/#!/firebase-starter1?path=index.html:1:0
