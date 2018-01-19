@@ -3,11 +3,11 @@
 [Python Tutor](http://pythontutor.com/javascript.html#mode=edit) is an excellent resource for debugging, and better understanding the execution of your code.
 
 **Table of Contents:**  
-  - 3.2.1: [Declaring Variable](#331-declaring-variables)
-  - 3.2.2: [Loops](#332-loops)
-  - 3.2.3: [Arrays](#333-arrays)
-  - 3.2.4: [Objects](#334-objects)
-  - 3.2.5: [Glitch Challenges](#335-glitch-challenges)
+  - [3.2.1: Declaring Variable](#321-declaring-variables)
+  - [3.2.2: Loops](#322-loops)
+  - [3.2.3: Arrays](#323-arrays)
+  - [3.2.4: Objects](#324-objects)
+  - [3.2.5: Glitch Challenges](#325-glitch-challenges)
 
 <hr/>
 
@@ -33,15 +33,6 @@ console.log(x);
 let myVariableName = 'some value';
 myVariobleName = 'some other value';
 console.log(myVariableName);
-```
-
-*Challenge 4: output should be 5*
-```
-function pointlessFun() {
-   var localX = 5;
-   return localX;
-}
-console.log(localX);
 ```
 
 ## 3.2.2: Loops
@@ -87,16 +78,16 @@ console.log(length);
 
 ## 3.2.4: Objects
 
-*Challenge 1: output should be an object with the key:value pairs 1:a and 2:b*
+*Challenge 1: output should be an object with the key:value pairs key1:a and key2:b*
 ```
 let myObject = [
-    1: a,
-    2: b
+    key1: a,
+    key2: b
 ];
 console.log(myObject);
 ```
 
-*Challenge 2: output should be the value stored in green*
+*Challenge 2: output should be the value "cholorophyll"*
 ```
 let myObject = {
   blue: 'ocean',
