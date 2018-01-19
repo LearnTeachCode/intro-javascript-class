@@ -36,7 +36,7 @@ console.log(myVariableName);
 ```
 
 ## 3.2.2: Loops
-Complete the following challenges on loops. To avoid infinite loops crashing your browser, run your code using [Python Tutor](http://pythontutor.com/javascript.html#mode=edit).
+:start: **To avoid infinite loops crashing your browser, run your code using [PythonTutor.com](http://pythontutor.com/javascript.html#mode=edit).**
 
 *Challenge 1: output should be 99 through 0 bottles of beer on the wall*
 ```
@@ -87,7 +87,7 @@ let myObject = [
 console.log(myObject);
 ```
 
-*Challenge 2: output should be the value "cholorophyll"*
+*Challenge 2: output should be the value 'cholorophyll'*
 ```
 let myObject = {
   blue: 'ocean',
@@ -108,7 +108,7 @@ let myObject = {
 console.log(gunter);
 ```
 
-*Challenge 4: output should be the value of flightAbility*
+*Challenge 4: output should be the value stored in the flightAbility property*
 ```
 let myObject = {
   penguins: [
