@@ -15,13 +15,16 @@ Let's tinker with Firebase, jumping in with some practice challenges to learn ho
 
 There's already a location in the database with *your actual name* as the property name! So for example, if your name is Liz, the **path** to your personal section of our database would just be `"liz"` -- all *lower-case* and only your *first* name.
 
-**Display the value stored in that database location on the page, inside the HTML element with the id of `"yourname"`.**
+**Get the value stored in that database location (described above) and display it on the page, inside the HTML element with the id of `"yourname"`.** You'll know you got it working if you get your web page to display `"put your name here"`, because in challenge 2 you'll replace that value with your actual name.
 
 Be sure to look through [our Firebase notes](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-1-firebase-functions.md) and use our example code as a reference for *all* of these challenges!
 
 ## Challenge 2:
 
 Below your previous code that displays your name, write **one new line** of code to **update** that same location in the database with a string containing *your actual name*!
+
+:star: **Important thing to avoid:** Please *do not* put this line of code inside any of your previous functions; make sure it's ***outside*** any functions and just put it at the very bottom of your JavaScript file.
+  > Why? Because adding/updating/removing data triggers the `"value"` event, so if you were to put the add/update/delete instruction *inside* the function that's called any time the `"value"` event is triggered, then you'll create an infinite loop that might seriously slow down or crash our database!
 
 ## Challenge 3:
 
@@ -35,19 +38,23 @@ Below your previous code that displays your name, write **one new line** of code
 
 ## Challenge 4:
 
-Now change **one more tiny thing** in your code from challenge 3 so that instead of displaying the *whole object* on your web page, just **display the value of one property that's inside your object.* The value should now appear on your webpage instead of [object Object]!
+Now change **one more tiny thing** in your code from challenge 3 so that instead of displaying the *whole object* on your web page, just **display the value of one property that's inside your object.** The value should now appear on your webpage instead of [object Object]!
 
 ## Challenge 5:
 
-Displaying one value at a time like that is great, but what if you want to display *all the data* inside your object? **Use the `JSON.stringify()` function to convert your entire object into a string**, and then display that string on the web page instead of what you displayed for challenge 4.
+Displaying one value at a time like that is great, but what if you want to display *all the raw data* inside your object? **Use the `JSON.stringify()` function to convert your entire object into a string**, and then display that string on the web page instead of what you displayed for challenge 4.
 
   > **Note:** The web browser doesn't know how to display objects automatically if you try to display them using that `textContent` property, so that's why we need to convert our object into a string. Since a Firebase database is just a bunch of JSON (a JavaScript object formatted a certain way), then it's very easy to just use the `JSON.stringify()` function on our data!
 
 ### Challenge 6:
 
-Below the code you wrote for the above challenges, next create a new database reference object that represents a path in the database named **"ourlist"**. (It already exists in our shared database.)
+Below all the code you wrote for the above challenges, at the very bottom of your file, create a new database reference object that represents a path in the database named **"ourlist"**. (It already exists in our shared database.)
 
-Using that database reference object and Firebase's `push()` function, **add a string to that list!** (The string can be anything you want -- bonus points if it's silly or funny, like "Help I'm trapped in a Firebase database factory!")
+Using that database reference object and Firebase's `push()` function, **add a string to our list!** (The string can be anything you want -- bonus points if it's silly or funny, like "Help I'm trapped in a Firebase database factory!")
+
+:star: **Important thing to avoid:** Again, please *do not* use the `push()` function inside any of your previous functions; make sure it's ***outside*** any functions and just put it at the very bottom of your JavaScript file.
+
+  > **Note:** Every time you refresh your web page, your code will push that same string to the end of our shared list in the database *over and over again.* And since this is a shared list, you'll see *everyone else's values* in the list too, updating in real time!  
 
 ### Challenge 7:
 
@@ -65,8 +72,8 @@ Be sure to use `JSON.stringify()` again to see the actual data instead of `[obje
 
 ### Challenge 10:
 
-Phew! Congrats on making it this far! One last easieer challenge. Now that our shared list is full of stuff, **remove the item you just pushed into the list** using that database reference object you saved into a variable for challenge 9.
+Phew! Congrats on making it this far! Now that you've probably messed up our shared app, hide the evidence and remove yourself from the database by **deleting the location specified by the path that contains your first name**. For example, the path for my database location would have been `"liz"`. (This is the section of the database you used for challenges 1 through 5.)
 
-If you refresh the page, it should now be gone!
+Once you successfully delete it, if you refresh the web page, the second paragraph should now go back to displaying `"... your name from Firebase will appear here ..."`
 
-:trophy: ***Great job! Now you're practically now a Firebase database ninja!*** You can already start building database-driven apps with these few functions you just practiced using. :)
+:trophy: ***Great job! Now you're practically a Firebase database ninja!*** You can already start building database-driven apps with these few functions you just practiced using. :)
