@@ -36,7 +36,7 @@ console.log(myVariableName);
 ```
 
 ## 3.2.2: Loops
-:start: **To avoid infinite loops crashing your browser, run your code using [PythonTutor.com](http://pythontutor.com/javascript.html#mode=edit).**
+:star: **To avoid infinite loops crashing your browser, run your code using [PythonTutor.com](http://pythontutor.com/javascript.html#mode=edit).**
 
 *Challenge 1: output should be 99 through 0 bottles of beer on the wall*
 ```
