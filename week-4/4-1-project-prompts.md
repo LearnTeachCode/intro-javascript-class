@@ -67,7 +67,7 @@ Borrowing off some of the project examples above, let's actually start building 
 
 **Suggestions for what to implement:**
 
-  - When it doubt, use *comments* and `console.log()` statements in your code as an outline of what needs to happen, before you even write any actual code! This way you're not starting with just a blank page, and you can use comments as reminders for what you'll need to do next.
+  - When in doubt, use *comments* and `console.log()` statements in your code as an outline of what needs to happen, before you even write any actual code! This way you're not starting with just a blank page, and you can use comments as reminders for what you'll need to do next.
   
   - Decide on your ***data models*** for the information you need to store or work with in your app. Think in terms of *data types* (strings, numbers, Booleans, objects, etc) and also in terms of *nested objects/arrays* if needed!
     > Remember our object vs array discussion from a previous class? Now's the time to use what you learned!
