@@ -14,15 +14,19 @@ Let's start building out our personal projects, with help from our awesome mento
 
 ## 1. Describe your project to our mentors
 
-One of the most important steps in building *anything* is to get feedback on your ideas from other people! Here are some prompts for both students and mentors to consider during these conversations. ***Be sure to take notes and write down your answers!***
+One of the most important steps in building *anything* is to get feedback on your ideas from other people! Here are some prompts for both students and mentors to consider during these conversations.
 
-**For students to answer / for mentors to ask:**
+:star: ***Be sure to take notes and write down your answers!***
+
+**For students to answer:**
 
   1. What's the *one sentence* description of your project idea? (This is your "elevator pitch", how you'd explain it to someone if you met them in an elevator and only had 30 seconds to describe it.)
   
   2. Very briefly, who is this project for? Who's your target audience? How general or specific is your audience?    
   
-  3. Now onto some more details, since we are all software developers here: what are some of the implementation details you'll need to figure out how to build?    
+  3. Now onto some more details, since we are all software developers here: what have you identified already as your next steps for building your project? (Try to be specific, liek implementation details of the code you'll need to write.)
+  
+  4. What would you like to work on today with your mentor? What do you need the most help with?
 
 **For mentors to give feedback:**
 
@@ -30,9 +34,9 @@ One of the most important steps in building *anything* is to get feedback on you
   
   2. Can you think of any other people that would want to use this app? Are you yourself part of the target audience?
   
-  3. How would you rate the difficulty of building this project? How long would you guess it would take to build? Share your guess for *a couple different stages* of the project: how long for a first bare minimum prototype? How long for a more polished version for beta-testing? How long for a finished product? 
+  3. How would you rate the difficulty of building this project? How long would you guess it would take to build? Share your guess for *a couple different stages* of the project: how long for a first bare minimum prototype? How long for a more polished version for beta-testing?
   
-  4. Do you have any suggestions for how to *narrow down* the scope of the project for the very first prototype, keeping in mind this is a beginer project? Which features do you think are the most important? Which features would be the easiest to implement first?
+  4. Do you have any suggestions for how to *narrow down* the scope of the project for this very first prototype, keeping in mind this is a beginer project? Which feature (or part of a feature) would you suggest aiming to finish building today? (Try to pick just one!)
 
 
 ## 2. Check out our example projects
@@ -58,34 +62,34 @@ Now is the time to finally finish [homework 1.2](https://github.com/LearnTeachCo
   2. Add your project planning notes (from the prework you completed before our class)
   3. Outline your first implementation details
   4. Sketch a flowchart with implementation details -- this should be *very* minimal, like one tiny thing you'd like to build *today*!
-  5. Build a simplified HTML mockup (again, this can be *very* minimal, like [our Hangman game example](https://hangman-v0-starter.glitch.me/))
+  5. Build a simplified HTML mockup for the first feature you want to start building (again, this can be *very* minimal, like [our Hangman game example](https://hangman-v0-starter.glitch.me/))
 
 
-## 4. Work together to implement the very first functional part of your app
+## 4. Work together to implement a feature of your app
 
 Borrowing off some of the project examples above, let's actually start building our apps! (Or if you've already started, this is the time to work on the *next* feature you'd like to implement.)
 
-**Suggestions for what to implement:**
+**Suggestions implementation:**
 
-  - When in doubt, use *comments* and `console.log()` statements in your code as an outline of what needs to happen, before you even write any actual code! This way you're not starting with just a blank page, and you can use comments as reminders for what you'll need to do next.
+  1. When in doubt, remember to use *comments* and `console.log()` statements in your code as an outline of what needs to happen, before you even write any actual code! This way you're not starting with just a blank page, and you can use comments as reminders for what you'll need to do next.
   
-  - Decide on your ***data models*** for the information you need to store or work with in your app. Think in terms of *data types* (strings, numbers, Booleans, objects, etc) and also in terms of *nested objects/arrays* if needed!
+  2. Decide on your ***data models*** for the information you need to store or work with in your app. Think in terms of *data types* (strings, numbers, Booleans, objects, etc) and also in terms of *nested objects/arrays* if needed!
     > Remember our object vs array discussion from a previous class? Now's the time to use what you learned!
 
-  - Create some *fake data* or *hard-coded* variables for your app, and make sure they match your data models.
+  3. Create some *fake data* or *hard-coded* variables for your app, and make sure they match your data models.
     > Examples: the answer was always the letter "a" for our Hangman game. The Star Trek dummy text generator only had a handful of sentences saved into an array in the JavaScript file.
 
-  - Identify which pieces of your HTML mockup will need to be accessed or modified, and give them all unique IDs in your HTML file. Create JavaScript objects for each of them.
+  4. Identify which pieces of your HTML mockup will need to be accessed or modified, and give them all unique IDs in your HTML file. Create JavaScript objects for each of them.
     > Be sure to use descriptive variable names that represent what each thing is. And remember to use camelCase format!
     
-  - Interact with the user by implementing an event listener (or several!) and practice responding to the user's input, even if just using a placeholder or fake data at first.
+  5. Interact with the user by implementing an event listener (or several!) and practice responding to the user's input, even if just using a placeholder or fake data at first.
     > Reference the example projects; there's nothing wrong with copy-pasting some code. But make sure you understand how it works! Even better if you do practice typing the code from scratch on your own!
     
-  - Implement some basic logic for your app -- think conditional statements and loops! How does your app make decisions?
+  6. Implement some basic logic for your app -- think conditional statements and loops! How does your app make decisions?
     > Example: the Hangman game needs to decide if the user won, lost, or can guess again. Feel free to reference that code.
 
 
-## 5. Set up your own Firebase app and start using a database
+## 5. BONUS: Set up your own Firebase app and start using a database
 
 If you have time to, this will be a fun next step to practice what we learned about Firebase in our previous class!
 
@@ -111,13 +115,11 @@ Now that you have some progress to share, be sure to upload your code to your Gi
 
 Next, be sure to share what you've built so far (even if it's not functional yet) and ask others to test it out for you! Then show them the code and walk them through how it works!
 
-**Discussion prompts:**
+**Discussion prompts for beta-testers / mentors:**
 
   - Is it clear what the app is for, or how the user interacts with it? Could it use some more clear instructions?
   
   - Did it work as expected? Can you identify any bugs?
-  
-  - What are some ideas for the next features to implement?
   
   - Does the code look organized, well-formatted, and easy to read? Does it have comments to help make the code easier to skim over?
   
@@ -125,25 +127,23 @@ Next, be sure to share what you've built so far (even if it's not functional yet
   
   - Do you have any suggestions for improving the data model(s) used and how they're implemented in the code?
   
-  - Any other suggestions for improving the code?
+  - Any other suggestions for improving the code?  
 
 
 ## 8. Identify actionable next steps
 
 Finally, reflect on what you've learned so far and discuss ideas for what to work on next.
 
-**Discussion prompts:**
+**For students to answer:**
 
+  - What did you learn today?
+  
   - What areas of JavaScript programming and/or HTML could you use the most practice with?
-  
-  - What are some new tools, techniques, or topics you'd like to learn next?
-  
+
   - What's the next feature you'd like to add to your app? What would be the most useful for users of your app, and what would be the most interesting for your own learning goals?
   
   - How would you prioritize your list of feature ideas? (First, second, third... etc)
-  
-  - What are some resources (tutorials, reference pages, videos, books, etc) that would help guide you towards achieving your next learning goals and feature ideas for your app? Discuss this and then if there's time, look things up online and bookmark some resources that look helpful!
-  
+
   - Be sure to ***write down your action plan.*** You can publish this directly in your GitHub project, or anywhere else where you'll remember to find it later.
 
 <hr/>
