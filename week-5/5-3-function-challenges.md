@@ -4,6 +4,7 @@ Let's have some fun with functions!
 
 :books: **Resources to use in these challenges:**
   - [Section 5.1: Overview of functions: Defining them, running them, and using inputs](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-5/5-1-function-basics.md).
+  - [Section 5.2: Overview of the return statement and variable scope]((https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-5/5-2-return-and-scope.md)
   - Remember, you can also search for stuff online!
 
 <hr/>
