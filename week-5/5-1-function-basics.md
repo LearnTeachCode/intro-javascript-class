@@ -1,4 +1,4 @@
-## 5.1: Overview of functions, variable scope, and the return statement
+## 5.1: Overview of functions: Defining them, running them, and using inputs
 
 Functions are one of the most fundamental concepts in programming, but full of nuances that can be challenging to wrap your head around! Let's take a look at some examples though. This guide will also serve as a reference for solving our [function practice challenges](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-5/5-2-function-challenges.md).
 
@@ -182,69 +182,62 @@ function myTestFunction () {
 
 Test it out again by copy-pasting it into your web browser, and then clicking some more anywhere on the web page.
 
-Now it works, because the computer is now only telling the event listener *where* to find the function in memory instead of *using* it right away -- basically saying "hey, go find the entry in your dictionary for the function named myTestFunction so you can run it later!" 
+Now it works, because the computer is only telling the event listener *where* to find the function in memory instead of *using* it right away -- basically saying "hey, go find the entry in your dictionary for the function named myTestFunction so you can run it later!" 
 
 
 ## Arguments versus parameters
 
-...
+When casually speaking about functions, we use the word ***inputs*** to refer to the values that go into the function (also phrased as "the values that are passed into the function"). But there are two other more *technical* and *specific* terms that you'll hear: ***arguments*** and ***parameters***.
 
+  - A **parameter** is a *placeholder* used to represent an input inside a ***function definition***. The parameters represent values that have not been defined yet.
+  
+  - An **argument** is an *actual value*, a piece of data, that is passed into a function ***when you run the function***. Arguments *replace* the parameters (placeholders) in the function definition.
+  
+So remember: parameters are part of the *first stage* when you *define* a function, and arguments are part of the *second stage* when you *run* a function.
 
-## The return statement
+***Example:***
 
-...
-
-
-## Variable scope
-
-.... Code snippets to maybe use, from before ....
-
-Local variable (this won’t work):
-function pointlessFun (x) {
-   var localX = 5;
-}
-console.log(localX);
-
-Adding a global variable:
-var globalX = 999;
-function pointlessFun (x) {
-   var localX = 5;
-}
-console.log(globalX);
-
-All functions can access global variables:
-var globalX = 999;
-function pointlessFun (x) {
-   var localX = 5;
-   console.log(globalX);
+```javascript
+// 3 PARAMETERS, placeholders that will be replaced with the actual values later:
+function displayThreeWords (word1, word2, word3) {
+	console.log(word1 + ' ' + word2 + ' ' + word3);
 }
 
-Which value will appear in the console?:
-var nameTest = 999;
-function pointlessFun (x) {
-   var nameTest = 5;
-}
-console.log(nameTest);
+// 3 ARGUMENTS, specific values:
+displayThreeWords('pineapple', 'motorboat', 'toothbrush');
+```
 
+:star: **Here's a handy way to remember it:**
 
-Importance of the var keyword:
-var nameTest = 999;
-function pointlessFun (x) {
-    nameTest = 5;
-    console.log(nameTest);
-}
-console.log(nameTest);
+  - The ***parameter*** is the ***parking space*** (a placeholder for something).
+  - The ***argument*** is the ***automobile*** (that parks in that empty space).
 
+Note that another way to think about parameters in a function definition is that it's a shortcut for the following:
 
-
-let nameTest = 999;
-
-function pointlessFun (x) {
-    nameTest = 5;
-    console.log("Inside pointlessFun, value is: " + nameTest);
+```javascript
+// THIS IS NOT VALID CODE, but you can think of the parameter named "phrase" this way:
+function shout (let phrase;) {
+   console.log(phrase + '!!!');
 }
 
-console.log("BEFORE running pointlessFun, value is: " + nameTest);
-console.log("*** Now about to RUN pointlessFunction! ***");
-pointlessFun();
-console.log("AFTER pointlessFunction finished, value is: " + nameTest);
+// So you can think of the code above as a SHORTCUT for this correct code below:
+function shout (phrase;) {
+   console.log(phrase + '!!!');
+}
+```
+
+It's a lot like how you can define an empty variable with `let greeting;` and its value will be the special data type `undefined`. Then later you can do something like `greeting = "hello"` and it ***replaces*** the value `undefined` with the value `"hello"`. Similarly, parameters are like an empty variable at first (when the function is defined), and they get replaced with some new value later when the function is called.
+
+**And here's one more way to think about this:**
+
+If you imagine a math equation like **y = x + 3**, the **x** is like a *parameter* because it's a placeholder for *any* number. Then when you plug in a specific number like **2**, that number is like the *argument* because it replaces the parameter **x**. Then you can solve the equation: **y = 2 + 3**. So when **x** is **2**, then **y** must be **5**!
+
+**Important note:** This is an example of a function in mathematics; it takes an input or *parameter* named **x** (which gets replaced with a number as the *argument*), and then the function does something using that argument, and finally the function spits out an **ouput** which is represented by **y**.
+
+:star: Functions in programming essentially work the same way: you can think of a ***function*** as a ***factory*** that takes stuff in (raw materials), transforms them, and finally ships out a finished product.
+
+Like all vocabulary, this will sink in only with a lot of practice, so practice *writing* code, *reading* code, and *talking about* code!
+
+<hr/>
+
+:point_right: **Next, we'll look deeper into how functions work with the `return` statement and the concept of variable scope.**
