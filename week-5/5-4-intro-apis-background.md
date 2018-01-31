@@ -2,9 +2,8 @@
 
 You've certainly heard the term ***API*** thrown around a lot -- not just amoung techies, but also in the news and sometimes even in casual conversation! So what's this all about? **API** stands for **A**pplication **P**rogramming **I**nterface. In this section, we'll look at examples of interfaces and then examples of *application programming* interfaces to get a better sense of the overall picture.
 
-**Table of Contents:**
-  - 5.4.1: ....
-  - 
+:star: **Read [these notes on APIs in a shared Google Doc](https://docs.google.com/document/d/1HH5ULwRQwbByOVbjRdSqUPIQhZsAqlu7imTeX1AA6n4/edit?usp=sharing)!** The notes below will be formatted and updated here soon, but for right now they aren't formatted yet. (Oops, technical difficulties! :sweat_smile: Sorry bout that!)
+
 
 <hr/>
 
