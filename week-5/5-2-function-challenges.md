@@ -71,13 +71,13 @@ Rewrite your function from challenge 5 so that *instead* of `console.log()`ing t
 
 Next, using your updated function from challenge 7, ***run*** the function and *save* its output to a new variable. Then `console.log()` that new variable, and check that the result appears in the console as expected.
 
-  > Name the variable anything you like -- but as always, try to be descriptive and stick to came case!
+  > Name the variable anything you like -- but as always, try to be descriptive and stick to camel case!
 
 ## Challenge 9:
 
 Next, modify your code from challenge 8 so that you still ***run*** the function, but this time you `console.log()` it directly, *without* the extra step of saving it to a variable.
 
-  > **Hint:** Remember from our overview of functions that when a function *returns* an output, the *call* to the function gets replaced with whatever its output is.
+  > **Hint:** Remember from our overview of functions that when a function *returns* an output, the call to the function gets replaced with whatever its output is.
 
 ## Challenge 10:
 
@@ -97,7 +97,7 @@ Define a function that takes **one object** as input, adds to that object a new 
 
 ## Challenge 13:
 
-The code below isn't working as expected; we want to see our phrase with a question mark after it appearing in the console. What's wrong, and why? Your challenge is to fix it!
+The code below isn't working as expected; in our console, we want to see in our phrase with a question mark after it. What's wrong, and why? Your challenge is to fix it!
 
 ```javascript
 function makeQuestion (phrase) {
