@@ -1,15 +1,17 @@
 ## 5.1: Overview of functions: Defining them, running them, and using inputs
 
-Functions are one of the most fundamental concepts in programming, but full of nuances that can be challenging to wrap your head around! Let's take a look at some examples though. This guide will also serve as a reference for solving our [function practice challenges](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-5/5-2-function-challenges.md).
+Functions are one of the most fundamental concepts in programming, but full of nuances that can be challenging to wrap your head around! Let's take a look at some examples though. This guide will also serve as a reference for solving our [function practice challenges](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-5/5-3-function-challenges.md).
 
 **Table of Contents:**
-  - 5.1.1: ...
-  - 5.1.2: .....
+  - 5.1.1: Overview of functions
+  - 5.1.2: Defining versus running functions
+  - 5.1.3: How to define a function
+  - 5.1.4: Running functions
+  - 5.1.5: Arguments versus parameters
 
 <hr/>
 
-
-## Overview of functions
+## 5.1.1: Overview of functions
 
 📺 **Video: Review of Function Basics (13 min): https://www.youtube.com/watch?v=GX5w-wTK-lU**
 
@@ -34,7 +36,7 @@ One example of separation of concerns is the difference between HTML and CSS! As
 Just imagine changing the font color on thousands of HTML pages -- yikes! With CSS, you only need to change *one line of code* that controls the font color of *all* the pages on your entire website. Using functions in your JavaScript code helps avoid repetitive code and saves you time in a similar way.
 
 
-## Defining versus running functions
+## 5.2.1: Defining versus running functions
 
 When it comes to working with *your own* custom functions, you'll be using them in ***two stages:***
 
@@ -64,7 +66,7 @@ Hopefully that's a helpful metaphor for understanding the difference between **d
 Tech jargon is maybe the least fun part of becoming a skilled software developer, but it's a necessary evil. =P Next, let's finally look at some code!
 
 
-## How to define a function
+## 5.1.3: How to define a function
 
 There are **four parts** to every function definition:
 
@@ -102,7 +104,7 @@ function addThreeNumbers (numOne, numTwo, numThree) {
 :star: **Important note:** There's *more than one way* to define functions in JavaScript! We're just using this one way for now, and it's totally fine if you always define functions this way. (Mostly a matter of personal preference.)
 
 
-## Running functions
+## 5.1.4: Running functions
 
 We've already been using (or running, calling, or executing) functions since day 1 of our class! These should look familiar:
 
@@ -185,7 +187,7 @@ Test it out again by copy-pasting it into your web browser, and then clicking so
 Now it works, because the computer is only telling the event listener *where* to find the function in memory instead of *using* it right away -- basically saying "hey, go find the entry in your dictionary for the function named myTestFunction so you can run it later!" 
 
 
-## Arguments versus parameters
+## 5.1.5: Arguments versus parameters
 
 When casually speaking about functions, we use the word ***inputs*** to refer to the values that go into the function (also phrased as "the values that are passed into the function"). But there are two other more *technical* and *specific* terms that you'll hear: ***arguments*** and ***parameters***.
 
