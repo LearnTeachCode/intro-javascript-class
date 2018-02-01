@@ -64,9 +64,9 @@ Now write the code that will ***run*** (in other words, *call* or *execute*) the
 
 ## Challenge 7:
 
-Rewrite your function from challenge 5 so that *instead* of `console.log()`ing the result, it ***returns*** the result. Then test out your new function along with your other code from challenge 2.
+Rewrite your function from challenge 5 so that *instead* of `console.log()`ing the result, it ***returns*** the result.
 
-:question: What's the difference between your code from challenge 1 versus this new version? Be sure to look in your console!
+:question: What's the difference between your code from challenge 5 versus this new version? Be sure to look in your console!
 
 ## Challenge 8:
 
