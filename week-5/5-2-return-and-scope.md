@@ -26,7 +26,7 @@ function displaySum (x, y) {
 }
 
 // Run our function with the arguments 2 and 4:
-computeSum(2, 4);
+displaySum(2, 4);
 ```
 
 Sure, it can show the final result `6` in the browser console, but that data -- the sum of the two numbers -- is deleted from the computer's memory as soon as the function is finished! What if we want to save that final value and use it for something else later? *With the code above, we can't!*
