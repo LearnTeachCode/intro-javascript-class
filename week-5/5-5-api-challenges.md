@@ -1,4 +1,4 @@
-## 5.4: Intro to API challenges
+## 5.5: Intro to API challenges
 
 An **API** or **Application Programming Interface** is a set of rules and conventions that allow different software programs to communicate or interact with each other. APIs can take many forms -- there are APIs for everything from web apps and web browsers to operating systems and everything in between!
 
