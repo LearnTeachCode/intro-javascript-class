@@ -223,7 +223,7 @@ function shout (let phrase;) {
 }
 
 // So you can think of the code above as a SHORTCUT for this correct code below:
-function shout (phrase;) {
+function shout (phrase) {
    console.log(phrase + '!!!');
 }
 ```
