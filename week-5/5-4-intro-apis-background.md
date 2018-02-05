@@ -65,6 +65,99 @@ This idea extends to your own code as well: you should be writing your own funct
 And yes, software developers do create libraries and APIs for themselves! It helps keep our code [DRY (Don't Repeat Yourself)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) and reusable.
 
 
+## 5.4.4: The basics of HTTP requests
+
+**HTTP** stands for [***HyperText Transfer Protocol***](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol), and it's the set of rules that allow computers to communicate with each other over the internet -- it's the backbone of the World Wide Web!
+
+  > **Fun fact:** HTTP was initially created by [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee), inventor of the World Wide Web, in 1989 at CERN.
+
+  > ***Bonus fun fact:*** CERN is the home of the [Large Hadron Collider](https://home.cern/topics/large-hadron-collider), the largest single machine in the world, which smashes atoms and even smaller particles together at crazy high speeds in the name of science!
+
+Any time your computer (the ***client***) visits a website, it makes a ***request*** via HTTP, which the web browser sends over the internet to a ***server***. (A server is just another computer that processes those requests, runs some code, and sends a response back to clients with the data they requested.)
+
+Since HTTP is already so widely adopted (used by practically every computer in the world!), it's a convenient way for programmers to build their APIs on top of. That's why so many third-party APIs are based on HTTP.
+
+### The four parts of an HTTP request
+
+The following four things are sent by the client (your computer) every time you visit a web page (in other words, every time you make an HTTP request to some server on the internet):
+
+  1. The **URL** (**U**niform **R**esource **L**ocator), like https://example.com -- this is the unique address for the data or web service you're interacting with.  
+
+  2. The **HTTP request method** (also called the *HTTP verb*), which specifies what type of action is being requested for the server to perform. (See examples in the table below.)
+
+  3. The **headers**, which contain important *meta-information* about the request -- for example, what type of data format the client will accept (examples: plain text, JSON, XML or others), whether the client is a mobile phone or a desktop computer, and lots more!
+
+  4. The **body of the request**, which contains any *actual data* that needs to be sent to the server. For example, if you create a new account on Twitter, the body of the request would include your username, email, and password.
+
+
+### Four most common HTTP request methods (or HTTP verbs)
+
+| HTTP request method (or "verb") | The action it corresponds to |
+| --- | --- |
+| GET | Request some data (ex: to view any web page, or to search for something on Google) |
+| POST | Submit data to the server, usually to create something new (ex: create a new project on Glitch or GitHub) |
+| PUT | Replace existing data with new data (ex: update your relationship status on Facebook) |
+| DELETE | Remove a piece of data entirely (ex: delete an embarrassing video that you had uploaded to YouTube) |
+
+The **GET** and **POST** request methods are the most common by far. Most of the time when you're browsing the web, your web browser is just sending a bunch of GET requests. When you submit a form (especially with any private information like a password, bank account info, etc), that's usually sent as a POST request.
+
+:books: **Extra resources:**
+  - See GitHub's API documentation on how they use the HTTP verbs (they use some special ones in addition to the main four): https://developer.github.com/v3/#http-verbs 
+  
+  - You can also explore the HTTP verbs in more depth here: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+
+
+### Example HTTP requests
+
+**Example 1:** You go to https://example.com in your web browser to read what’s on their website:
+
+  1. The URL: https://example.com 
+  2. The HTTP request method: GET
+  3. The headers probably include things similar to: "Accept: text/html" and "Accept-Language: en-us" and "User-Agent: Mozilla/5.0", etc
+  4. The body of a GET request is usually empty
+
+**Example 2:** You create a new GitHub account: 
+
+  1. The URL: https://github.com/join or something similar
+  2. The HTTP request method: POST
+  3. The headers might be the same, including things similar to: "Accept: text/html" and "Accept-Language: en-us and "User-Agent: Mozilla/5.0", etc
+  4. The body of the request: your new username, email, and password
+
+
+## 5.4.5: Key terms for working with APIs
+
+Here's a preview of some key concepts and terminology that will come up as you learn more about APIs:
+
+### 1. Authentication
+
+To *authenticate* a user means to verify that they are who they say they are. Authentication is an important step in accessing private information or acting on behalf of a user via an API.
+
+For example: you can create a new GitHub repo through GitHub's API, but first you have to authenticate by logging into your user account and verifying that you are who you say you are!
+
+For more on the GitHub API's authentication porcess, see this section of their docs: https://developer.github.com/v3/#authentication 
+
+### 2. API rate limits
+
+Many API providers will *limit* how often you can use their API. Why? Here are two main reasons:
+
+  - Remember, sending things over the web uses up bandwidth, which costs money! API providers will create rate limits to help keep their expenses under control.
+  
+  - Even more importantly, rate limits also help to prevent abuse of the API -- for example, by overloading the API provider's servers with what's called a [denial-of-service (DoS) attack](https://en.wikipedia.org/wiki/Denial-of-service_attack).
+
+For example, GitHub's API limits you to *60 requests per hour* if your requests are made anonymously. (If you associate your requests with a GitHub account, then you get 5000 requests per hour!)
+
+  > See GitHub's API documentation for more on their rate limiting rules: https://developer.github.com/v3/#rate-limiting 
+
+Another example: Google Maps provides an API for calculating the distance between two places, which is free up to a point, and then they start charging you money after that. You can see all the details here: https://developers.google.com/maps/documentation/distance-matrix/usage-limits 
+
+### 3. API keys
+
+Many APIs don't require authentication -- for example, if all of their data is already publicly available information (like an API that provides a weather report). But many companies that provide APIs still want to track who's using their API, both to prevent abuse/illegal activities and to collect data on who uses their API.
+
+An **API key** is a unique ID assigned to your application.
+
+To use the API for Twitter, Facebook, and many other web services, you to first have to make an account on their website, register your own web app with them with a description of what it does, and then finally they'll issue you an API key. That way, they'll know who you are whenever you use their API within your own programs.
+
 <hr/>
 
 :point_right: **Next...**
