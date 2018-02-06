@@ -50,23 +50,17 @@ This shows you the complete response sent back from a server every time you requ
 
 ## Challenge 3
 
-The [GitHub API](https://developer.github.com/v3/guides/getting-started/) has a URL that gives a random quote. **Try it:**
-
-```bash
-curl https://api.github.com/zen
-```
-
-## Challenge 4
-
-Check out the headers sent by GitHub, which include some custom information only used by GitHub’s servers:
+The [GitHub API](https://developer.github.com/v3/guides/getting-started/) has a URL that gives a random quote. **Try it several times to see all the different quotes they have:**
 
 ```bash
 curl -i https://api.github.com/zen
 ```
 
-What custom headers do you see GitHub using that weren't used for other websites?
+Notice that the headers sent by GitHub include some custom information only used by GitHub's servers, which don't appear in the headers for other websites. (The programmers who wrote the code for GitHub's web servers get to decide what information is sent, what isn't sent, and all the other rules for how their API works.)
 
-## Challenge 5
+:question: **What custom headers do you see GitHub using that weren't used for other websites?**
+
+## Challenge 4
 
 To access your public GitHub profile information, just copy the code below and replace ***YOUR-USERNAME*** with your actual GitHub username:
 
@@ -80,13 +74,13 @@ For example, you can request Liz’s GitHub profile with:
 curl https://api.github.com/users/LearningNerd
 ```
 
-Notice the format of the data you just received -- it’s JSON (JavaScript Object Notation)! Later you can use it in your JavaScript code easily enough!
+Notice the format of the data you just received -- it’s **JSON (JavaScript Object Notation)**! Later you can use it in your JavaScript code easily enough!
 
   > **Note:** You can see everything GitHub allows you to do with their API in their official documentation here: https://developer.github.com/v3/ 
   
   > And their API reference page for accessing a user's info is here: https://developer.github.com/v3/users/
 
-## Challenge 6
+## Challenge 5
 
 Say we want to access ***private*** information about our GitHub user account, like whether or not we're paying for GitHub or using their free plan. We can do that, as long as we first log in to our GitHub account.
 
@@ -100,7 +94,7 @@ It will prompt you for your password. Type it in (you won’t see it while you�
 
   > **Note about GitHub's API:** If you’re logged in, the `/user` endpoint (URL) we used above will automatically assume you want *your own* account information.
 
-## Challenge 7
+## Challenge 6
 
 Basic authentication won't work if you have [two-factor authentication](https://help.github.com/articles/about-two-factor-authentication/) enabled for your GitHub account -- which you should use on *every* website that offers it, because it's much more secure that way!
 
@@ -119,27 +113,23 @@ Now you can access your private GitHub profile info with the command below, repl
 curl -H  'Authorization: token YOUR-TOKEN-HERE' https://api.github.com/user
 ```
 
+***Note: If it didn't work, skip down to challenge 7 below.***
+
 The `-H` option specifies a header to send to the server, and in this case we’re using it to send the ***Authorization header*** with your access token. (Just like you can use `-i` to show the headers the server sends to you, you can use `-H` to send your own headers back to the server!)
 
-## Challenge 8
+## Challenge 7
 
 You can do more than just GET data from GitHub’s API; you can also create new data by sending a POST request to the server. (See the section in our notes on HTTP verbs.)
 
 **To create a new project** (called a *repo* or *repository* on GitHub):
 
 ```bash
-curl -H 'Authorization: token  YOUR-TOKEN-HERE' https://api.github.com/user/repos  --data  '{"name": "test-repo"}
+curl -H 'Authorization: token  YOUR-TOKEN-HERE' https://api.github.com/user/repos  --data  '{"name": "test-repo"}'
 ```
 
-Or using the `-d` option as a shortcut for `--data`:
+**Check your GitHub profile page to see if it worked** -- you should see your new project(s) in your list of repositories!
 
-```bash
-curl -H 'Authorization: token  YOUR-TOKEN-HERE' https://api.github.com/user/repos  -d  '{"name": "test-repo2"}
-```
-
-Check your GitHub profile page to see if it worked -- you should see your new project(s) in your list of repositories!
-
-The `--data` option (or -d for short) means "send some data to the server" (using what's called a POST request), and here we sent some JSON data matching GitHub's API rules for how to create a new repository: https://developer.github.com/v3/repos/#create 
+You can also use `-d` as a shorthand for the `--data` option, which means "send some data to the server" (using what's called a POST request). Here we sent some JSON data matching GitHub's API rules for how to create a new repository: https://developer.github.com/v3/repos/#create 
 
 The response the server sends back to you is all the information GitHub knows about the newly-created repository, formatted as JSON.
 
