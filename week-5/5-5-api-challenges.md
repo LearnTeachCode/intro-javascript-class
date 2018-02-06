@@ -1,12 +1,10 @@
 ## 5.5: Intro to API challenges
 
-An **API** or **Application Programming Interface** is a set of rules and conventions that allow different software programs to communicate or interact with each other. APIs can take many forms -- there are APIs for everything from web apps and web browsers to operating systems and everything in between!
+Now that you have some [background info on APIs and how they work](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-5/5-4-intro-apis-background.md), let's get some hands-on practice using third party web APIs!
 
-For now, we will focus on what are called ***third-party APIs*** that let different *web applications* communicate over the internet. Let's dive in with some practice challenges!
-
-:books: **Resources to use:**
-  - See [these notes on APIs in a shared Google Doc](https://docs.google.com/document/d/1HH5ULwRQwbByOVbjRdSqUPIQhZsAqlu7imTeX1AA6n4/edit?usp=sharing) (These notes will be formatted and saved into GitHub here soon!)
-  - You can also follow along similar practice challenges with [GitHub's "Getting Started" guide to their API](https://developer.github.com/v3/guides/getting-started/).
+:books: **Prerequisites and resources:**
+  - Be sure to read [section 5.4: Intro to APIs and interfaces in general](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-5/5-4-intro-apis-background.md)
+  - You can do some very similar practice challenges following [GitHub's API "Getting Started" guide](https://developer.github.com/v3/guides/getting-started/)
 
 <hr/>
 
