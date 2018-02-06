@@ -2,8 +2,19 @@
 
 You've certainly heard the term ***API*** thrown around a lot -- not just among techies, but also in the news and sometimes even in casual conversation! So what's this all about? ***API*** stands for ***Application Programming Interface***. In this section, we'll look at examples of interfaces and then examples of *application programming* interfaces to get a better sense of the overall picture.
 
-:star: **Read [these notes on APIs in a shared Google Doc](https://docs.google.com/document/d/1HH5ULwRQwbByOVbjRdSqUPIQhZsAqlu7imTeX1AA6n4/edit?usp=sharing)!** The notes below will be formatted and updated here soon, but for right now they aren't formatted yet. (Oops, technical difficulties! :sweat_smile: Sorry bout that!)
+:books: **Recommended resources for learning more:**
 
+  - [Zapier's Intro to APIs article series](https://zapier.com/learn/apis/) is very well-written and worth reading!
+  - [MDN's Intro to web APIs article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction) is also a great read, with many examples of both built-in web browser APIs and third-party web APIs.
+  - ["An Introduction to APIs" by Gonzalo Vázquez](https://restful.io/an-introduction-to-api-s-cee90581ca1b) is also a great overview of the concepts covered below, with more details.
+
+**Table of Contents:**
+
+  - 5.4.1: What is an interface?
+  - 5.4.2: What is an Application Programming Interface (API)?
+  - 5.4.3: Libraries versus APIs
+  - 5.4.4: The basics of HTTP requests
+  - 5.4.5: Authentication, API keys and rate limits for third-party web APIs
 
 <hr/>
 
@@ -65,17 +76,33 @@ This idea extends to your own code as well: you should be writing your own funct
 And yes, software developers do create libraries and APIs for themselves! It helps keep our code [DRY (Don't Repeat Yourself)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) and reusable.
 
 
-## 5.4.4: The basics of HTTP requests
+## 5.4.4: The basics of HTTP requests and responses (for accessing web APIs)
+
+:star: ***Accessing an API over the internet is essentially the same thing as going to a website.*** There are only a couple differences:
+
+  - Instead of typing a URL into your web browser to access a website, you'd access an API from *within your code* (like inside your JavaScript file) or via the *command line* directly.
+  
+  - Compared to visiting a website as a *user*, accessing an API as a *developer* does require you to read some documentation beforehand to learn each API's unique rules and conventions. (So it's not quite as easy as just typing in a URL.)
+
+Aside from learning the rules for each specific API you're working with, you'll also need a bit of background knowledge about how information is sent over the internet:
+
+### HTTP and the request-response model
 
 **HTTP** stands for [***HyperText Transfer Protocol***](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol), and it's the set of rules that allow computers to communicate with each other over the internet -- it's the backbone of the World Wide Web!
 
   > **Fun fact:** HTTP was initially created by [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee), inventor of the World Wide Web, in 1989 at CERN.
 
-  > ***Bonus fun fact:*** CERN is the home of the [Large Hadron Collider](https://home.cern/topics/large-hadron-collider), the largest single machine in the world, which smashes atoms and even smaller particles together at crazy high speeds in the name of science!
+  > **Bonus fun fact:** CERN is the home of the [Large Hadron Collider](https://home.cern/topics/large-hadron-collider), the largest single machine in the world, which smashes atoms and even smaller particles together at crazy high speeds in the name of science!
 
-Any time your computer (the ***client***) visits a website, it makes a ***request*** via HTTP, which the web browser sends over the internet to a ***server***. (A server is just another computer that processes those requests, runs some code, and sends a response back to clients with the data they requested.)
+Since HTTP is already so widely adopted (used by practically every computer in the world!), it's very convenient for programmers to build on top of it! That's why so many APIs are based on HTTP.
 
-Since HTTP is already so widely adopted (used by practically every computer in the world!), it's a convenient way for programmers to build their APIs on top of. That's why so many third-party APIs are based on HTTP.
+Any time your computer (the ***client***) visits a website, it makes a ***request*** via HTTP, which the web browser sends over the internet to a ***server***. Then the server (which is just another computer) will receive that request, run some code to decide what to send back, and finally it went send a ***response*** back to the client.
+
+We call this the ***request-response model***, and you can think of it like communicating via snail mail or telegram:
+
+![HTTP request response model](https://raw.githubusercontent.com/LearnTeachCode/learnteachcode.github.io/master/socketio-workshop/slides/images/request-response.gif)
+
+Very simple, isn't it? It's an old-fashioned idea, but it works because our computers and internet connections are fast enough that browsing the web feels *nothing* like communicating via telegram. :)
 
 ### The four parts of an HTTP request
 
@@ -106,37 +133,64 @@ The **GET** and **POST** request methods are the most common by far. Most of the
   
   - You can also explore the HTTP verbs in more depth here: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
 
+### The three parts of an HTTP response
 
-### Example HTTP requests
+As we saw above, any time you visit a website or make an API call, you're sending a request to the web server. Then each time the web server receives a request, it sends a ***response*** to the client. The response contains three pieces of information:
 
-**Example 1:** You go to https://example.com in your web browser to read what’s on their website:
+  1. A **status code** (like 200 or 404), which indicates whether the HTTP request has been successfully completed -- or if not, what type of error occurred. ([Wikipedia has a great list of all the common HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).)
+  
+  2. The **headers**, which contain important *meta-information* about the response -- just like headers in the request, except with different meta-information like what data format the server used to package the information sent in the response.
 
+  3. The **body of the response**, which contains any *actual data* sent from the server back to the client. For example, if you send a request to Google with a search term, Google's servers will send a list of search results included in the *body* of the response.
+
+### Example HTTP requests/responses and API calls
+
+**Example 1:** You go to https://example.com by typing that URL into your web browser.
+
+**The request contains:**
   1. The URL: https://example.com 
   2. The HTTP request method: GET
   3. The headers probably include things similar to: "Accept: text/html" and "Accept-Language: en-us" and "User-Agent: Mozilla/5.0", etc
   4. The body of a GET request is usually empty
 
-**Example 2:** You create a new GitHub account: 
+**The response contains:**
+  1. If it worked correctly, the server would send the status code `200`. (See [list of status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).)
+  2. The response headers would likely include "Content-type: text/html" and some other meta-information
+  3. The body of the response would contain all the HTML code for the homepage of example.com -- this is what your browser downloads every time you visit a website!
 
-  1. The URL: https://github.com/join or something similar
+**Example 2:** You access GitHub's API via the command line to create a new repository on your GitHub account.
+
+**The request contains:**
+  1. The URL: https://api.github.com/user/repos
   2. The HTTP request method: POST
-  3. The headers might be the same, including things similar to: "Accept: text/html" and "Accept-Language: en-us and "User-Agent: Mozilla/5.0", etc
-  4. The body of the request: your new username, email, and password
+  3. The headers would include "Authorization: token  YOUR-TOKEN-HERE" to authenticate the user (proving you are who you say you are!)
+  4. The body of the request: The name of your new repository formatted as JSON data: `{"name": "my-test-repo"}`
+
+**The response contains:**
+  1. Again, if it worked correctly, the server would send the status code `200`.
+  2. The response headers would likely include "Content-type: application/json" because GitHub's programmers decided to use JSON as their primary data format for their API.
+  3. The body of the response would contain JSON data about the repository that was just created -- its name, the URL to the repository's page, etc.
+
+  > **Try it out for yourself!** These examples are part of our [API challenges in section 5.5](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-5/5-5-api-challenges.md).
+
+You can see with the examples above that accessing an API is *basically* the same as visiting a website, just with some more rules and conventions that you need to look up online before you can use them.
 
 
-## 5.4.5: Key terms for working with APIs
+## 5.4.5: Authentication, API keys and rate limits for third-party web APIs
 
-Here's a preview of some key concepts and terminology that will come up as you learn more about APIs:
+Accessing a third-party web API can be as simple as sending an HTTP request to a URL like in the examples above. (See [section 5.5: intro to API challenges](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-5/5-5-api-challenges.md) for a step-by-step walkthrough of accessing an API!)
 
-### 1. Authentication
+But many API providers have extra rules for using their APIs, which we'll take a quick look at below:
 
-To *authenticate* a user means to verify that they are who they say they are. Authentication is an important step in accessing private information or acting on behalf of a user via an API.
+### Authentication
 
-For example: you can create a new GitHub repo through GitHub's API, but first you have to authenticate by logging into your user account and verifying that you are who you say you are!
+To ***authenticate*** a user means to verify that they are who they say they are. Authentication is an important step in accessing private information or acting on behalf of a user via an API.
 
-For more on the GitHub API's authentication porcess, see this section of their docs: https://developer.github.com/v3/#authentication 
+For example: you can create a new GitHub repo through GitHub's API, but first you have to authenticate, either by providing your username and password, or by providing an ***access token*** that's like a temporary password issued only to you.
 
-### 2. API rate limits
+There's a *lot* more to learn about authentication; see the [extra resources at the top of this page](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-5/5-4-intro-apis-background.md) if you're curious about more of the details!
+
+### API rate limits
 
 Many API providers will *limit* how often you can use their API. Why? Here are two main reasons:
 
@@ -150,14 +204,14 @@ For example, GitHub's API limits you to *60 requests per hour* if your requests 
 
 Another example: Google Maps provides an API for calculating the distance between two places, which is free up to a point, and then they start charging you money after that. You can see all the details here: https://developers.google.com/maps/documentation/distance-matrix/usage-limits 
 
-### 3. API keys
+### API keys
+
+An ***API key*** is a unique ID assigned to your application.
 
 Many APIs don't require authentication -- for example, if all of their data is already publicly available information (like an API that provides a weather report). But many companies that provide APIs still want to track who's using their API, both to prevent abuse/illegal activities and to collect data on who uses their API.
-
-An **API key** is a unique ID assigned to your application.
 
 To use the API for Twitter, Facebook, and many other web services, you to first have to make an account on their website, register your own web app with them with a description of what it does, and then finally they'll issue you an API key. That way, they'll know who you are whenever you use their API within your own programs.
 
 <hr/>
 
-:point_right: **Next...**
+:point_right: **Next, try out some simple API examples in [section 5.5: intro to API challenges](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-5/5-5-api-challenges.md)!**
