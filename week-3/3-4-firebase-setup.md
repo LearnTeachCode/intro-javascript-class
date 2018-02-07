@@ -28,7 +28,7 @@ https://glitch.com/edit/#!/firebase-starter1?path=index.html:1:0
 
 **1. [Click here to open the Firebase console](https://console.firebase.google.com/)** (which is just a web page that lets you manage your app), and log in using your Google account if you haven't already.
  
-**2. Click "Add New Project"** and give your project a name like "First Firebase Test" or similar:
+**2. Click "Add New Project"** and give your project a name like "First Firebase Test" or similar:  
 
   ![Add New Firebase Project](https://raw.githubusercontent.com/LearnTeachCode/intro-javascript-class/master/week-3/img/addproject.png)
  
@@ -36,7 +36,7 @@ https://glitch.com/edit/#!/firebase-starter1?path=index.html:1:0
   
   ![Add Firebase to your web app](https://raw.githubusercontent.com/LearnTeachCode/intro-javascript-class/master/week-3/img/add-firebase-to-web-app.png)
  
-**4. Copy ONLY the JavaScript code from their pop-up window** -- only the part ***outlined in pink*** in the screenshot below, NOT the <script> tags. Then paste that code into your JavaScript file:
+**4. Copy ONLY the JavaScript code from their pop-up window** -- only the part ***outlined in pink*** in the screenshot below, NOT the <script> tags. Then paste that code into your JavaScript file:  
 
   ![Copy Firebase initialization code](https://raw.githubusercontent.com/LearnTeachCode/intro-javascript-class/master/week-3/img/addfirebase.png)
 
@@ -51,11 +51,11 @@ https://glitch.com/edit/#!/firebase-starter1?path=script.js:12:31
 
 Then double-click the code where it says `"auth !== null"` and type to replace it with ```true``` so that the code says `".read": true, ".write": true` for the rules.
 
-Note: **Don't** use quote marks around `true`! So it should look like this:
+Note: **Don't** use quote marks around `true`! So it should look like this:  
 
 ![database rules](https://raw.githubusercontent.com/LearnTeachCode/intro-javascript-class/master/week-3/img/rules.png)
 
-**6. Click the Publish button right above the rules to save your changes.** You should now see a warning like in the image below, saying that your security rules are defined as public and anyone can read or write to your database:
+**6. Click the Publish button right above the rules to save your changes.** You should now see a warning like in the image below, saying that your security rules are defined as public and anyone can read or write to your database:  
 
 ![database rules warning](https://raw.githubusercontent.com/LearnTeachCode/intro-javascript-class/master/week-3/img/rulewarning.png)
 
@@ -73,13 +73,13 @@ Now let's make sure our Firebase app is working! First we'll add some sample dat
 
   > **Shortcut:** [Click on this link](https://console.firebase.google.com/project/_/database/data) and then choose your project.
 
-**2. Hover your mouse over the name of your database (in my example below, it’s called `fir-test-c7763`) and then click on the plus sign that appears:**
+**2. Hover your mouse over the name of your database (in my example below, it’s called `fir-test-c7763`) and then click on the plus sign that appears:**  
 
 ![hover data](https://raw.githubusercontent.com/LearnTeachCode/intro-javascript-class/master/week-3/img/hoverrule.png)
 
 **3. In the two text boxes that pop up, type "greeting" for the name and "Hi from Firebase!" for the value.**
 
-Then click the blue **"Add"** button when you're ready to save your new data:
+Then click the blue **"Add"** button when you're ready to save your new data:  
 
 ![add data](https://raw.githubusercontent.com/LearnTeachCode/intro-javascript-class/master/week-3/img/adddata.png)
 
