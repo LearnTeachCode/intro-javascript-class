@@ -379,3 +379,8 @@ Notice that we define *two* of our own functions in the code above, since our co
 
   5. Finally, we log each penguin's name to the console with `console.log(penguinObject.name)`. Remember, *each* time our `logNameOfPenguin()` function runs, it receives a new item of data. Since it executes multiple times thanks to the data snapshot's `forEach()` function, it can display *every* penguin's name!
   
+<hr/>
+
+:trophy: **Great job if you've made it this far!** This is a *lot* of new material and it *should* be challenging. Don't worry if you don't understand it yet; we will return to these concepts and practice more.
+
+:point_right: **Next:** work on [section 3.3: Firebase practice challenges](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-3-firebase-challenges.md) or complete the steps in [section 3.4: Setting up your own Firebase app](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-4-firebase-setup.md).
