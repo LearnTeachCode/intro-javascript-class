@@ -32,18 +32,18 @@ https://glitch.com/edit/#!/firebase-starter1?path=index.html:1:0
 
   ![Add New Firebase Project](https://raw.githubusercontent.com/LearnTeachCode/intro-javascript-class/master/week-3/img/addproject.png)
  
-**3. Click "Add Firebase to your web app"**
+**3. Click "Add Firebase to your web app":**
   
   ![Add Firebase to your web app](https://raw.githubusercontent.com/LearnTeachCode/intro-javascript-class/master/week-3/img/add-firebase-to-web-app.png)
  
-**4. Copy ONLY the JavaScript code from their pop-up window** -- only the part ***outlined in red*** in the screenshot below, NOT the <script> tags. Then paste that code into your JavaScript file:
+**4. Copy ONLY the JavaScript code from their pop-up window** -- only the part ***outlined in pink*** in the screenshot below, NOT the <script> tags. Then paste that code into your JavaScript file:
 
   ![Copy Firebase initialization code](https://raw.githubusercontent.com/LearnTeachCode/intro-javascript-class/master/week-3/img/addfirebase.png)
 
-:star: So your JavaScript file should now look very similar to this:
+So your JavaScript file should now look very similar to this:
 https://glitch.com/edit/#!/firebase-starter1?path=script.js:12:31
 
-**Don't copy-paste my code from the Glitch project above!** You need to use your own database name, API key, etc for your Firebase app, *not mine!*
+  > **Don't copy-paste my code from the Glitch project above!** You need to use your own database name, API key, etc for your Firebase app, *not mine!*
 
 **5. In the Firebase console, navigate to the "Database" page and then to the "Rules" tab.**
 
@@ -51,7 +51,7 @@ https://glitch.com/edit/#!/firebase-starter1?path=script.js:12:31
 
 Then double-click the code where it says `"auth !== null"` and type to replace it with ```true``` so that the code says `".read": true, ".write": true` for the rules.
 
-*Note: **Don't** use quote marks around `true`! So it should look like this:*
+Note: **Don't** use quote marks around `true`! So it should look like this:
 
 ![database rules](https://raw.githubusercontent.com/LearnTeachCode/intro-javascript-class/master/week-3/img/rules.png)
 
@@ -61,58 +61,86 @@ Then double-click the code where it says `"auth !== null"` and type to replace i
 
 That's exactly what we want right now; while we're testing this first version of our app, we want it to work without requiring users to sign in first. Later on you can change the rules to add security as needed, once you’re ready to share your app with the world.
 
-:trophy: **Congrats, you now have a Firebase app!** :) To recap, your project should look similar to this:
+:trophy: **Congrats, you now have a Firebase app!** :) To recap, your project should look similar to this:  
 https://glitch.com/edit/#!/firebase-starter1 
 
 
 ## 3.4.3: Displaying data from your Firebase database
 
-Now let’s make sure your Firebase app is working! 
+Now let's make sure your Firebase app is working! 
 
-**Add Sample Data Using the Firebase Console:**
+### Add sample data using the Firebase console
 
-  1. In the Firebase Console (the website you logged into earlier), click “Develop” on the left menu, then "Database", and then to the "Data" tab.
-*Shortcut: [Click on this link](https://console.firebase.google.com/project/_/database/data) and then choose your project.*
+**1. In the Firebase Console (the website you logged into earlier), click "Develop" on the left menu, then "Database", and then to the "Data" tab.**
 
-  2. Hover your mouse over the name of your database (in my example below, it’s called fir-test-c7763) and then click on the plus sign that appears:
+  > **Shortcut:** [Click on this link](https://console.firebase.google.com/project/_/database/data) and then choose your project.
+
+**2. Hover your mouse over the name of your database (in my example below, it’s called `fir-test-c7763`) and then click on the plus sign that appears:**
 
 ![hover data](https://raw.githubusercontent.com/LearnTeachCode/intro-javascript-class/master/week-3/img/hoverrule.png)
 
-  3. In the two text boxes that pop up, type **"greeting"** for the name and **"Hi from Firebase!"** for the value.
+**3. In the two text boxes that pop up, type "greeting" for the name and "Hi from Firebase!" for the value.**
 
-Then **click the blue "Add" button** when you're ready to save your new data:
+Then click the blue **"Add"** button when you're ready to save your new data:
 
 ![add data](https://raw.githubusercontent.com/LearnTeachCode/intro-javascript-class/master/week-3/img/adddata.png)
 
-Done! :)
+Done! :) Onto the next part:
  
-**Test Displaying the Data on Your Web Page:**
+### Test displaying the data on your web page
 
-  1. Create an HTML element, like a paragraph, with the id "firebase-greeting". And in your JavaScript file, create an object named firebaseGreetElem for that element.
+**1. In your HTML file, create an HTML element like a paragraph, and give it an id of `"firebase-greeting"`.**
 
-  2. Create another JavaScript object called **dbGreetingRef**. This object will be our reference to the **"greeting"** row of our Firebase database. Use this chain of built-in Firebase functions:
+**2. Then in your JavaScript file, create an object named `firebaseGreetElem` that represents the paragraph you just created above.**
 
-```let dbGreetingRef = firebase.database().ref("greeting");```
+  > Remember, the `document.getElementId()` function is how we take an HTML element and convert it into a JavaScript object!
 
-  3. Next, we'll use another built-in Firebase function to create an event listener that will display our data on the web page any time our database is updated:
+**3. Create another JavaScript object called `dbGreetingRef`.** This object will be our reference to the location in our database with the path of `"greeting"`. Use this code below:
 
+```javascript
+// Create a database reference object for the location in our database with the path "greeting"
+let dbGreetingRef = firebase.database().ref("greeting");
 ```
+
+  > Be sure to review [section 3.1.3 on Firebase database reference objects](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-1-firebase-functions.md#313-firebase-database-reference-objects-and-the-ref-function)!
+
+**4. Next, we'll use another built-in Firebase function to create an event listener.** We always need to use events to access data from our Firebase database. See [section 3.1.4: Reading data with Firebase event listeners](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-1-firebase-functions.md#314-reading-data-with-firebase-event-listeners) to review!
+
+```javascript
+// Set up the Firebase event listener on our database reference object
+// Any time the "value" event is triggered (when the page loads or when the data changes),
+// then our code will run the function named displayFirebaseGreeting
 dbGreetingRef.on("value", displayFirebaseGreeting);
+
+// Define the function named displayFirebaseGreeting,
 function displayFirebaseGreeting(dataSnapshot) {
   firebaseGreetElem.textContent = dataSnapshot.val();
 }
 ```
 
-  4. Now let's test our new app! Open up your web page and you should now see your message "Hi from Firebase!" appear on the page! :)
+**5. After that, define the `displayFirebaseGreeting` function.** It takes a special `dataSnapshot` object as input, then uses the Firebase `val()` function to extract the value of our actual data, and finally displays it on our web page by setting the `textContent` property of our paragraph to equal the value of our data.
 
-  5. One more test just to make sure it’s updating correctly: while your web page for your app is open in your web browser (leave it open! No need to refresh it!), open another tab to go back to your Firebase console.
+```javascript
+// Define the function named displayFirebaseGreeting,
+function displayFirebaseGreeting(dataSnapshot) {
+  firebaseGreetElem.textContent = dataSnapshot.val();
+}
+```
 
-To do that, you can click “Develop” on the left menu, then "Database", and then to the "Data" tab.
+  > Lots of new concepts here! The topics above are also covered in [section 3.1.4: Reading data with Firebase event listeners](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-1-firebase-functions.md#314-reading-data-with-firebase-event-listeners), so be sure to read those notes.
 
-*Shortcut: [Click on this link](https://console.firebase.google.com/project/_/database/data) and then choose your project.*
+**6. Now let's test our new app!**
 
-Click on your "Hi from Firebase!" message, type in the box to change the value to something else like "I changed this data in Firebase!", and then press the **Enter key** to save your changes:
+Open up your web page, and you should now see your message "Hi from Firebase!" appear on the page! :)
+
+**7. While the web page is open in your web browser -- leave it open, no need to refresh the page! -- open another tab and change the message in your Firebase console.**
+
+To get back to editing the data in your Firebase console, you can click "Develop" on the left menu of the Firebase console website, then click "Database", and then go to the "Data" tab.
+
+  > **Shortcut:** [Click on this link](https://console.firebase.google.com/project/_/database/data) and then choose your project.
+
+Click on your `"Hi from Firebase!"` message, and type in the box to change the value to something else like `"I changed this data in Firebase!"` Then press the **Enter key** to save your changes:
 
 ![change data](https://raw.githubusercontent.com/LearnTeachCode/intro-javascript-class/master/week-3/img/changeddata.png)
 
-Now look at your web page again; you can see the data change in real time! Cool, right?
+Now look at your web page again. If it worked, you'll see the data change *in real time*, instantly, without ever refreshing the web page! Cool, right?
