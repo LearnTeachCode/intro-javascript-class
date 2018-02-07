@@ -76,4 +76,9 @@ Phew! Congrats on making it this far! Now that you've probably messed up our sha
 
 Once you successfully delete it, if you refresh the web page, the second paragraph should now go back to displaying `"... your name from Firebase will appear here ..."`
 
+<hr/>
+
 :trophy: ***Great job! Now you're practically a Firebase database ninja!*** You can already start building database-driven apps with these few functions you just practiced using. :)
+
+:point_right: **Next:** Follow the steps in [section 3.4: Setting up your own Firebase app](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-4-firebase-setup.md)!
+
