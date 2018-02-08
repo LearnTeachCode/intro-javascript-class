@@ -2,9 +2,7 @@
 
 So far we've set up a small but functional Firebase app and practiced using some of the Firebase functions for accessing and displaying data. Next, we'll set up our app to enable Firebase Authentication using the GitHub API!
 
-📚 **Prerequisites and resources:**
-
-  - You'll first need to set up your own personal Firebase app by following [the instructions in **section 3.4**](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-4-firebase-setup.md)!
+📚 **Prerequisite:** You'll first need to set up your own personal Firebase app by following [the instructions in **section 3.4**](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-4-firebase-setup.md)!
 
 **Table of Contents:**
 
@@ -53,7 +51,7 @@ Now that we have things mostly set up on the GitHub side of things, we also need
 
   4. Switch back to your GitHub OAuth app page again, paste that new callback URL into the "Authorization callback URL" section at the bottom of the page (it will replace the URL of your Glitch app that was there before), and then click the green **"Update application"** button to save your changes.
 
-</hr>
+<hr/>
 
 :trophy: **And that's it!** Your app is now all configured to use both the GitHub API and Firebase Authentication!
 
