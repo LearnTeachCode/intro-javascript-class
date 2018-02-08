@@ -47,7 +47,7 @@ Now that we have things mostly set up on the GitHub side of things, we also need
 
   2. Click on "GitHub" in the list, click the **"Enable"** switch, and then copy-paste your Client ID and Client Secret from GitHub (from that tab you left open earlier). *Keep the GitHub tab open because we'll need it again in the steps below!*
 
-  3. From the bottom of that page in the Firebase console, copy the authorization callback URL (it should look similar to `https://fir-test-c7763.firebaseapp.com/__/auth/handler`), and then click the blue **"Save"** button to save your changes in Firebase.
+  3. Right underneath where you pasted in your Client ID and Client Secret in the Firebase console, copy the authorization callback URL (it should look similar to `https://fir-test-c7763.firebaseapp.com/__/auth/handler`), and then click the blue **"Save"** button to save your changes in Firebase.
 
   4. Switch back to your GitHub OAuth app page again, paste that new callback URL into the "Authorization callback URL" section at the bottom of the page (it will replace the URL of your Glitch app that was there before), and then click the green **"Update application"** button to save your changes.
 
