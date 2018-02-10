@@ -107,11 +107,6 @@ let dbGreetingRef = firebase.database().ref("greeting");
 // Any time the "value" event is triggered (when the page loads or when the data changes),
 // then our code will run the function named displayFirebaseGreeting
 dbGreetingRef.on("value", displayFirebaseGreeting);
-
-// Define the function named displayFirebaseGreeting,
-function displayFirebaseGreeting(dataSnapshot) {
-  firebaseGreetElem.textContent = dataSnapshot.val();
-}
 ```
 
 **8. After that, define the `displayFirebaseGreeting` function.** It takes a special `dataSnapshot` object as input, then uses the Firebase `val()` function to extract the value of our actual data, and finally displays it on our web page by setting the `textContent` property of our paragraph to equal the value of our data.
