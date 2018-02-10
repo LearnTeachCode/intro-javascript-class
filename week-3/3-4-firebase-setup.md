@@ -89,7 +89,7 @@ Great, we have some data to tinker with! :) In the next several steps, we'll wri
 
 **5. Then in your JavaScript file, create an object named `firebaseGreetElem` that represents the paragraph you just created above.**
 
-  > Remember, the `document.getElementId()` function is how we take an HTML element and convert it into a JavaScript object!
+  > Remember, the `document.getElementById()` function is how we take an HTML element and convert it into a JavaScript object!
 
 **6. Create another JavaScript object called `dbGreetingRef`.** This object will be our reference to the location in our database with the path of `"greeting"`. Use this code below:
 
