@@ -21,12 +21,17 @@ So far we've set up a small but functional Firebase app and practiced using some
 
 When we register our OAuth app with GitHub, we get a unique ***Client ID*** and ***Client Secret***. The Client ID is public, sort of like a username but for our application, and the Client Secret is like our password --
  ***never, ever share or publish your Client Secret!*** (Except when we put it into our Firebase console, which will keep it securely stored on Firebase's server.)
+ 
+ :star: ***Before anything else, [add your name to your GitHub account](https://github.com/settings/profile).*** This will make it easier to confirm if your login system is working correctly:
 
-**Follow the steps below to set up your app:**
+  - In your [GitHub profile settings](https://github.com/settings/profile), write something in the "Name" box at the very top.
+  - Then click the green **"Update profile"** button at the bottom to save your changes.
 
-  1. First, [click here to register a new OAuth app on GitHub](https://github.com/settings/applications/new) (you may have to log in first).
+**Follow the steps below to set up your GitHub app:**
 
-  2. For "Application name", enter something like `Firebase login with GitHub Test`
+  1. First, [click here to register a new OAuth app on GitHub](https://github.com/settings/applications/new) (you may have to log in first)
+
+  2. For "Application name", enter the name of your project or just something like `Firebase login with GitHub Test`
 
   3. For both the "Homepage URL" and the "Authorization callback URL", enter ***the URL of your own Firebase project on Glitch***. (For example: `http://myfirebasetest.glitch.me`)
 
@@ -41,18 +46,20 @@ When we register our OAuth app with GitHub, we get a unique ***Client ID*** and 
 
 Now that we have things mostly set up on the GitHub side of things, we also need to tell *Firebase* to allow users to log in to our app using GitHub.
 
-  1. In the [Firebase console](https://console.firebase.google.com/), go to the "Authentication" page and click on the "Sign-In Method" tab.
+  1. In the [Firebase console](https://console.firebase.google.com/), go to the "Authentication" page, click on the "Sign-In Method" tab at the top.
 
   > **Shortcut:** [Click on this link](https://console.firebase.google.com/project/_/authentication/providers) and then choose your project.
+  
+  2. Under "Authorized domains" towards the bottom of that page, click the blue **"Add Domain"** button. In the little window that pops up, enter ***the URL of your own Firebase project on Glitch***. (For example: `http://myfirebasetest.glitch.me`)
 
-  2. Click on "GitHub" in the list, click the **"Enable"** switch, and then copy-paste your Client ID and Client Secret from GitHub (from that tab you left open earlier). *Keep the GitHub tab open because we'll need it again in the steps below!*
+  3. On that same page, under the list of "Sign-in providers", click on **"GitHub"** in the list, then click the **"Enable"** switch, and copy-paste your Client ID and Client Secret from GitHub (from that tab you left open earlier). *Keep the GitHub tab open because we'll need it again in the steps below!*
 
-  3. Right underneath where you pasted in your Client ID and Client Secret in the Firebase console, copy the authorization callback URL (it should look similar to `https://fir-test-c7763.firebaseapp.com/__/auth/handler`), and then click the blue **"Save"** button to save your changes in Firebase.
+  4. Right underneath where you pasted in your Client ID and Client Secret in the Firebase console, copy the authorization callback URL (it should look similar to `https://fir-test-c7763.firebaseapp.com/__/auth/handler`), and then click the blue **"Save"** button to save your changes in Firebase.
 
-  4. Switch back to your GitHub OAuth app page again, paste that new callback URL into the "Authorization callback URL" section at the bottom of the page (it will replace the URL of your Glitch app that was there before), and then click the green **"Update application"** button to save your changes.
+  5. Switch back to your GitHub OAuth app page again, paste that new callback URL into the "Authorization callback URL" section at the bottom of the page (it will replace the URL of your Glitch app that was there before), and then click the green **"Update application"** button to save your changes.
 
 <hr/>
 
-:trophy: **And that's it!** Your app is now all configured to use both the GitHub API and Firebase Authentication!
+:trophy: **And that's it!** Your app is now all configured to use both the GitHub API and Firebase Authentication.
 
-:point_right: **Next up**, we'll write some code to implement a very basic user login system.
+:point_right: **Next up**, in [section 6.2: Firebase user login challenges](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-6/6-2-firebase-login-challenges.md), we'll write some code to implement a very basic user login system!
