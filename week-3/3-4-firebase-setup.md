@@ -103,7 +103,7 @@ let dbGreetingRef = firebase.database().ref("greeting");
 **7. Next, we'll use another built-in Firebase function to create an event listener.** We always need to use events to access data from our Firebase database. See [section 3.1.4: Reading data with Firebase event listeners](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-1-firebase-functions.md#314-reading-data-with-firebase-event-listeners) to review!
 
 ```javascript
-// Set up the Firebase event listener on our database reference object
+// Set up the Firebase event listener on our database reference object.
 // Any time the "value" event is triggered (when the page loads or when the data changes),
 // then our code will run the function named displayFirebaseGreeting
 dbGreetingRef.on("value", displayFirebaseGreeting);
@@ -112,7 +112,7 @@ dbGreetingRef.on("value", displayFirebaseGreeting);
 **8. After that, define the `displayFirebaseGreeting` function.** It takes a special `dataSnapshot` object as input, then uses the Firebase `val()` function to extract the value of our actual data, and finally displays it on our web page by setting the `textContent` property of our paragraph to equal the value of our data.
 
 ```javascript
-// Define the function named displayFirebaseGreeting,
+// Define the function named displayFirebaseGreeting
 function displayFirebaseGreeting(dataSnapshot) {
   firebaseGreetElem.textContent = dataSnapshot.val();
 }
