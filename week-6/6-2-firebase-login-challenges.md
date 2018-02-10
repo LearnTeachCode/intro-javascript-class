@@ -163,7 +163,7 @@ For the challenges below, take a look through the official documentation for the
 
 ### Challenge 1:
 
-Looking at the documentation linked to above, identify the name of the ***property*** (which belongs to every Firebase user object) that most likely contain's the username.
+Looking at the documentation linked to above, identify the name of the ***property*** (which belongs to every Firebase user object) that most likely contains the username.
 
 ### Challenge 2:
 
