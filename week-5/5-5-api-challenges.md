@@ -80,17 +80,15 @@ Notice the format of the data you just received -- it’s **JSON (JavaScript Obj
 
 ## Challenge 5
 
-Say we want to access ***private*** information about our GitHub user account, like whether or not we're paying for GitHub or using their free plan. We can do that, as long as we first log in to our GitHub account.
+Say we want to access ***private*** information about our GitHub user account, like whether or not we're paying for GitHub or using their free plan. We can do that, as long as we first log in to our GitHub account. One quick way to do this is using what’s called ***Basic Authentication***, where we give GitHub our username and password to log in before sending our API request.
 
-One quick way to do this is using what’s called ***Basic Authentication***:
+:star: **Note about GitHub's API:** If you're logged in, the `/user` endpoint (URL) will automatically assume you want *your own* account information. So copy-paste the code below exactly as it is; ***don't*** replace "user" with your username here:
 
 ```bash
 curl -i -u YOUR-USERNAME https://api.github.com/user
 ```
 
-It will prompt you for your password. Type it in (you won’t see it while you’re typing) and then press *Enter* to log in and send your request.
-
-  > **Note about GitHub's API:** If you’re logged in, the `/user` endpoint (URL) we used above will automatically assume you want *your own* account information.
+It will prompt you for your password. Type it in (you won't see it while you're typing) and then press *Enter* to log in and send your request.
 
 ## Challenge 6
 
