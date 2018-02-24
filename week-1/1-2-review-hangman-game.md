@@ -1,12 +1,11 @@
 # 1.2: Programming concepts review and the Hangman game
 
-❓ **If you have any questions**, please ask on the private Slack channel for our class. (See our [quick intro to Slack](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-1-initial-tools-intro.md#111-intro-to-slack) if you need a refresher.)
+❓ **If you have any questions**, please ask on the private Slack channel for our class. (See our [quick intro to Slack](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-1-initial-tools-intro.md#111-intro-to-slack) if you need a refresher.)
 
 :clock2: **Time to complete: about 2 hours**, or more if you dive deeper into the topics and do your own research, which I always recommend!
 
 :books: **Prerequisites:**
-  -  First review [Section 1.1: Getting started with our first software tools](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-1-initial-tools-intro.md).
-  - **Two *new* videos** have been added to section 1.1: [Intro to Chrome's developer tools and the browser console](https://youtu.be/O_sJE_3jKZ4) (4 min), and [Creating websites locally with VS Code](https://youtu.be/E4FmXNatxt0) (5 min).
+  -  First review [Section 1.1: Getting started with our first software tools]().
 
 **Table of Contents:**  
   - [1.2.1: Flowcharting our Hangman game](#121-flowcharting-our-hangman-game)
