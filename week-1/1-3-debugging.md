@@ -1,8 +1,8 @@
-# 2.1: Debugging tips, tools, and Hangman game solution
+# 1.3: Debugging tips and tools
 
 :star: ***Note: Videos covering the material below, and the solution to the Hangman game bug, will be posted a bit later!***
 
-Debugging is one of the most important skills you'll ever need as a software developer! As you learned in [homework 1.1](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/homework1-1.md), debugging can be *incredibly frustrating!* But learning to embrace that frustration is also a skill that you can practice and get better at.
+Debugging is one of the most important skills you'll ever need as a software developer! As you've seen, debugging can be *incredibly frustrating!* But learning to embrace that frustration is also a skill that you can practice and get better at.
 
 Debugging and feeling stuck is a *big* part of software development; in fact, it's a common joke among developers to say that they get paid to be frustrated all day long, and every so often they get something working! :laughing: In this section, we'll review some debugging tips, tricks, and tools that can help save you from at least *some* of that frustration.
 
@@ -11,22 +11,22 @@ Debugging and feeling stuck is a *big* part of software development; in fact, it
 :clock2: **Time to complete: about 30 minutes**, or more if you dive deeper into the topics and do your own research, which I always recommend!
 
 :books: **Prerequisites:**
-  - First review [everything in section 1 for what we learned in our first class](https://github.com/LearnTeachCode/intro-javascript-class/tree/master/week-1).
-  - Make sure to [complete homework 1.1](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/homework1-1.md) to first try your hand at debugging our Hangman game!
+  - First review [everything in section 1 for what we learned in our first class](https://github.com/LearnTeachCode/intro-javascript-class/tree/march-2018/week-1).
+
 
 **Table of Contents:**  
-  - 2.1.1: Common bugs to watch out for
+  - 1.3.1: Common bugs to watch out for
   - Debugging tools to try:
-    - 2.1.2: Make use of your text editor's built-in features
-    - 2.1.3: Remember, `console.log()` is your friend
-    - 2.1.4: PythonTutor helps you visualize your code
-    - 2.1.5: Your browser's built-in debugger tool is all-powerful
-    - 2.1.6: Code linters can spot bugs for you
-  - 2.1.7: Solution to our Hangman game bug (to be posted later!)
+    - 1.3.2: Make use of your text editor's built-in features
+    - 1.3.3: Remember, `console.log()` is your friend
+    - 1.3.4: PythonTutor helps you visualize your code
+    - 1.3.5: Your browser's built-in debugger tool is all-powerful
+    - 1.3.6: Code linters can spot bugs for you
+  - 1.3.7: Solution to our Hangman game bug (to be posted later!)
 
 <hr/>
 
-## 2.1.1: Common bugs to watch out for
+## 1.3.1: Common bugs to watch out for
 
   1. **Typos and capitalization:**<br/>This is the most common cause of bugs, especially when you're a beginner. The `document.getElementById()` function is notorious for this; the `d` in `Id` is lower-case! (See the debugging tools section below for some ways to make these easier to spot.)
 
@@ -66,7 +66,7 @@ Debugging and feeling stuck is a *big* part of software development; in fact, it
 There are lots of tools out there to help you hunt down those bugs! Here's an overview of a few of the most common ones, ordered from *easiest to get started with* up to more advanced tools.
 
 
-### 2.1.2: Make use of your text editor's built-in features
+### 1.3.2: Make use of your text editor's built-in features
 
 Modern text editors like Visual Studio Code and others make it easier to spot errors with a few built-in features, and you can add more later on by installing various plugins too!
 
@@ -83,7 +83,7 @@ Modern text editors like Visual Studio Code and others make it easier to spot er
 There are *many other features* built into your text editor, so explore the documentation and tutorials sometime to learn more about what it can do! The [Visual Studio Code documentation website](https://code.visualstudio.com/docs/) has some great information and lots of pictures!
 
 
-### 2.1.3: Remember, `console.log()` is your friend
+### 1.3.3: Remember, `console.log()` is your friend
 
   - Use this built-in function throughout your code to see what's happening step by step. When debugging, you're a detective; `console.log()` leaves a trail of breadcrumbs for you to follow!
 
@@ -113,7 +113,7 @@ There are *many other features* built into your text editor, so explore the docu
     ```
 
 
-### 2.1.4: PythonTutor helps you visualize your code
+### 1.3.4: PythonTutor helps you visualize your code
 
 [PythonTutor.com](http://pythontutor.com/javascript.html#mode=edit) is an excellent resource both for debugging and for understanding the flow of your program.
 
@@ -130,7 +130,7 @@ There are *many other features* built into your text editor, so explore the docu
   - If you accidentally create an infinite loop, PythonTutor *will not* run the code. That's much better than testing loops directly in your project or in your browser console, where an infinite loop will usually crash your browser!
 
 
-### 2.1.5: Your browser's built-in debugger tool is all-powerful
+### 1.3.5: Your browser's built-in debugger tool is all-powerful
 
 The debugger tool built into Chrome and all other major web browsers practically gives you super powers! The only downside is that it can feel a bit overwhelming at first; it has so many buttons and menus, it feels a bit like a NASA control center.
 
@@ -164,7 +164,7 @@ The debugger tool built into Chrome and all other major web browsers practically
   - Notice that if you set a breakpoint on a line of code *inside a function that waits for an event* (like the user clicking a button), the debugger won't pause the code until that line of code is executed. So you'll only see it pause if you actually click the button yourself.
 
 
-### 2.1.6: Code linters can spot bugs for you
+### 1.3.6: Code linters can spot bugs for you
 
 A [code linter](https://en.wikipedia.org/wiki/Lint_%28software%29) is a tool that analyzes your code and identifies errors, often suggesting style and formatting improvements too! Here are a couple linting tools to try out:
 
@@ -176,7 +176,3 @@ A [code linter](https://en.wikipedia.org/wiki/Lint_%28software%29) is a tool tha
 
   3. [**Prettier**](https://prettier.io/playground/) is another tool that formats your code and makes it look pretty! You can [test it out on their website](https://prettier.io/playground/) or install it as a [plugin for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) or other text editors.
 
-
-## 2.1.7: Solution to our Hangman game bug
-
-:star: I'm not going to post this just yet, because I want everyone to have a chance to try it out on their own first. So please **[do homework 1.1](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/homework1-1.md) so you don't keep everyone else waiting!** :)
