@@ -134,4 +134,4 @@ If you like, try requesting **XML format** as well to see how different it looks
 
 <hr/>
 
-:point_right: **Next up:** [**let's try some APIs that require an API or a personal access token in order to use them.**](https://github.com/LearningNerd/intro-apis-workshop/blob/master/api-challenges-2.md)
+:point_right: **Next up:** [**let's try some APIs that require an API or a personal access token in order to use them.**](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-8/8-4-api-challenges-2.md)
