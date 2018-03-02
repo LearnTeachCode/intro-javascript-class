@@ -1,4 +1,4 @@
-# 1.3: Debugging tips and tools
+# 1.6: Debugging tips and tools
 
 Debugging is one of the most important skills you'll ever need as a software developer! As you've seen, debugging can be *incredibly frustrating!* But learning to embrace that frustration is also a skill that you can practice and get better at.
 
@@ -7,19 +7,19 @@ Debugging and feeling stuck is a *big* part of software development; in fact, it
 ❓ **If you have any questions,** please ask on the private Slack channel for our class.
 
 **Table of Contents:**  
-  - 1.3.1: Background reading on bugs, debugging, and bug reports
-  - 1.3.2: Common bugs to watch out for
+  - 1.6.1: Background reading on bugs, debugging, and bug reports
+  - 1.6.2: Common bugs to watch out for
   - Debugging tools to try:
-    - 1.3.3: Make use of your text editor's built-in features
-    - 1.3.4: Remember, `console.log()` is your friend
-    - 1.3.5: PythonTutor helps you visualize your code
-    - 1.3.6: Your browser's built-in debugger tool is all-powerful
-    - 1.3.7: Code linters can spot bugs for you
+    - 1.6.3: Make use of your text editor's built-in features
+    - 1.6.4: Remember, `console.log()` is your friend
+    - 1.6.5: PythonTutor helps you visualize your code
+    - 1.6.6: Your browser's built-in debugger tool is all-powerful
+    - 1.6.7: Code linters can spot bugs for you
 
 <hr/>
 
 
-## 1.3.1: Background reading on bugs, debugging, and bug reports
+## 1.6.1: Background reading on bugs, debugging, and bug reports
 
 First, a couple quick definitions:
 
@@ -55,7 +55,7 @@ It takes a lot of practice to get good at debugging, but it's well worth it! The
   - Just for fun, read about [the history of the term "bug" in computing](https://en.wikipedia.org/wiki/Software_bug#Etymology) on Wikipedia (just a couple paragraphs), with a photo of the famous moth that caused a malfunction in one of the early computers -- in 1947!
 
 
-## 1.3.2: Common bugs to watch out for
+## 1.6.2: Common bugs to watch out for
 
   1. **Typos and capitalization:**<br/>This is the most common cause of bugs, especially when you're a beginner. The `document.getElementById()` function is notorious for this; the `d` in `Id` is lower-case! (See the debugging tools section below for some ways to make these easier to spot.)
 
@@ -95,7 +95,7 @@ It takes a lot of practice to get good at debugging, but it's well worth it! The
 There are lots of tools out there to help you hunt down those bugs! Here's an overview of a few of the most common ones, ordered from *easiest to get started with* up to more advanced tools.
 
 
-### 1.3.3: Make use of your text editor's built-in features
+### 1.6.3: Make use of your text editor's built-in features
 
 Modern text editors like Visual Studio Code and others make it easier to spot errors with a few built-in features, and you can add more later on by installing various plugins too!
 
@@ -112,7 +112,7 @@ Modern text editors like Visual Studio Code and others make it easier to spot er
 There are *many other features* built into your text editor, so explore the documentation and tutorials sometime to learn more about what it can do! The [Visual Studio Code documentation website](https://code.visualstudio.com/docs/) has some great information and lots of pictures!
 
 
-### 1.3.4: Remember, `console.log()` is your friend
+### 1.6.4: Remember, `console.log()` is your friend
 
   - Use this built-in function throughout your code to see what's happening step by step. When debugging, you're a detective; `console.log()` leaves a trail of breadcrumbs for you to follow!
 
@@ -142,7 +142,7 @@ There are *many other features* built into your text editor, so explore the docu
     ```
 
 
-### 1.3.5: PythonTutor helps you visualize your code
+### 1.6.5: PythonTutor helps you visualize your code
 
 [PythonTutor.com](http://pythontutor.com/javascript.html#mode=edit) is an excellent resource both for debugging and for understanding the flow of your program.
 
@@ -159,7 +159,7 @@ There are *many other features* built into your text editor, so explore the docu
   - If you accidentally create an infinite loop, PythonTutor *will not* run the code. That's much better than testing loops directly in your project or in your browser console, where an infinite loop will usually crash your browser!
 
 
-### 1.3.6: Your browser's built-in debugger tool is all-powerful
+### 1.6.6: Your browser's built-in debugger tool is all-powerful
 
 The debugger tool built into Chrome and all other major web browsers practically gives you super powers! The only downside is that it can feel a bit overwhelming at first; it has so many buttons and menus, it feels a bit like a NASA control center.
 
@@ -193,7 +193,7 @@ The debugger tool built into Chrome and all other major web browsers practically
   - Notice that if you set a breakpoint on a line of code *inside a function that waits for an event* (like the user clicking a button), the debugger won't pause the code until that line of code is executed. So you'll only see it pause if you actually click the button yourself.
 
 
-### 1.3.7: Code linters can spot bugs for you
+### 1.6.7: Code linters can spot bugs for you
 
 A [code linter](https://en.wikipedia.org/wiki/Lint_%28software%29) is a tool that analyzes your code and identifies errors, often suggesting style and formatting improvements too! Here are a couple linting tools to try out:
 
@@ -205,3 +205,6 @@ A [code linter](https://en.wikipedia.org/wiki/Lint_%28software%29) is a tool tha
 
   3. [**Prettier**](https://prettier.io/playground/) is another tool that formats your code and makes it look pretty! You can [test it out on their website](https://prettier.io/playground/) or install it as a [plugin for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) or other text editors.
 
+<hr/>
+
+***Go forth and debug!*** No worries about using *all* the tips and tools listed above, but at least you have a preview of techniques you'll be using as you continue to learn more.
