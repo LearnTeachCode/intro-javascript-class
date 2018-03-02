@@ -1,8 +1,8 @@
-# Practice challenges: Variables and data types
+# 1.2: Practice challenges: Variables and data types
 
 Time to tinker with code and break stuff! Below are several practice challenges where you either need to solve a bug, *create* a bug, or write some code from scratch.
 
-For all of the discussion prompts below, the goal is just to brainstorm and come up with your own guesses -- and ***have fun!*** It doesn't matter if you're correct or not. Like they say, we learn more from our failures than from our successes. So let's have fun "failing", breaking things on purpose, and learning from the experience!
+:trophy: For all of the discussion prompts below, the goal is just to brainstorm and come up with your own guesses -- and ***have fun!*** It doesn't matter if you're correct or not. Like they say, we learn more from our failures than from our successes. So let's have fun "failing", breaking things on purpose, and learning from the experience!
 
 **You can run your code in several different ways:**
 
@@ -34,14 +34,18 @@ console.log(myNerdyJoke);
 **Then discuss:**
 
   1. Which words or symbols can we *change* without breaking the code? Which words/symbols need to stay the same?
-  2. Does the *order* of these two lines of code matter? In other words, can we switch them around?
-  3. What do you think the equal sign (`=`) means in JavaScript?
-  4. Why do we surround the message with quotation marks? (Just take a few guesses and discuss together!)
-  5. What is `console`, what is `log`, and what is `console.log`?
-  6. And what does the period (`.`) mean in JavaScript?
-  7. Why do we use a pair of parentheses `()` after `console.log` and what would happen if we used `console.log` without any parentheses after it?
-  8. What are those lines that start with the double slashes (`//`), and what does that symbol mean?
-  9. And what's the deal with those semicolons (`;`)?
+  
+  2. What do you think the equal sign (`=`) means in JavaScript?
+  
+  3. Why do we surround the message with quotation marks? (Just take a few guesses and discuss together!)
+  
+  4. What is `console`, what is `log`, and what is `console.log`?
+  
+  5. And what does the period (`.`) mean in JavaScript?
+  
+  6. Why do we use a pair of parentheses `()` after `console.log` and what would happen if we used `console.log` without any parentheses after it?
+  
+  7. What are those lines that start with the double slashes (`//`), and what does that symbol mean?
 
 
 ## Challenge 2: 
@@ -55,6 +59,15 @@ console.log(veryTrueStatement);
 
 ## Challenge 3: 
 
+This code isn't working either. :( Can you fix it so that the joke will appear in the browser console?
+
+```javascript
+let coderJoke = "My software never has bugs. It just develops random features.";
+Console.log(coderJoke);
+```
+
+## Challenge 4: 
+
 I found a great joke [from the creator of Stack Overflow](https://twitter.com/codinghorror/status/506010907021828096) but the code below isn't showing the joke in the console like it's supposed to! Can you fix it?
 
 ```javascript
@@ -62,7 +75,7 @@ let anotherJoke = "There are two hard things in computer science: cache invalida
 console.log("anotherJoke");
 ```
 
-## Challenge 4: 
+## Challenge 5: 
 
 I could've sworn that computers were good at math, so why isn't my code working? Fix all the code below to make the computer actually *add up the numbers* and display each result in the console:
 
@@ -90,7 +103,7 @@ console.log('x' + 'y' + 'z');
   3. Does it matter whether we use single or double quotation marks?
 
 
-## Challenge 5: 
+## Challenge 6: 
 
 So it turns out that in JavaScript, the plus sign (`+`) is used for two different things: adding numbers and combining words! In computer science jargon, we use the word ***string*** to refer to any data that should be treated as a word, a label, or literally a bunch of letters and symbols *strung* together like [those alphabet beads that you can *string* together into a necklace](https://www.etsy.com/market/alphabet_beads)!
 
@@ -106,8 +119,14 @@ let jt = "jelly time"
 console.log(pb + jt)
 ```
 
+## Challenge 7: 
 
-## Challenge 6: 
+Create three separate variables of your own to represent your name, your favorite food, and your favorite number. Be sure to give your variables descriptive names, and use [**camelCase style**](https://en.wikipedia.org/wiki/Camel_case) (where `variableNamesLookLikeThis`, which is the msot common convention among JavaScript programmers).
+
+Next, display a message in the browser's console that combines each of your three variables into a sentence where you awkwardly introduce yourself by saying something like `"Hi there! My name is Liz, my favorite food is chocolate, and my favorite number is 42!"`
+
+
+## Challenge 8: 
 
 The code below is for a video game where you start with 100 health points, and then after getting attacked by a dragon, you now have only 45 health points. Why doesn't the code work, and how can you fix it?
 
@@ -132,21 +151,56 @@ console.log("Health points remaining:" + healthPoints);
 **Discuss:**
 
   1. Why exactly was the code broken?
-  2. Why would this broken code be so confusing to computer that it can't even run it?
+  2. Why would this broken code be so confusing to the computer that it can't even run it?
 
 
-## Challenge 7:
+## Challenge 9: 
 
-The code below doesn't work either! Can you fix it so the joke appears in the console?
+Imagine you're creating a social network application like Facebook where you'll need to store information about each user. For each piece of information listed below, discuss whether it would make more sense to store the data as a ***string*** or as a ***number***:
+
+  1. Full name
+  2. Age
+  3. Job title
+  4. Zip code
+  5. Date of birth
+
+
+## Challenge 10: 
+
+Based on what you've learned so far, discuss:
+
+  1. What pieces of information would you need for your own project?
+  2. Which data types (strings or numbers) would you need to use for each piece of information in your own project?
+  3. Does some of that data *not fit* neatly into the category of a string or a number?
+
+:pencil: Jot down your answer in your notes too, because this is an important part of the project planning process!
+
+**Bonus:** Discuss *other* data types if you're already familiar with them, or *search online* to learn more about the term "data types" and what types there are in JavaScript!
+
+
+## Bonus challenge 1:
+
+First run the following code and check the browser console to confirm that it works as you'd expect:
 
 ```javascript
-let awesomeOneLiner = 'Time flies like an arrow; fruit flies like a banana!';
-awesameOneLiner = 'My software never has bugs. It just develops random features.';
-console.log(awesomeOneLiner);
+console.log(jokeVersionOne);
+let jokeVersionOne = "When Apple employees die, does their life HTML5 in front of their eyes?";
 ```
 
+Now, compare it to the code below which uses `var` instead of `let` to create the new variable:
 
-## Challenge 8:
+```javascript
+console.log(jokeVersionTwo);
+var jokeVersionTwo = "When Adobe employees die, does their life Flash in front of their eyes?";
+```
+
+**Discuss:**
+
+  1. Which version do you think is more intuitive -- using `var` or using `let`? And why?
+  2. What would you guess the computer is doing differently in these two scnearios?  
+
+
+## Bonus challenge 2:
 
 Complete the unfinished code below to update the variable named `bugsSolvedToday` to become the **sum of its previous value plus one**, but *without modifying the code already provided below*:
 
@@ -158,31 +212,9 @@ let bugsSolvedToday = 7; // Don't modify this line of code!
 console.log(bugsSolvedToday); // Don't modify this line either!
 ```
 
-## Bonus challenge:
+## Bonus challenge 3:
 
-First run the following code and check the browser console to confirm that it works as you'd expect:
-
-```javascript
-console.log(ifYouRememberFlash);
-let ifYouRememberFlash = "When Apple employees die, does their life HTML5 in front of their eyes?";
-```
-
-Now, compare it to the code below which uses `var` instead of `let` to create the new variable:
-
-```javascript
-console.log(ifYouRememberFlash);
-var ifYouRememberFlash = "When Apple employees die, does their life HTML5 in front of their eyes?";
-```
-
-**Discuss:**
-
-  1. Which version do you think is more intuitive -- using `var` or using `let`? And why?
-  2. What would you guess the computer is doing differently in these two scnearios?  
-
-
-## MAYBES:
-
-Similar to the previous challenge, complete this unfinished code to *concatenate* the string `" and again"` onto the end of the variable named `neverEndingSentence`, and then *copy-paste* that line of code to repeat it 10 more times! (Again, don't modify the first or the last line of code provided below.)
+Similar to bonus challenge #2 above, complete this unfinished code to *concatenate* the string `" and again"` onto the end of the variable named `neverEndingSentence`, and then *copy-paste* that line of code to repeat it 10 more times! (Again, don't modify the first or the last line of code provided below.)
 
 ```javascript
 let theCoderLife = "Debug it again"; // Don't modify this line of code!
@@ -194,16 +226,6 @@ let theCoderLife = "Debug it again"; // Don't modify this line of code!
 console.log(theCoderLife); // Don't modify this line either!
 ```
 
-
-
-quick capitalization error:
-```javascript
-let ifYouRememberFlash = "When Apple employees die, does their life HTML5 in front of their eyes?";
-Console.log(ifYouRememberFlash);
-```
-
-....what else??
-
 <hr/>
 
-:trophy: ***Great job!*** **Next up:** something something mroe challenges...
+:trophy: ***Great job!*** **Next up:** we'll practice using JavaScript to interact with the web page using the browser's built-in Document Object Model API!
