@@ -1,6 +1,4 @@
-# 1.3: Debugging tips and tools
-
-:star: ***Note: Videos covering the material below, and the solution to the Hangman game bug, will be posted a bit later!***
+# 1.6: Debugging tips and tools
 
 Debugging is one of the most important skills you'll ever need as a software developer! As you've seen, debugging can be *incredibly frustrating!* But learning to embrace that frustration is also a skill that you can practice and get better at.
 
@@ -8,25 +6,56 @@ Debugging and feeling stuck is a *big* part of software development; in fact, it
 
 ❓ **If you have any questions,** please ask on the private Slack channel for our class.
 
-:clock2: **Time to complete: about 30 minutes**, or more if you dive deeper into the topics and do your own research, which I always recommend!
-
-:books: **Prerequisites:**
-  - First review [everything in section 1 for what we learned in our first class](https://github.com/LearnTeachCode/intro-javascript-class/tree/march-2018/week-1).
-
-
 **Table of Contents:**  
-  - 1.3.1: Common bugs to watch out for
+  - 1.6.1: Background reading on bugs, debugging, and bug reports
+  - 1.6.2: Common bugs to watch out for
   - Debugging tools to try:
-    - 1.3.2: Make use of your text editor's built-in features
-    - 1.3.3: Remember, `console.log()` is your friend
-    - 1.3.4: PythonTutor helps you visualize your code
-    - 1.3.5: Your browser's built-in debugger tool is all-powerful
-    - 1.3.6: Code linters can spot bugs for you
-  - 1.3.7: Solution to our Hangman game bug (to be posted later!)
+    - 1.6.3: Make use of your text editor's built-in features
+    - 1.6.4: Remember, `console.log()` is your friend
+    - 1.6.5: PythonTutor helps you visualize your code
+    - 1.6.6: Your browser's built-in debugger tool is all-powerful
+    - 1.6.7: Code linters can spot bugs for you
 
 <hr/>
 
-## 1.3.1: Common bugs to watch out for
+
+## 1.6.1: Background reading on bugs, debugging, and bug reports
+
+First, a couple quick definitions:
+
+  - A **bug** is "an error, flaw, failure or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways." (via [Wikipedia](https://en.wikipedia.org/wiki/Software_bug))
+
+  - **Debugging** is the process of finding, understanding, and (hopefully!) fixing a bug. (See [Wikipedia's page on debugging](https://en.wikipedia.org/wiki/Debugging) for many more details on the topic.)
+
+  - A **bug report** is a document containing everything someone would need to know in order to identify a bug, replicate it, and fix it (or at least *help* fix it or *start* to fix it).
+
+Effective debugging looks a lot like the **[scientific method](https://www.khanacademy.org/science/biology/intro-to-biology/science-of-biology/a/the-science-of-biology)**:
+
+  1. Make an observation.
+  2. Ask a question.
+  3. Form a hypothesis, or testable explanation.
+  4. Make a prediction based on the hypothesis.
+  5. Test the prediction.
+  6. Iterate: use the results to make new hypotheses or predictions.
+
+:microscope: If you aren't already familiar with it, **be sure to [read about the scientific method here](https://www.khanacademy.org/science/biology/intro-to-biology/science-of-biology/a/the-science-of-biology)**.
+
+It takes a lot of practice to get good at debugging, but it's well worth it! The most important thing to keep in mind is: *be strategic!* Don't fall into the trap of ["shotgun debugging"](https://en.wikipedia.org/wiki/Shotgun_debugging), where you just make random changes to the code in the hope of fixing it! The resources below share some helpful wisdom on debugging and writing good bug reports.
+
+:books: **Recommended resources:**
+
+  - My personal favorite: StackOverflow's guide on ["How to create a Minimal, Complete, and Verifiable example (MCVE)](https://stackoverflow.com/help/mcve)
+  
+  - A much longer, more detailed article worth skimming over: [Mozilla Developer Network's "Bug writing guidelines"](https://developer.mozilla.org/en-US/docs/Mozilla/QA/Bug_writing_guidelines)
+
+  - A short article with some excellent advice: ["How to Debug Small Programs"](https://ericlippert.com/2014/03/05/how-to-debug-small-programs/) by Eric Lippert
+  
+  - [Rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) is an actual thing, and a very effective technique!
+  
+  - Just for fun, read about [the history of the term "bug" in computing](https://en.wikipedia.org/wiki/Software_bug#Etymology) on Wikipedia (just a couple paragraphs), with a photo of the famous moth that caused a malfunction in one of the early computers -- in 1947!
+
+
+## 1.6.2: Common bugs to watch out for
 
   1. **Typos and capitalization:**<br/>This is the most common cause of bugs, especially when you're a beginner. The `document.getElementById()` function is notorious for this; the `d` in `Id` is lower-case! (See the debugging tools section below for some ways to make these easier to spot.)
 
@@ -34,16 +63,16 @@ Debugging and feeling stuck is a *big* part of software development; in fact, it
   <br/>It's very easy to accidentally leave out the starting or close brackets, as in `{ }` or `[ ]` or `( )`! It's also very easy to lose a quote mark or mismatch them. You can use single (`' '`) or double (`" "`)quotes, but they have to match!
 
   2. **Counting and "off by one" errors:**
-  <br/>A [famous programming joke](https://twitter.com/codinghorror/status/506010907021828096) goes like this: "There are two hard things in computer science: cache invalidation, naming things, and [off-by-one errors](https://en.wikipedia.org/wiki/Off-by-one_error)." :laughing: It's very easy to forget that *computers start counting at zero!* It's also easy to be off by one when writing your loops, so always double-check the starting point and the "keep-going" condition.
+  <br/>A [famous programming joke](https://twitter.com/codinghorror/status/506010907021828096) goes like this: "There are two hard things in computer science: cache invalidation, naming things, and [off-by-one errors](https://en.wikipedia.org/wiki/Off-by-one_error)." :laughing: It's very easy to forget that *computers start counting at zero!* This is something we'll see when working with loops and arrays.
 
   3. **Loading your JS file at the wrong time:**
-  <br/>Remember to include that `defer` keyword in your HTML script tag, so your JS file will load *after* your HTML has loaded! Also remember that when you're using libraries, the *order* in which you include those script tags for each JS file does matter!
+  <br/>Remember to include that `defer` keyword in your HTML script tag, so your JS file will load *after* your HTML has loaded! Also remember that when you're using libraries, the *order* in which you include those script tags for each JS file does matter.
 
   4. **Incorrect `id` from your HTML:**
-  <br/>This is another example of a JavaScript bug that requires you to check your HTML file too! It's easy to mix up your `id` attributes when accessing parts of your web page using JavaScript. So always double-check! (It can help to include a list of all the `id`s in a comment at the top of your JS file to use as a quick reference.)
+  <br/>This is another example of a JavaScript bug that requires you to check your HTML file. It's easy to mix up your `id` attributes when accessing parts of your web page using JavaScript. So always double-check! (It can help to include a list of all the `id`s in a comment at the top of your JS file to use as a quick reference.)
 
   5. **Logic errors:**
-  <br/>Double-check the logic in any conditional (`if / else`) statements. The best way to test this is *in isolation*, separated from the rest of your code, with some fake data.
+  <br/>Double-check the logic in any conditional (`if / else`) statements. It can be easier to test this is *in isolation*, separated from the rest of your code, with some fake data.
  
   6. **Equality comparisons:**
   <br/>A common bug is to mix up the single equals sign (`=`) with the triple equals sign (`===`). Other bugs can be caused by using the double equals sign (`==`) instead of the triple, so be careful! (For comparisons, just stick with the triple equals sign until you're very comfortable with this topic later on.) The same mistakes can happen with the *"not equal"* comparison operators; again, always use the more strict version (`!==`) for now.
@@ -55,7 +84,7 @@ Debugging and feeling stuck is a *big* part of software development; in fact, it
   <br/>Sometimes your bug can be found in the *design* of your system, before you even started writing any code! Always refer back to your notes or flowcharts to check if the steps are happening in the right order. Using `console.log()` or other debugging tools to see what's happening and *when* is also very helpful here!
 
   9. **Variable scope issues:**
-  <br/>Always declare you variables *at the top* of any function or at the top of your JavaScript file. And always use `let` instead of `var` at least for now, because that helps with certain bugs too! (We'll learn more about variable scope later, along with some more specific types of bugs related to this topic.)
+  <br/>Always declare your variables *at the top* of your file or at the top of any function, and be sure to use `let` instead of `var`. (Variable scope is a topic we'll learn more about later when we work more with functions.)
 
   10. **Other syntax mistakes:**
   <br/>Especially when you're first learning a programming language, it's very easy to use the wrong punctuation mark or put things in the wrong place. To avoid this, make your own cheatsheets with short examples of all the building blocks you use most often, like variables, conditional statements, functions, loops, etc. (See the debugging tools section below for ways to help here too.)
@@ -66,7 +95,7 @@ Debugging and feeling stuck is a *big* part of software development; in fact, it
 There are lots of tools out there to help you hunt down those bugs! Here's an overview of a few of the most common ones, ordered from *easiest to get started with* up to more advanced tools.
 
 
-### 1.3.2: Make use of your text editor's built-in features
+### 1.6.3: Make use of your text editor's built-in features
 
 Modern text editors like Visual Studio Code and others make it easier to spot errors with a few built-in features, and you can add more later on by installing various plugins too!
 
@@ -83,7 +112,7 @@ Modern text editors like Visual Studio Code and others make it easier to spot er
 There are *many other features* built into your text editor, so explore the documentation and tutorials sometime to learn more about what it can do! The [Visual Studio Code documentation website](https://code.visualstudio.com/docs/) has some great information and lots of pictures!
 
 
-### 1.3.3: Remember, `console.log()` is your friend
+### 1.6.4: Remember, `console.log()` is your friend
 
   - Use this built-in function throughout your code to see what's happening step by step. When debugging, you're a detective; `console.log()` leaves a trail of breadcrumbs for you to follow!
 
@@ -113,7 +142,7 @@ There are *many other features* built into your text editor, so explore the docu
     ```
 
 
-### 1.3.4: PythonTutor helps you visualize your code
+### 1.6.5: PythonTutor helps you visualize your code
 
 [PythonTutor.com](http://pythontutor.com/javascript.html#mode=edit) is an excellent resource both for debugging and for understanding the flow of your program.
 
@@ -130,7 +159,7 @@ There are *many other features* built into your text editor, so explore the docu
   - If you accidentally create an infinite loop, PythonTutor *will not* run the code. That's much better than testing loops directly in your project or in your browser console, where an infinite loop will usually crash your browser!
 
 
-### 1.3.5: Your browser's built-in debugger tool is all-powerful
+### 1.6.6: Your browser's built-in debugger tool is all-powerful
 
 The debugger tool built into Chrome and all other major web browsers practically gives you super powers! The only downside is that it can feel a bit overwhelming at first; it has so many buttons and menus, it feels a bit like a NASA control center.
 
@@ -164,7 +193,7 @@ The debugger tool built into Chrome and all other major web browsers practically
   - Notice that if you set a breakpoint on a line of code *inside a function that waits for an event* (like the user clicking a button), the debugger won't pause the code until that line of code is executed. So you'll only see it pause if you actually click the button yourself.
 
 
-### 1.3.6: Code linters can spot bugs for you
+### 1.6.7: Code linters can spot bugs for you
 
 A [code linter](https://en.wikipedia.org/wiki/Lint_%28software%29) is a tool that analyzes your code and identifies errors, often suggesting style and formatting improvements too! Here are a couple linting tools to try out:
 
@@ -176,3 +205,6 @@ A [code linter](https://en.wikipedia.org/wiki/Lint_%28software%29) is a tool tha
 
   3. [**Prettier**](https://prettier.io/playground/) is another tool that formats your code and makes it look pretty! You can [test it out on their website](https://prettier.io/playground/) or install it as a [plugin for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) or other text editors.
 
+<hr/>
+
+***Go forth and debug!*** No worries about using *all* the tips and tools listed above, but at least you have a preview of techniques you'll be using as you continue to learn more.
