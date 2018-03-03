@@ -1,4 +1,4 @@
-# 1.2: Practice challenges: Variables and data types
+# 1.3: Practice challenges: Variables and data types
 
 Time to tinker with code and break stuff! Below are several practice challenges where you either need to solve a bug, *create* a bug, or write some code from scratch.
 
@@ -15,7 +15,6 @@ Time to tinker with code and break stuff! Below are several practice challenges 
   4. Create everything locally on your computer with Visual Studio Code or any text editor that you prefer (see [section 1.1.5 and 1.1.6 for a review of VS Code](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-1-initial-tools-intro.md#115-intro-to-text-editors-visual-studio-code))
 
   > All the tools listed above have their pros and cons. Try them all and see what you like best!
-
 
 <hr/>
 
