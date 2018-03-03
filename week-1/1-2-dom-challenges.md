@@ -161,4 +161,4 @@ https://glitch.com/edit/#!/bonus-challenge-2
 
 <hr/>
 
-:trophy: ***Great job!*** **Next up:** we'll practice making decisions JavaScript based on some data with conditional statements!
+:trophy: ***Great job!*** **Next up:** in [section 1.3](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-3-variable-challenges.md) we'll practice making decisions JavaScript based on some data with conditional statements!
