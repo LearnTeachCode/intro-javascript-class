@@ -209,4 +209,4 @@ A [code linter](https://en.wikipedia.org/wiki/Lint_%28software%29) is a tool tha
 
 ***Go forth and debug!*** No worries about using *all* the tips and tools listed above, but at least you have a preview of techniques you'll be using as you continue to learn more.
 
-:point_right: Be sure to review [all the week 1 materials here](https://github.com/LearnTeachCode/intro-javascript-class/tree/march-2018/week-1).
+:point_right: Be sure to review [all the week 1 materials here](https://github.com/LearnTeachCode/intro-javascript-class/tree/march-2018/week-1), and [start on the homework for week 1](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-7-homework.md) if you have time to. :)
