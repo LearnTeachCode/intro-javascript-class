@@ -1,6 +1,10 @@
 # 1.2: Practice challenges: Interacting with the web page (Document Object Model)
 
-Next, let's use JavaScript to dynamically modify the HTML and CSS of a web page! For the following challenges, you'll be using the Glitch links provided to test out some example code, fix some bugs, and create some bugs of your own.
+:bulb: The ***Document Object Model (DOM)*** refers to how the web browser sees a web page -- as a *hierarchy* of objects, each with its own set of characteristics (like the text inside it, the font, the color, etc). We use the term ***DOM element*** to refer to pieces of the web page like a paragraph (`<p>`), an image (`<img>`), a heading (`<h1>`), etc.
+
+  > **Fun fact:** Technically speaking, all the code we're using in the challenges below are using [built-in web browser APIs](https://developer.mozilla.org/en-US/docs/Web/API), which are a set of rules and corresponding bits of code that let our JavaScript communicate with the web browser itself! That's how we're able to access and modify the HTML and CSS using JavaScript code. If you want to dive into some other types of APIs, check out [the curriculum for Liz's Intro to APIs workshop](https://github.com/LearningNerd/intro-apis-workshop).
+
+Let's use JavaScript to access the **DOM** to access and modify the HTML and CSS of some web pages! For the following challenges, you'll be using the Glitch links provided to test out some example code, fix some bugs, and create some bugs of your own.
 
 **Instructions:**
 
@@ -8,7 +12,7 @@ Next, let's use JavaScript to dynamically modify the HTML and CSS of a web page!
   
   - **To see the live app and test it out**, click "Show Live" on the top left and it'll open the web page in another tab.
 
-  - Check both the **live web app** and the **JavaScript console in Chrome's developer tools** to see the results of your code, to help you hunt down any bugs, and to check if you've fixed those bugs!
+  - Remember to check *both* the **live web app** and the **JavaScript console in Chrome's developer tools** to see the results of your code, hunt down any bugs, and check if you've fixed those bugs!
 
   > You can review our [**intro to Glitch video** in section 1.1.3](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-1-initial-tools-intro.md#113-intro-to-glitch) if you need a refresher on what Glitch is all about!
 
