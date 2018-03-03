@@ -159,4 +159,4 @@ Write down what you find, and code that you tested, a description of how it work
 
 <hr/>
 
-:trophy: ***Great job!*** Be sure to [review all the material for week 1](https://github.com/LearnTeachCode/intro-javascript-class/tree/march-2018/week-1), including background info about debugging and some videos reviewing the concepts we practiced in class today.
+:trophy: ***Great job!*** Be sure to [review all the material for week 1](https://github.com/LearnTeachCode/intro-javascript-class/tree/march-2018/week-1), including background info about debugging and some videos reviewing the concepts we practiced in class today, and [start on the homework for week 1](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-7-homework.md) if you have time to. :)
