@@ -30,21 +30,17 @@ let myNerdyJoke = "Debugging is like being the detective in a crime drama where 
 console.log(myNerdyJoke);
 ```
 
-**Then discuss:**
+**Then discuss** *(in other words, take random guesses and talk about your ideas!)*:
 
   1. Which words or symbols can we *change* without breaking the code? Which words/symbols need to stay the same?
   
   2. What do you think the equal sign (`=`) means in JavaScript?
   
-  3. Why do we surround the message with quotation marks? (Just take a few guesses and discuss together!)
+  3. What do you think the keyword `let` means here?
   
-  4. What is `console`, what is `log`, and what is `console.log`?
+  4. And what's the deal with those semicolons at the end of each line of code?
   
-  5. And what does the period (`.`) mean in JavaScript?
-  
-  6. Why do we use a pair of parentheses `()` after `console.log` and what would happen if we used `console.log` without any parentheses after it?
-  
-  7. What are those lines that start with the double slashes (`//`), and what does that symbol mean?
+  5. Does the *order* matter for which of these two lines of code runs first? Why or why not?
 
 
 ## Challenge 2: 
