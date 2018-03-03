@@ -223,4 +223,4 @@ console.log(theCoderLife); // Don't modify this line either!
 
 <hr/>
 
-:trophy: ***Great job!*** **Next up:** we'll practice using JavaScript to interact with the web page using the browser's built-in Document Object Model API!
+:trophy: ***Great job!*** **Next up:** in [section 1.4](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-4-conditional-challenges.md)we'll practice using JavaScript to interact with the web page using the browser's built-in Document Object Model API!
