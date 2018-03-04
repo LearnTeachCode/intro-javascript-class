@@ -7,11 +7,11 @@ For extra review, here are several videos covering the concepts we learned this 
 ❓ **If you have any questions**, please ask on the private Slack channel for our class. (See our [quick intro to Slack](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-1-initial-tools-intro.md#111-intro-to-slack) if you need a refresher.)
 
 **Table of Contents:**  
-  - [1.5.1: Flowcharting our Hangman game](#121-flowcharting-our-hangman-game)
-  - [1.5.2: Linking JavaScript to HTML](#122-linking-javascript-to-html)
-  - [1.5.3: Creating and changing variables](#123-creating-and-changing-variables)
-  - [1.5.4: The DOM: Interacting with HTML and CSS using JavaScript](#124-the-dom-interacting-with-html-and-css-using-javascript)
-  - [1.5.5: Conditional statements and comparison operators](#127-conditional-statements-and-comparison-operators)
+  - [1.5.1: Flowcharting our Hangman game](#151-flowcharting-our-hangman-game)
+  - [1.5.2: Linking JavaScript to HTML](#152-linking-javascript-to-html)
+  - [1.5.3: Creating and changing variables](#153-creating-and-changing-variables)
+  - [1.5.4: The DOM: Interacting with HTML and CSS using JavaScript](#154-the-dom-interacting-with-html-and-css-using-javascript)
+  - [1.5.5: Conditional statements and comparison operators](#157-conditional-statements-and-comparison-operators)
 <hr/>
 
 
