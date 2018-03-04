@@ -60,7 +60,9 @@ Based on what you've learned so far, you can already start digging into *how* yo
 
 ## 4. Sketch a flowchart (or a few!)
 
-Borrowing ideas from the two versions of our flowchart for the Hangman game (see [section 1.5 review materials](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-5-review-hangman-game.md)), take a stab at making a flowchart (or a few!) for at least part of your app.
+Borrowing ideas from the two versions of our flowchart for the Hangman game, take a stab at making a flowchart (or a few!) for at least part of your app.
+
+:star: **Be sure to review [the video on flowcharting the Hangman game in section 1.5](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-5-review-hangman-game.md#151-flowcharting-our-hangman-game).**
 
   1. **Draw your flowchart** with a software tool and export it as an image, or draw it on paper and take a photo of it with your phone (and then send it to your computer or email it to yourself). 
 
