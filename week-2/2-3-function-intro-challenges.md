@@ -1,4 +1,4 @@
-## 2.3: Function practice challenges (Part 1)
+## 2.3: Practice challenges: Intro to functions
 
 Functions are one of the most fundamental concepts in programming, but full of nuances that can be challenging to wrap your head around! Let's take a first look at the *very basics* of how functions work and why they're useful. (We will return to the topic of functions in more detail later on in our class. One step at a time!)
 
