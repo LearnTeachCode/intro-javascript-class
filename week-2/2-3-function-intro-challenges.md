@@ -104,7 +104,7 @@ stopUniverseFromImploding;
 
 ## Challenge 4:
 
-Define a function that will display in the console *all the text inside the entire body element of the web page*! Name it whatever you want -- but it's best to use a descriptive name, and remember stick to camel case  style (`camelCaseStyleForVariableNames).
+Define a function that will display in the console *all the text inside the entire body element of the web page*! Name it whatever you want -- but it's best to use a descriptive name, and remember stick to camel case  style (`camelCaseStyleForVariableNames`).
 
 Then write the code that will ***call*** (in other words, *run* or *execute*) your new function, and test it on one of your favorite websites by running your code in the browser console while you're on that web page! 
 
