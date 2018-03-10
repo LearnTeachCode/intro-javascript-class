@@ -64,7 +64,7 @@ Borrowing ideas from the two versions of our flowchart for the Hangman game, tak
 
 :star: **Be sure to review [the video on flowcharting the Hangman game in section 1.5](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-5-review-hangman-game.md#151-flowcharting-our-hangman-game).**
 
-  1. **Draw your flowchart** with a software tool and export it as an image, or draw it on paper and take a photo of it with your phone (and then send it to your computer or email it to yourself). 
+  1. **Draw your flowchart** with a software tool (I recommend [***Draw.io***](https://www.draw.io/)) and export it as an image, or draw it on paper and take a photo of it with your phone (and then send it to your computer or email it to yourself). 
 
   2. **Upload your new flowchart to GitHub,** following [the instructions on how to upload a file](https://help.github.com/articles/adding-a-file-to-a-repository/) directly to their website. **Note:** The file size limit is 25MB.
 
