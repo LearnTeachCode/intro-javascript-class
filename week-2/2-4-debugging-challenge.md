@@ -55,7 +55,7 @@ You can work directly inside Glitch, locally on your computer, or use any other 
 
 <br/>
 
-### 3. Write and share your debugging report using GitHub:*
+### 3. Write and share your debugging report using GitHub:
 
   1. Make a fork of the GitHub repo for this debugging template by clicking the **Fork** button on the top right of the page: https://github.com/LearnTeachCode/debugging-report-template
   
