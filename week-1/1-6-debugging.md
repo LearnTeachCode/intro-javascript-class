@@ -7,9 +7,9 @@ Debugging and feeling stuck is a *big* part of software development; in fact, it
 ❓ **If you have any questions,** please ask on the private Slack channel for our class.
 
 **Table of Contents:**  
-  - 1.6.1: Background reading on bugs, debugging, and bug reports
-  - 1.6.2: Common bugs to watch out for
-  - Debugging tools to try:
+  - 1.6.1: [Background reading on bugs, debugging, and bug reports](#161-background-reading-on-bugs-debugging-and-bug-reports)
+  - 1.6.2: [Common bugs to watch out for](#162-common-bugs-to-watch-out-for)
+  - [Debugging tools to try:](#debugging-tools-to-try)
     - 1.6.3: Make use of your text editor's built-in features
     - 1.6.4: Remember, `console.log()` is your friend
     - 1.6.5: PythonTutor helps you visualize your code
