@@ -1,4 +1,4 @@
-# 2.2: Event litener challenges
+# 2.2: Event listener challenges
 
 :tv: **Video: Intro to events and event listeners (19 min): https://youtu.be/UbwCNBCUrhQ**
 
