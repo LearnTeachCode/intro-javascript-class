@@ -15,6 +15,8 @@ In [week 1](https://github.com/LearnTeachCode/intro-javascript-class/tree/march-
 
 ## Challenge 1:
 
+:star: **Take a look at [our finished Hangman game](https://hangman-v0-final.glitch.me) for all the following challenges.**
+
 Identify each DOM element (pieces of the web page/the HTML code) that will need to be accessed or modified by JavaScript. How many DOM elements do we need to worry about for this Hangman game?
 
   > **Review:** A DOM element (DOM as in the Document Object Model) is the term often used to refer each part of a web page. Each HTML tag is a DOM element -- each paragraph, image, link, etc. <br/><br/>
