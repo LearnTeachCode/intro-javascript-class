@@ -1,4 +1,4 @@
-## 2.2.3: Intro to objects
+## 2.2.3: Practice challenges: Intro to objects
 
 Objects are basically bags of variables! They help us keep our code organized -- like when you tidy up your desk by separating things into different drawers and boxes, instead of leaving everything scattered randomly all over the place. :)
 
