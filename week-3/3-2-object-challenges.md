@@ -1,10 +1,12 @@
-## 2.2.3: Practice challenges: Intro to objects
+## 3.2: Practice challenges: Intro to objects
 
 Objects are basically just bags of variables! They help us keep our code organized -- like when you tidy up your desk by separating things into different drawers and boxes, instead of leaving everything scattered randomly all over the place. :)
 
 :tv: **Video: Intro to objects (13 min): https://youtu.be/Bza2U5mLxIQ**
 
   > **Note:** This is an older video, which is why you'll see `var` instead of `let`. (Planning to remake it a bit later!)
+
+<br/>
 
 In these practice challenges, we'll learn how to identify, create, read from, and modify JavaScript objects. Let's get coding!
 
@@ -58,7 +60,7 @@ This code isn't so bad on its own, but imagine if we had a database of *thousand
 
 ## Some new vocabulary:
 
-When a variable is inside an object, we call it a ***property*** or a ***key***. All information stored inside an object comes in pairs, which we call ***key-value pairs***.
+:star: When a variable is inside an object, we call it a ***property*** or a ***key***. All information stored inside an object comes in pairs, which we call ***key-value pairs***.
 
 Each key is followed by a colon (`:`) and then its value. Multiple key-value pairs are separated with commas (`,`) which is a pattern you'll see a lot in programming languages -- just like how we write lists of words in English!
 
