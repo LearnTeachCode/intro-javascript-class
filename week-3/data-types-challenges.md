@@ -78,7 +78,7 @@ Do a little research for say 15 minutes to see what others say about this topic,
 
 <br/>
 
-## Challenge 3:
+## Challenge 4:
 
 Did you know that there's one data type for `null` and another one for `undefined`? Why do you think we have both? They're obviously very similar, but what's one important difference between them? (This is another research challenge!)
 
