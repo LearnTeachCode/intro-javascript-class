@@ -1,111 +1,155 @@
 ## 3.3: Practice challenges: Intro to arrays
 
-The video below is a quick review of the very basics of arrays in JavaScript, plus a little practice challenge. :)
+An array is an *ordered list* of things. Just like other objects, they can contain any type of data: numbers, strings, Booleans, objects, other arrays, etc. But as we discussed earlier, arrays and objects have different pros and cons.
 
 :tv: **Video: Intro to arrays (6 min): https://youtu.be/QlfR6ICa3gQ**
 
   > **Note:** This is also an older video, which is why you'll see `var` instead of `let`. Planning to remake this one later too.
 
-An array is an *ordered list* of things. Just like objects, they can contain any type of data: numbers, strings, Booleans, objects, other arrays, etc. 
+<br/>
 
-**Using an array's index:**
+In these next challenges, let's start creating and working with our own arrays!
 
-The things inside an array are called ***elements***, and they each have a number assigned to them, called the ***index***. And remember: computers always start counting at 0! So the first element in an array is at index 0:
-
-![Diagram of an array](https://upload.wikimedia.org/wikipedia/commons/b/bf/CPT-programming-array.svg)
+<hr/>
 
 
-**Creating an array:**
+## Challenge 1:
 
-```javascript
-// Creating an array of strings
-let studentNames = ["Amy", "Bob", "Calvin"];
+First, a Google challenge! Look up how to create an array in JavaScript. (There's always more than one way to do something, but use whichever example looks the most simple and straightforward.)
 
-// Creating an array of numbers
-let favoriteNumbers = [3, 42, 7];
+As always, for any code snippets you find online, test them out to make sure that you understand how they work!
 
-// Sometimes we format arrays like this too:
-let myNicknames = [
-  "Liz",
-  "Frizzy Lizzy",
-  "Lizards"
-];
+<br/>
 
-// You can mix and match different data types in the same array:
-let someRandomData = [99, true, "ahhh!!", undefined, -15];
-```
+## Challenge 2:
 
-**Accessing and changing elements of arrays:**
+First, create an array containing a list of some of your favorite movies of all time.
 
-To access an element in an array, type the name of the array followed by a pair of square brackets (`[ ]`) with the index number inside:
-
-```javascript
-// Create myFavoriteFoods:
-let myFavoriteFoods = ["chocolate", "cupcakes", "donuts"];
-
-// Display the value of my first favorite food:
-console.log( myFavoriteFoods[0] );
-
-// Create a new separate variable that uses my second favorite food in a sentence:
-let greeting = "Hi, I'm Liz and I love " + myFavoriteFoods[1];
-
-// We can change the value of an element in an array just like changing any other variable. So to change "donuts" to "pie":
-myFavoriteFoods[2] = "pie";
-
-// You can see what's inside an array at any time with console.log():
-console.log(myFavoriteFoods);
-
-// Very important: you can use a variable for the index! This is very useful when working with loops and many other scenarios:
-let foodIndex = 1;
-console.log( myFavoriteFoods[foodIndex] );
-// The code above is the same as doing this:
-console.log( myFavoriteFoods[1] );
-```
-
-**Adding and removing elements from arrays:**
-
-All arrays have a number of built-in functions and properties, just like any other object in JavaScript. Yes, *arrays are technically a special type of object!*
-
-  > In JavaScript, practically everything is an object. That's one of its quirks, which is both a strength and a weakeness of the language.
-
-A couple of the most common built-in array functions are `push()` and `pop()`, to add or remove an element from the *end* of an array, respectively.
-
-```javascript
-// Create rainbow:
-let rainbow = ["red", "yellow", "green", "blue"];
-
-// Add "pot of gold" to the end of the rainbow:
-rainbow.push("pot of gold");
-
-// Show what's in the rainbow now, in the console:
-console.log(rainbow);
-
-// Somebody found the gold, so let's remove that last element:
-rainbow.pop();
-
-// Now the gold is gone again:
-console.log(rainbow);
-```
-
-Notice how we're using ***dot notation** above! So we can do `rainbow.push()` just like we can do `console.log()`, because the `rainbow` array is technically a type of object. (Remember, if you see a period after a variable name, that means it's an object!)
-
-There are *lots* of other very useful functions built into arrays! We'll look at more of them later on. For now, feel free to explore [the MDN reference page for arrays in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
+Then find at least three ways to *break* your code! See how many error messages you can get to show up in the console. ;)
 
 
-**The length property:**
+<br/>
 
-We can find out how many elements are inside an array using the ***length*** property that's built into every array:
+## Challenge 3:
+
+Can you store values of different data types all within the same array? Try it out in your browser console to find out!
+
+<br/>
+
+
+## Array elements and indexes:
+
+The things inside an array are called ***elements***, and they each have a number assigned to them, called the ***index***.
+
+Computers start counting at zero, not at one! (This goes *way* back to the early days of computing.
+
+  > **Fun tangent:** [See this forum discussion for some interesting reasons why!](https://superuser.com/questions/578292/why-do-computers-count-from-zero)
+  
+Long story short, we'll have to remember that the **first** element in an array is located at **index 0**:
+
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/CPT-programming-array.svg" width=240/></p>
+
+<br/>
+
+You'll get used to it with practice, but this is one of the reasons that [off-by-one errors are one of the most common bugs](https://twitter.com/codinghorror/status/506010907021828096) you'll ever see!
+
+
+<br/>
+
+## Challenge 4:
+
+Using one of the arrays you just created, write a line of code to tell the console to display the value of the *second* element in your array.
+
+<br/>
+
+## Challenge 5:
+
+Next, see what happens if you try to display the value of the array at **index 57**, which I'm sure doesn't exist in your array, unless you *really* enjoy typing! Will it cause an error? Why do you think it did or did not?
+
+<br/>
+
+## Challenge 6:
+
+Given the code below, create an array that contains a list of all of these bad puns -- ***without*** rewriting the puns themselves! Make use of variables, they're there to save you from too much typing! (Good programmers are lazy programmers, right?)
 
 ```javascript
-// Create switches:
-let switches = [false, true, false, false];
-
-// Show how many elements are in that array:
-console.log( switches.length );
-
-// Create a new variable that contains the current number of elements in the array:
-let numberOfSwitches = switches.length;
-
-// Display it to confirm it's the same number as before:
-console.log(numberOfSwitches);
+let pun = "Looks like I lost an electron, I should keep a better ion them.";
+let punny = "Where does a general keep his armies? In his sleevies!";
+let puntastic = "I don't trust stairs. They're always up to something.";
+let punneriffic = "What did the grape say when it got crushed? Nothing, it just let out a little wine.";
+let justPunMore = "My sister bet that I couldn’t build a car out of spaghetti. You should've seen her face when I drove pasta.";
 ```
+
+<br/>
+
+## Challenge 7:
+
+Anywhere you can put a literal value (like `3` or `"hi"`), you can replace it with the name of a variable that contains that value! This will be *super important* when you're working with arrays in more advanced ways later on.
+
+**Your challenge:** Create a variable named `myIndex` that contains a number. Then access an element from your array of bad puns using `myIndex` *instead* of directly using a number.
+
+<br/>
+
+## Challenge 7:
+
+To find out how many elements are inside an array, just type the name of the array followed by `.length`! Test this out by telling the console to display the length of your array of of puns.
+
+  > **Note:** You may have noticed the *dot syntax* here works the same way as with our objects! That's because arrays are also objects -- just a special type of object with its own special syntax! Under the hood, arrays have lots of built-in variables (like the `length` property) as well as built-in functions, as we'll see next!
+
+<br/>
+
+## Challenge 8:
+
+Time for another Google challenge! How do you add a new item onto the end of an array? Find some sample code, test it out, and then test it with one of your own arrays!
+
+Remember to use the console to check if it worked! You can display arrays using `console.log()` just like you can with any other data type.
+
+<br/>
+
+## Challenge 9:
+
+Followup Google challenge: how to you *remove* an item from the end of the array? Look it up and try it out! Be sure to test it in the console to make sure that it worked.
+
+  > **Hint:** This built-in function has a silly name. :)
+
+<br/>
+
+## Challenge 10:
+
+In the practice challenges introducing objects, we create a *nested* object: an object inside another object! Let's continue with this *Inception* theme and create an ***array inside an array***!
+
+  > **Hint:** Make use of variables here too if it helps make your code easier to read. You can always break things up into smaller steps; *you're* the programmer so you can do things any way you like!
+  
+Once you've created your nested data structure, how would you access an element from the *inner* array? Try it out!
+
+  > **Hint:** You can make it easier for yourself by breaking things up into variables here too. Or you can write it a shorter way -- think *Inception*!
+
+<br/>
+
+## Bonus challenge 1:
+
+Pretend you have an array that contains a list of all the users in your social network site. At any point in time, new users can sign up and be automatically added to the end of that array. So the length of this array is constantly changing!
+
+**Your challenge:** How would you access the most recent user who signed up for your social network site?
+
+<br/>
+
+## Bonus challenge 2:
+
+Create an example of an ***object inside an array*** and then practice accessing that object from *inside* the array!
+
+Then do the reverse: create an ***array inside an object*** and then access the array from *inside* the object.
+
+<br/>
+
+## Bonus challenge 3:
+
+Watch [this famous talk named "Wat", presented by Gary Bernhardt](https://www.destroyallsoftware.com/talks/wat). It's a very famous 5-minute talk that takes a hilarious look at the quirks of two popular programming languages: Ruby and JavaScript.
+
+The JavaScript part is at the end. Bonus points if you try running some of his code examples in your browser console!
+
+<br/>
+
+<hr/>
+
+🏆 ***Wonderful!*** You can now work with lists of data like a pro!
