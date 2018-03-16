@@ -150,6 +150,32 @@ The JavaScript part is at the end. Bonus points if you try running some of his c
 
 <br/>
 
+## One last bonus:
+
+Back in the days of Shakespeare, people used to say "Huzzah!" to celebrate things. Most people I know just say "Yay!" or "Woohoo!" So... how do you think programmers shout for joy?
+
+<br/>
+
+... *wait for it* ...
+
+<br/>
+
+... *scroll down* ...
+
+<br/>
+
+... *a bit more* ...
+
+<br/>
+
+... *keep going* ...
+
+<br/>
+
+They type `["hip", "hip"]` -- a "hip hip" *array!* :laughing:
+
+<br/>
+
 <hr/>
 
 🏆 ***Wonderful!*** You can now work with lists of data like a pro!
