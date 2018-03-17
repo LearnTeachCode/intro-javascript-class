@@ -1,4 +1,4 @@
-## Data types review and practice challenges
+## 3.4: Data types review and practice challenges
 
 Let's listen to a photograph by opening the image file in an audio editor! This video is a high-level look at what data types are all about, with a quick review of some basic data types in JavaScript:
 
