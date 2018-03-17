@@ -90,7 +90,7 @@ Anywhere you can put a literal value (like `3` or `"hi"`), you can replace it wi
 
 <br/>
 
-## Challenge 7:
+## Challenge 8:
 
 To find out how many elements are inside an array, just type the name of the array followed by `.length`! Test this out by telling the console to display the length of your array of of puns.
 
@@ -98,7 +98,7 @@ To find out how many elements are inside an array, just type the name of the arr
 
 <br/>
 
-## Challenge 8:
+## Challenge 9:
 
 Time for another Google challenge! How do you add a new item onto the end of an array? Find some sample code, test it out, and then test it with one of your own arrays!
 
@@ -106,7 +106,7 @@ Remember to use the console to check if it worked! You can display arrays using 
 
 <br/>
 
-## Challenge 9:
+## Challenge 10:
 
 Followup Google challenge: how to you *remove* an item from the end of the array? Look it up and try it out! Be sure to test it in the console to make sure that it worked.
 
@@ -114,7 +114,7 @@ Followup Google challenge: how to you *remove* an item from the end of the array
 
 <br/>
 
-## Challenge 10:
+## Challenge 11:
 
 In the practice challenges introducing objects, we create a *nested* object: an object inside another object! Let's continue with this *Inception* theme and create an ***array inside an array***!
 
