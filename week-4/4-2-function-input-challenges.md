@@ -1,4 +1,4 @@
-## 4.2: Practice challenges: Functions with inputs and outputs
+## 4.2: Practice challenges: Functions with inputs (parameters and arguments)
 
 Let's have some more fun with functions! The last time we looked at functions, we just practiced *defining* and *calling* them. Now let's take a look at using *inputs* and *outputs* with our functions!
 
