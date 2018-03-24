@@ -4,6 +4,10 @@ We learned how functions can take ***inputs*** by assigning special variable ins
 
 Well, functions can also give ***outputs*** to the rest of your code! Let's learn more about that, along with the closely-related topic of *variable scope*. As always, we'll be learning by tinkering, breaking stuff, taking it apart and putting it back together again!
 
+📺 **Video: Review of Function Basics (13 min): https://www.youtube.com/watch?v=GX5w-wTK-lU**
+
+  > **Note:** This is an older video, which is why you'll see `var` instead of `let`. Planning to remake it later on and fix it up!
+
 :books: **Prerequisites:**
   - [Section 4.2: Intro to functions with inputs (parameters and arguments)](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-4/4-2-function-input-challenges.md)
   
