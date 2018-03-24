@@ -18,7 +18,9 @@ The video linked below is a slow and detailed walkthrough covering the concept o
 
 :tv: **Video: Intro to loops (54 min): https://youtu.be/YmyROsrVQWI**
 
-  > **Note:** This is an older video, which is why you'll see `var` instead of `let`. I'm planning to remake it later on, and I also hope to make a *short* review of loops too!
+:tv: **Bonus video: Looping through an array (15 min): (https://www.youtube.com/watch?v=7HX0Tb9GAno**
+
+  > **Note:** These is an older video, which is why you'll see `var` instead of `let`. I'm planning to remake it later on, and I also hope to make a *short* review of loops too!
 
 ![Loops save you time!](http://jeffiscool.com/pictures/Foxtrot/foxtrot_blackboard.JPG)
 
