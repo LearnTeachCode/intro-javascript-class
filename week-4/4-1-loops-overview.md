@@ -153,7 +153,7 @@ Try it out! So that's the exact same code as our first example, but now it loops
 
 ## 4.1.4: Bonus material on the GOTO statement and the famous "10 PRINT" maze
 
-In class and in the long review video covering loops (https://youtu.be/YmyROsrVQWI), we started by taking a look at one of the most famous lines of code, called "10 PRINT" for short. It's a single line of code (written in an old language called [BASIC](https://en.wikipedia.org/wiki/BASIC)) that creates an infinite loop, generating a maze on the screen by randomly displaying forward slashes or backslashes!
+In class and in [our long review video covering loops](https://youtu.be/YmyROsrVQWI), we started by taking a look at one of the most famous lines of code, called "10 PRINT" for short. It's a single line of code (written in an old language called [BASIC](https://en.wikipedia.org/wiki/BASIC)) that creates an infinite loop, generating a maze on the screen by randomly displaying forward slashes or backslashes!
 
 :tv: **Watch the video demonstrating the famous "10 PRINT" code that creates a maze: https://www.youtube.com/watch?v=Ov0baPrRNkc**
 
