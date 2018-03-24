@@ -2,6 +2,10 @@
 
 Let's have some more fun with functions! The last time we looked at functions, we just practiced *defining* and *calling* them. Now let's take a look at using *inputs* and *outputs* with our functions!
 
+📺 **Video: Review of Function Basics (13 min): https://www.youtube.com/watch?v=GX5w-wTK-lU**
+
+  > **Note:** This is an older video, which is why you'll see `var` instead of `let`. Planning to remake it later on and fix it up!
+
 :books: **Resources to use in these challenges:**
   - [Section 2.3: Intro to functions with practice challenges](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-2/2-3-function-intro-challenges.md).
   - [Section 5.2: Overview of the return statement and variable scope](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-5/5-2-return-and-scope.md)
