@@ -9,6 +9,7 @@ Well, functions can also give ***outputs*** to the rest of your code! Let's lear
   > **Note:** This is an older video, which is why you'll see `var` instead of `let`. Planning to remake it later on and fix it up!
 
 :books: **Prerequisites:**
+  - [Section 2.3: Intro to functions](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-2/2-3-function-intro-challenges.md)
   - [Section 4.2: Intro to functions with inputs (parameters and arguments)](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-4/4-2-function-input-challenges.md)
   
 <hr/>
