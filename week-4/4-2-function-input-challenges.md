@@ -8,7 +8,6 @@ Let's have some more fun with functions! The last time we looked at functions, w
 
 :books: **Resources to use in these challenges:**
   - [Section 2.3: Intro to functions with practice challenges](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-2/2-3-function-intro-challenges.md).
-  - [Section 5.2: Overview of the return statement and variable scope](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-5/5-2-return-and-scope.md)
   - Remember, you can also search for stuff online!
 
 <hr/>
