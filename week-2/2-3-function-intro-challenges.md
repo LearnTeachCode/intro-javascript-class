@@ -14,7 +14,13 @@ Functions are one of the most fundamental concepts in programming, but full of n
 
 ### What are functions?
 
-Functions are like the ***verbs*** of programming, because they perform actions within a program. You can think of functions as their own miniature computer programs that can be *reused* multiple times.
+You can think of functions a few different ways:
+
+  1. Functions are the ***verbs*** of programming; they perform actions! (The *nouns* of programming would be the values, like strings, numbers, etc.) Even more importantly, functions are ***reusable*** actions. For example, if you have a function `eat()`, you can use it to eat lots of things -- `eat("cupcakes")` and `eat("cookies")` and maybe even some vegetables once in a while.
+  
+  2. A function is also like a factory; it takes raw materials as inputs, combines them in some way, and then produces some final product as its output. (This is a bit oversimplified of course, as metaphors usually are!)
+  
+  3. You can also think of functions as miniature computer programs in and of themselves! They can have their own variables and their own space in the computer's memory.
 
 <br/>
 
@@ -22,7 +28,7 @@ Functions are like the ***verbs*** of programming, because they perform actions 
 
 Because they keep your code modular and **DRY** (Don't Repeat Yourself, an important principle for programming and tech in general)!
 
-Keeping your code modular helps you organize everything better. Messy code is like a messy desk with papers scattered all over it -- that makes it harder to find things! Messiness also makes it harder to debug your code if anything breaks. So, wrapping up your code in different functions is a bit like organizing your desk and putting things into boxes and separate piles.
+Just like it's harder to find things if you have a messy office with papers scattered all over the place, it's harder to find the cause of a bug if your *code* is scattered all over the place! Organizing your code into separate functions helps *so much*, just like using boxes and filing cabinets to organize your office.
 
 <br/>
 
