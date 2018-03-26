@@ -1,6 +1,6 @@
 ## 4.3: Practice challenges: Intro to variable scope, functions with outputs, and the `return` statement
 
-We learned how functions can take ***inputs*** by assigning special variable inside the *function definition* (called *parameters*) that later get replaced with specific values (the *arguments*) when the function is *called*.
+We learned how functions can take ***inputs*** by assigning special variables (called *parameters*) inside the *function definition*, which later get replaced with specific values (the *arguments*) when the function is *called*.
 
 Well, functions can also give ***outputs*** to the rest of your code! Let's learn more about that, along with the closely-related topic of *variable scope*. As always, we'll be learning by tinkering, breaking stuff, taking it apart and putting it back together again!
 
