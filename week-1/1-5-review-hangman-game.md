@@ -2,7 +2,7 @@
 
 For extra review, here are several videos covering the concepts we learned this week to start creating our example Hangman game. (Next week will will return to this and finish the game together!)
 
-:books: Remember to bookmark [this link to all our class materials](https://github.com/LearnTeachCode/intro-javascript-class/tree/march-2018)!
+:books: Remember to bookmark [this link to all our class materials](https://github.com/LearnTeachCode/intro-javascript-class/tree/april-2018)!
 
 ❓ **If you have any questions**, please ask on the private Slack channel for our class. (See our [quick intro to Slack](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-1-initial-tools-intro.md#111-intro-to-slack) if you need a refresher.)
 
