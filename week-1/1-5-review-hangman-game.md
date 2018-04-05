@@ -73,4 +73,4 @@ A first look at how to create new variables, change values of existing variables
 
 <hr/>
 
-:point_right: **Next week, we'll learn more and finish the game together!** Meanwhile, be sure to review [all the week 1 materials here](https://github.com/LearnTeachCode/intro-javascript-class/tree/march-2018/week-1) and [start on the homework for week 1](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-7-homework.md) if you have time to. :)
+:point_right: **Next week, we'll learn more and finish the game together!** Meanwhile, be sure to review [all the week 1 materials here](https://github.com/LearnTeachCode/intro-javascript-class/tree/april-2018/week-1) and [start on the homework for week 1](https://github.com/LearnTeachCode/intro-javascript-class/blob/april-2018/week-1/1-7-homework.md) if you have time to. :)
