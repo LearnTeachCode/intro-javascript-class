@@ -48,7 +48,7 @@ This is totally optional, but in our example above, our `logClick` function also
 
 ## Setup:
 
-**Remix this Glitch project for our Hangman game** with the HTML and CSS (but no JavaScript!): Remix this blank hangman game: [https://glitch.com/edit/#!/hangman-v0-blank](https://glitch.com/edit/#!/hangman-v0-blank)
+**Remix this Glitch project for our Hangman game** with the HTML and CSS (but no JavaScript!): [https://glitch.com/edit/#!/hangman-v0-blank](https://glitch.com/edit/#!/hangman-v0-blank)
 
 **Glitch instructions** (a refresher from last week):
 
