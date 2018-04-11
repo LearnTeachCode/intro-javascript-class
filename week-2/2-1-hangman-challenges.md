@@ -26,6 +26,8 @@ Identify each DOM element (pieces of the web page/the HTML code) that will need 
 
 ## Challenge 2:
 
+Remix this blank hangman game: [https://glitch.com/edit/#!/hangman-v0-blank](https://glitch.com/edit/#!/hangman-v0-blank)
+
 Look in the HTML file in your copy of the Glitch project and identify the `id` attribute of each of those elements you identified in the previous challenge.
 
 Did you find them all? :) Did they match up with what you came up with for the previous challenge?
