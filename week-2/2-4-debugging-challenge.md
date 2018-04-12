@@ -4,7 +4,7 @@
 
 It's OK if you don't actually solve it; the point here is just to come up with some ideas, practice debugging with a strategic and scientific approach, and share your process with the rest of our class.
 
-<br/>:beetle: **The bug:** Our super minimal Hangman game ([see the app here](https://hangman-v0-broken.glitch.me/)) is basically finished, but there's one problem: **if the user enters the correct answer, the game still says "you lose!"** What went wrong?
+<br/>:beetle: **The bug:** Our super minimal Hangman game ([see the app here](https://glitch.com/edit/#!/join/87254631-01a2-4a6e-90f4-e74742980783)) is basically finished, but there's one problem: **if the user wins or loses, the game still let's them submit answers** What went wrong?
 
 <br/>:clock2: **Time to complete:** Try not to spend more than 15 minutes on ***each iteration*** your debugging process. (But try to do the whole process more than once to test a couple different hypotheses.)
 
