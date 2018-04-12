@@ -1,5 +1,6 @@
 # 2.1: Hangman game challenges
 
+[SANS PROJECTOR MOB CODING - WEEK 2](https://glitch.com/edit/#!/join/87254631-01a2-4a6e-90f4-e74742980783)
 
 In [week 1](https://github.com/LearnTeachCode/intro-javascript-class/tree/march-2018/week-1) we started learning about variables, data types, DOM elements, and conditional statements. (That was a lot, wasn't it?!) As a warm-up challenge to review all of that -- and to learn some *new* tricks too -- let's start writing the code for our super minimal one-letter Hangman game!
 
