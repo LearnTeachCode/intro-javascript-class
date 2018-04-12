@@ -28,7 +28,7 @@ You can work directly inside Glitch, locally on your computer, or use any other 
 
   > 📺 [Video: Intro to Glitch](https://youtu.be/juqFTEoHN2Q) (6 min)
 
-:star: **Remix our broken Hangman game on Glitch here: https://glitch.com/edit/#!/hangman-v0-broken**
+:star: **Remix our broken Hangman game on Glitch here: https://glitch.com/edit/#!/join/87254631-01a2-4a6e-90f4-e74742980783**
 
 
 <br/>**Using Visual Studio Code:**
