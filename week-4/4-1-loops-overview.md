@@ -157,7 +157,7 @@ Try it out! So that's the exact same code as our first example, but now it loops
 
 ## 4.1.4: Creating a `for` loop
 
-For loops are a different way to structure a loop from the while loops in the previous example. 
+For loops are a different way to structure a loop. 
 
 To turn an `while` loop into a `for` loop, we have to identify the 4 parts of the loop.
 
