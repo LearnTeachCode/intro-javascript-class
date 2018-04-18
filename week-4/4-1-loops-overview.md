@@ -141,6 +141,8 @@ while (dirtyDishes > 0) {
 
 Try it out! So that's the exact same code as our first example, but now it loops on its own, without us copy-pasting to make it repeat manually. Phew! That's so much nicer. This is what computers are meant for.
 
+**Challenge:** Create a `while` loop that sings the song "99 Bottles of Beer". To do this you will need a variable, `bottlesOfBeer`, and a `console.log()` that concatenates the variable into the lyrics.
+
 :bulb: **Pro tip: Practice and test out your loops using [PythonTutor.com](http://pythontutor.com/javascript.html#mode=edit)** instead of directly in your own JavaScript file or your browser's console. Why? Because if you make a mistake, you could accidentally create an infinite loop that would crash your browser! (And it’s annoying to have to restart everything.) PythonTutor will **prevent** infinite loops; it refuses to run your code if it's infinite, and it lets you know with a red error message on their website when you try to visualize the code.
 
   > Be sure to review the [debugging tips and tools in **section 2.1**](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-2/2-1-debugging.md) for more tips like this!
@@ -153,7 +155,61 @@ Try it out! So that's the exact same code as our first example, but now it loops
 
   - There's another type of loop called a `for` loop, which is just a shortened syntax. Anything you can do with a `while` loop, you can also do with a `for` loop, and vice versa! (I recommend just sticking with `while` loops until you're really comfortable with loops.)
 
-## 4.1.4: Bonus material on the GOTO statement and the famous "10 PRINT" maze
+## 4.1.4: Creating a `for` loop
+
+For loops are a different way to structure a loop from the while loops in the previous example. 
+
+To turn an `while` loop into a `for` loop, we have to identify the 4 parts of the loop.
+
+**Identify the 4 conditions in the `for` loop!**
+
+```javascript
+for (let dirtyDishes = 10; dirtyDishes > 0; dirtyDishes--;) {
+  console.log("Dirty dishes remaining: " + dirtyDishes);  
+}
+```
+
+**Challenge 1:** Create a `for` loop that sings the song "99 Bottles of Beer". To do this you will need a variable, `bottlesOfBeer`, and a `console.log()` that concatenates the variable into the lyrics.
+
+**Challenge 2:** Create a `for` loop that sings the song "99 Bottles of Beer" in reverse order. So start with `bottlesOfBeer = 0;` and count up to 99!
+
+## 4.1.5: Looping through an array
+
+Looping through an array is common in programming.
+
+**Log the values of an array**
+
+```javascript
+let myArray = [0, 1, 2, 3, 4];
+
+for (let i = 0; dirtyDishes > 0; dirtyDishes--;) {
+  console.log(myArray[i]);  
+}
+```
+
+**Challenge:** Create an array containing the values 0 through 99 using `for` loop.
+
+## 4.1.6: Looping through an object
+
+Looping through an object is possible using a special type of loop called a `for...in` loop
+
+**Log the values of an array**
+
+```javascript
+let myObject = {
+  1: "one",
+  2: "two",
+  3: "three"
+};
+
+for (let x in myObject) {
+  console.log(myObject[x]);  
+}
+```
+
+**Challenge:** Create an object with three key:value pairs 0 and loop through it to log the name of each property to the console.
+
+## 4.1.7: Bonus material on the GOTO statement and the famous "10 PRINT" maze
 
 In class and in [our long review video covering loops](https://youtu.be/YmyROsrVQWI), we started by taking a look at one of the most famous lines of code, called "10 PRINT" for short. It's a single line of code (written in an old language called [BASIC](https://en.wikipedia.org/wiki/BASIC)) that creates an infinite loop, generating a maze on the screen by randomly displaying forward slashes or backslashes!
 
