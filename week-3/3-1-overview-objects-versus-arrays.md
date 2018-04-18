@@ -1,3 +1,7 @@
+**MOB CODING GLITCH: https://glitch.com/edit/#!/join/dd2504e2-5fb8-45f1-802a-f5d47940a87b**
+
+<p align="center"><img src="https://i.redd.it/3gvd1bko3ps01.jpg" width=500/></p>
+
 # 3.1: Overview of objects versus arrays
 
 Whereas the "primitive" data types like numbers, Booleans, and strings contain a *single* chunk of information, objects and arrays contain *multiple* pieces of data. So you can think of objects and arrays as ***containers for related variables***, to help keep everything organized!
