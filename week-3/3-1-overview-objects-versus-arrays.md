@@ -1,6 +1,6 @@
 **MOB CODING GLITCH: https://glitch.com/edit/#!/join/dd2504e2-5fb8-45f1-802a-f5d47940a87b**
 
-<p align="center"><img src="https://i.redd.it/3gvd1bko3ps01.jpg" width=500/></p>
+<p align="center"><img src="https://i.redd.it/3gvd1bko3ps01.jpg" width=420/></p>
 
 # 3.1: Overview of objects versus arrays
 
