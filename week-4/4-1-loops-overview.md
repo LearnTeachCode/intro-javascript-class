@@ -1,3 +1,7 @@
+**[Week 4 Mob Coding Glitch](https://glitch.com/edit/#!/join/31b62617-eb28-4bc9-a142-b9998ff3f19b)**
+
+[Week 4 Survey](https://docs.google.com/forms/d/e/1FAIpQLScXUmygm8XdlKVHYlQLX3vC0IkPDpkt50bIXigHK4_EzuycMw/viewform?usp=sf_link)
+
 # 4.1: Intro to loops
 
 Loops are a lazy programmer's best friend; they tell the computer to repeat an action multiple times, so that we don't have to! In this section, we'll review the concept of looping and some examples of creating loops in our code.
