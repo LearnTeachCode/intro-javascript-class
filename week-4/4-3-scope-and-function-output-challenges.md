@@ -29,7 +29,7 @@ console.log(robotNinjaPirate);
 
 **Discuss:** Was your hypothesis correct? Why or why not? (Just take some guesses and talk about them.)
 
-**Next, try to fix the code** so that the value of `localTest` will appear in the console. See if you can fix it ***three different ways***.
+**Next, try to fix the code** so that the value of `robotNinjaPirate` will appear in the console. See if you can fix it ***three different ways***.
 
 <br/>
 
