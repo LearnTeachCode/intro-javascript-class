@@ -3,6 +3,8 @@
 ***Class materials for our workshop series taught by Liz Krane for Learn Teach Code.***
 
 **Curriculum links:**
+  - May 2018 intermediate curriculum: https://github.com/LearnTeachCode/intro-javascript-class/tree/may-2018-int
+
   - April 2018 curriculum: https://github.com/LearnTeachCode/intro-javascript-class/tree/april-2018
   
   - March 2018 curriculum: https://github.com/LearnTeachCode/intro-javascript-class/tree/march-2018
