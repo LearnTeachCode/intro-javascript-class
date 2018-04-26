@@ -17,7 +17,7 @@ There's already a location in the database with *your actual name* as the proper
 
 **Get the value stored in that database location (described above) and display it on the page, inside the HTML element with the id of `"yourname"`.** You'll know you got it working if you get your web page to display `"put your name here"`, because in challenge 2 you'll replace that value with your actual name.
 
-Be sure to look through [our Firebase notes](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/3-1-firebase-functions.md) and use our example code as a reference for *all* of these challenges!
+Be sure to look through [our Firebase notes](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-1-firebase-functions.md) and use our example code as a reference for *all* of these challenges!
 
 ## Challenge 2:
 
