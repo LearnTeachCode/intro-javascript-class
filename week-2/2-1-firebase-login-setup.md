@@ -1,19 +1,19 @@
-# 6.1: Setting up your login system with GitHub and Firebase
+# 2.1: Setting up your login system with GitHub and Firebase
 
 So far we've set up a small but functional Firebase app and practiced using some of the Firebase functions for accessing and displaying data. Next, we'll set up our app to enable Firebase Authentication using the GitHub API!
 
-📚 **Prerequisite:** You'll first need to set up your own personal Firebase app by following [the instructions in **section 3.4**](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-4-firebase-setup.md)!
+📚 **Prerequisite:** You'll first need to set up your own personal Firebase app by following [the instructions in **section 1.3**](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-3-firebase-setup.md)!
 
 **Table of Contents:**
 
-  - 6:1.1: Register a new GitHub OAuth application
-  - 6.1.2: Set up GitHub authentication in the Firebase console
+  - 2.1.1: Register a new GitHub OAuth application
+  - 2.1.2: Set up GitHub authentication in the Firebase console
 
 :star: ***Important note for getting set up:*** The instructions below will *only* work in **Glitch** (or a similar *online* coding sandbox tool like CodePen or others). To work with the Firebase login system locally on your computer, you'll need to [set up a local web server on your computer (click here for a general guide)](https://gist.github.com/jgravois/5e73b56fa7756fd00b89). Let us know if you need help setting it up locally; that's what we're here for!
 
 <hr/>
 
-## 6.1.1: Register a new GitHub OAuth application
+## 2.1.1: Register a new GitHub OAuth application
 
 📑 **Official documentation:** [Firebase Authentication Using GitHub with JavaScript](https://firebase.google.com/docs/auth/web/github-auth) and [Registering OAuth Apps on GitHub](https://developer.github.com/apps/building-integrations/setting-up-and-registering-oauth-apps/registering-oauth-apps/)
 
@@ -40,7 +40,7 @@ When we register our OAuth app with GitHub, we get a unique ***Client ID*** and 
   4. Click "Register application" at the bottom to save everything, and ***keep the tab open!*** You'll need to copy-paste your Client ID and Client Secret for the next steps.
 
 
-## 6.1.2: Set up GitHub authentication in the Firebase console
+## 2.1.2: Set up GitHub authentication in the Firebase console
 
 📑 **Official documentation:** [Firebase Authentication Using GitHub with JavaScript](https://firebase.google.com/docs/auth/web/github-auth)
 
@@ -62,4 +62,4 @@ Now that we have things mostly set up on the GitHub side of things, we also need
 
 :trophy: **And that's it!** Your app is now all configured to use both the GitHub API and Firebase Authentication.
 
-:point_right: **Next up**, in [section 6.2: Firebase user login challenges](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-6/6-2-firebase-login-challenges.md), we'll write some code to implement a very basic user login system!
+:point_right: **Next up**, in [section 2.2: Firebase user login challenges](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-2-firebase-login-challenges.md), we'll write some code to implement a very basic user login system!

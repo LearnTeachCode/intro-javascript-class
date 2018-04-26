@@ -1,23 +1,23 @@
-# 6.2: Firebase user login challenges
+# 2.2: Firebase user login challenges
 
 So far we've set up a small but functional Firebase app and practiced using some of the Firebase functions for accessing and displaying data. Next, we'll practice with our shared Firebase app to implement a user login system using Firebase Authentication and the GitHub API!
 
 📚 **Prerequisites and resources:**
 
-  - Make sure you've already completed [section 6.1: Setting up your login system with GitHub and Firebase](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-6/6-1-firebase-login-setup.md)!
-  - If you need a refresher, take a look at [section 3.1 to review some basic Firebase functions](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-1-firebase-functions.md)
+  - Make sure you've already completed [section 2.1: Setting up your login system with GitHub and Firebase](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-1-firebase-login-setup.md)!
+  - If you need a refresher, take a look at [section 1.1 to review some basic Firebase functions](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-1-firebase-functions.md)
   - As an extra resource, see [Firebase's official documentation on GitHub Auth with JavaScript](https://firebase.google.com/docs/auth/web/github-auth) and their page on [Managing Users in Firebase](https://firebase.google.com/docs/auth/web/manage-users)
 
 **Table of contents:**
-  - 6.2.1: Set up your web page
-  - 6.2.2: Add Firebase Authentication functions
-  - 6.2.3: Access Firebase user profile information
+  - 2.2.1: Set up your web page
+  - 2.2.2: Add Firebase Authentication functions
+  - 2.2.3: Access Firebase user profile information
 
 <hr/>
 
-## 6.2.1: Set up your web page
+## 2.2.1: Set up your web page
 
-Before jumping into any of the new Firebase stuff, let's first set up our example web app and review how to work with DOM elements and event listeners. **For all of these challenges, you'll need to use your own Firebase app on Glitch.** (Complete both [**section 3.4**](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-4-firebase-setup.md) and [**section 6.1**](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-6/6-1-firebase-login-setup.md) first if you haven't yet!)
+Before jumping into any of the new Firebase stuff, let's first set up our example web app and review how to work with DOM elements and event listeners. **For all of these challenges, you'll need to use your own Firebase app on Glitch.** (Complete both [**section 1.4**](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-4-firebase-setup.md) and [**section 2.1**](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-1-firebase-login-setup.md) first if you haven't yet!)
 
 :star: ***Important note for getting set up:*** The instructions below will *only* work in **Glitch** (or a similar *online* coding sandbox tool like CodePen or others). To work with the Firebase login system locally on your computer, you'll need to [set up a local web server on your computer (click here for a general guide)](https://gist.github.com/jgravois/5e73b56fa7756fd00b89).
 
@@ -46,12 +46,12 @@ Make sure you test that your code works! Remember that you can `console.log()` e
 
 Create an event listener for both buttons, so that every time the user clicks one of those buttons, a message should appear in the browser console that says either `"User clicked login button!"` or `"User clicked logout button!"`
 
-  > If you need a refresher, be sure to review [section 1.2.5: events and event listeners](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-2-review-hangman-game.md#125-intro-to-events-and-event-listeners).
+  > If you need a refresher, be sure to review events and event listeners.
 
 Again, make sure you test your app to see that your code works correctly!
 
 
-## 6.2.2: Add Firebase Authentication functions
+## 2.2.2: Add Firebase Authentication functions
 
 Now that your web page is set up with the bare essentials to test out your simple login system, let's use the functions provided by the Firebase Authentication library to let users log in or log out with their GitHub account, and display their username on your web page!
 
@@ -118,7 +118,7 @@ The Firebase  `onAuthStateChanged` method is an event listener that is triggered
 
 Define the function named `handleAuthStateChange`. It should take in ***one parameter*** named `user`. Then be sure to test your app again to make sure it works! (You can test that the event listener is working by using `console.log()` to show a message any time your function gets called.)
 
-  > If you need to review how to define functions and parameters vs arguments, see [section 5.1 on functions](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-5/5-1-function-basics.md).
+  > Be sure to review the material from our previous class on how to define functions, how to call functions, and the difference between parameters and arguments.
 
 ### Challenge 6:
 
@@ -157,7 +157,7 @@ Next, add some more code inside those if/else statements to display a message in
 As always, test it to make sure everything works as expected!
 
 
-## 6.2.3: Access and display Firebase user information
+## 2.2.3: Access and display Firebase user information
 
 For the challenges below, take a look through the official documentation for the [Firebase User object](https://firebase.google.com/docs/reference/js/firebase.User) to get a sense of what information Firebase stores for the currently logged-in user.
 

@@ -1,12 +1,12 @@
-# 3.3: Firebase practice challenges
+# 1.2: Firebase practice challenges
 
 Let's tinker with Firebase, jumping in with some practice challenges to learn how to display, add, update, and delete data from our shared Firebase database!
 
 :star: **For the challenges below, first make a remix of this Glitch project (or copy the code into a local file) to use our demo Firebase app: https://firebase-starter1.glitch.me/**
 
 :books: **Resources to use in these challenges:**
-  - [Section 3.1: Core functions of the Firebase database library](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-1-firebase-functions.md)  
-  - [Section 2.2: Intro to objects and arrays](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-2/2-2-objects-arrays.md)
+  - [Section 1.1: Core functions of the Firebase database library](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-1-firebase-functions.md)  
+  - Review our previous Intro to objects and arrays section
   - You can also search for stuff online, especially in the [official Firebase documentation](https://firebase.google.com/docs/reference/js/) (but that might be trickier to navigate)
 
 <hr/>
@@ -17,7 +17,7 @@ There's already a location in the database with *your actual name* as the proper
 
 **Get the value stored in that database location (described above) and display it on the page, inside the HTML element with the id of `"yourname"`.** You'll know you got it working if you get your web page to display `"put your name here"`, because in challenge 2 you'll replace that value with your actual name.
 
-Be sure to look through [our Firebase notes](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-1-firebase-functions.md) and use our example code as a reference for *all* of these challenges!
+Be sure to look through [our Firebase notes](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/3-1-firebase-functions.md) and use our example code as a reference for *all* of these challenges!
 
 ## Challenge 2:
 
@@ -80,5 +80,4 @@ Once you successfully delete it, if you refresh the web page, the second paragra
 
 :trophy: ***Great job! Now you're practically a Firebase database ninja!*** You can already start building database-driven apps with these few functions you just practiced using. :)
 
-:point_right: **Next:** Follow the steps in [section 3.4: Setting up your own Firebase app](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-4-firebase-setup.md)!
-
+:point_right: **Next:** Follow the steps in [section 1.3: Setting up your own Firebase app](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-3-firebase-setup.md)!

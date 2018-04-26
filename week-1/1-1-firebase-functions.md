@@ -1,35 +1,35 @@
-# 3.1: Core functions of the Firebase database library
+# 1.1: Core functions of the Firebase database library
 
 With just a handful of the functions provided by the [Firebase](https://firebase.google.com) database library, we already have everything we need to start prototyping database-driven applications!
 
 ❓ **If you have any questions,** please ask on the private Slack channel for our class.
 
 :books: **Prerequisites:**
-  - You should be familiar with [everything in section 1](https://github.com/LearnTeachCode/intro-javascript-class/tree/master/week-1), especially the section on [events and event listeners (#1.2.5)](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-2-review-hangman-game.md#125-intro-to-events-and-event-listeners).
-  - Definitely review [section 2.2 on objects and arrays](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-2/2-2-objects-arrays.md) and [section 2.3 on data modeling](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-2/2-3-data-modeling.md).
+  - You should be familiar with events and event listeners
+  - Definitely review objects and arrays and how they can be used to model different kinds of data
 
 **Table of Contents:**  
-  - 3.1.1: The structure of Firebase databases
-  - 3.1.2: Firebase database paths
-  - 3.1.3: Firebase database reference objects and the `ref()` function
-  - 3.1.4: Reading data with Firebase event listeners
-  - 3.1.5: Adding and updating Firebase data with the `set()` function
-  - 3.1.6: Removing Firebase data with the `remove()` function
-  - 3.1.7: Pushing new Firebase data with the `push()` function
-  - 3.1.8: Displaying a list of Firebase data with the `forEach()` function
+  - 1.1.1: The structure of Firebase databases
+  - 1.1.2: Firebase database paths
+  - 1.1.3: Firebase database reference objects and the `ref()` function
+  - 1.1.4: Reading data with Firebase event listeners
+  - 1.1.5: Adding and updating Firebase data with the `set()` function
+  - 1.1.6: Removing Firebase data with the `remove()` function
+  - 1.1.7: Pushing new Firebase data with the `push()` function
+  - 1.1.8: Displaying a list of Firebase data with the `forEach()` function
 
 <hr/>
 
 
-## 3.1.1: The structure of Firebase databases
+## 1.1.1: The structure of Firebase databases
 
-Firebase databases store data as a **hierarchy** (also called a *tree*), just like how files and folders are stored on your computer, or how web pages are structured in the Document Object Model (see [section 1 to review the DOM](https://github.com/LearnTeachCode/intro-javascript-class/tree/master/week-1)).
+Firebase databases store data as a **hierarchy** (also called a *tree*), just like how files and folders are stored on your computer, or how web pages are structured in the Document Object Model.
 
-If you're comfortable creating objects in JavaScript using object literal notation, then you already know the basics of JSON (see [section 2.2.5 for notes on JSON](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-2/2-2-objects-arrays.md)). And if you know how to work with JavaScript objects and JSON, you pretty much already know how to work with data stored in a Firebase database, because **Firebase stores** ***everything*** **as JSON data**!
+If you're comfortable creating objects in JavaScript using object literal notation, then you already know the basics of JSON (JavaScript Object Notation). And if you know how to work with JavaScript objects, you pretty much already know how to work with data stored in a Firebase database, because **Firebase stores** ***everything*** **as JSON data**!
 
   > **Note:** There are many different types of databases, and the Firebase database is an example of what are commonly called **NoSQL databases**. That's a topic to look up if you're curious! (Definitely a more advanced topic though.)
 
-Remember our penguin database example from [section 2.3 on data modeling](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-2/2-3-data-modeling.md)? Here's how our penguin data is represented in an actual Firebase database:
+Here's how our example penguin data is represented in an actual Firebase database:
 
 ![Fictional penguins Firebase database](https://user-images.githubusercontent.com/1555022/27147872-37732274-50f3-11e7-90f2-70c82e539477.png)
 
@@ -44,7 +44,7 @@ Remember our penguin database example from [section 2.3 on data modeling](https:
 We'll review these new concepts step by step in the sections below.
 
 
-## 3.1.2: Firebase database paths
+## 1.1.2: Firebase database paths
 
 In Firebase, each part of your database is treated as a *location* specified by a ***path***, which is a specially formatted string. We use paths with the same format in many other areas of computing, not just with Firebase!
 
@@ -71,7 +71,7 @@ In Firebase, each part of your database is treated as a *location* specified by 
 Notice that we access these locations in our database a bit like we access properties (also called keys) in JavaScript objects, just with a different syntax!
 
 
-## 3.1.3: Firebase database reference objects and the `ref()` function
+## 1.1.3: Firebase database reference objects and the `ref()` function
 
 Now that we know how to format the string for a *path*, how do we actually read data from the specified location in our database? The next step is to create a [***database reference object***](https://firebase.google.com/docs/reference/js/firebase.database.Reference) in our JavaScript code. This step is very similar to how we've been using `document.getElementById()` to convert an element from our web page into a JavaScript object.
 
@@ -102,13 +102,13 @@ Notice that the `ref()` function takes one input, which needs to be a **string**
 So you can use `firebase.database().ref()` to access any part of your database, at any level of the hierarchy! Next, let's review the third and final step to actually read data from our Firebase database.
 
 
-## 3.1.4: Reading data with Firebase event listeners
+## 1.1.4: Reading data with Firebase event listeners
 
 To recap, we've now covered the first two steps for reading data from Firebase: identifying the *path* for a location in the database, and then creating a *database reference object* to represent that database location. Now, onto the last two steps!
 
 To read data from our database, we need to use a special **event listener** provided by Firebase. Why an event listener and not just a simple function? Because Firebase updates the data *in real time*, which means that if the data changes, Firebase can instantly update that data on your web page! (This makes it pretty easy to make apps like chat rooms and multiplayer games!)
 
-If you know how to use [event listeners in JavaScript (review section 1.2.5 here)](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-2-review-hangman-game.md#125-intro-to-events-and-event-listeners), then you already know how to use event listeners with Firebase! The main Firebase event listener we'll be using has a very short name: `on()`. So when working with Firebase events, we use `on()` instead of `addEventListener`.
+If you know how to use event listeners in JavaScript, then you already know how to use event listeners with Firebase! The main Firebase event listener we'll be using has a very short name: `on()`. So when working with Firebase events, we use `on()` instead of `addEventListener`.
 
 **Example of using the Firebase `on` listener:**
 
@@ -129,7 +129,7 @@ function logData (dataSnapshot) {
 }
 ```
 
-Just like with [regular JavaScript event listeners](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-2-review-hangman-game.md#125-intro-to-events-and-event-listeners), every time you work with Firebase database event listeners, there are **three main questions** you'll need to answer:
+Just like with regular JavaScript event listeners, every time you work with Firebase database event listeners, there are **three main questions** you'll need to answer:
 
   - **Where is the event happening? Which part of our database?** On the `penguinNameRef` object, which points to the name of a particular penguin, located at the path `"penguins/1152/name"` inside Firebase.
 
@@ -145,7 +145,7 @@ We use the `"value"` event, which is triggered *once* when our web page loads an
 
 The `dataSnapshot` object is like a photograph of our data at a certain moment in time. The data snapshot is given to one of our own functions by the Firebase event listener `on()`, whenever it's triggered by that `"value"` event.
 
-The `dataSnapshot` object is similar to the `event` object used in our [second event listener example in section 1.2.5](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-2-review-hangman-game.md#125-intro-to-events-and-event-listeners), so definitely review that section!
+The `dataSnapshot` object is similar to the `event` object used in some of our previous event listener examples, so definitely review that!
 
 With Firebase, when we just want the **value** of our data, we don't need to use the entire `dataSnapshot` object; it contains lots of other things that we don't need. So to extract just the value of our data, we use the built-in `val()` function. When we call `dataSnapshot.val()`, we get *only* the value of our data. 
 
@@ -210,7 +210,7 @@ To recap, there are **four steps for reading data from Firebase:**
 Next, let's review the most common functions we'll be using to add, update, and delete Firebase data!
 
 
-## 3.1.5: Adding and updating Firebase data with the `set()` function
+## 1.1.5: Adding and updating Firebase data with the `set()` function
 
 The [Firebase `set()` function](https://firebase.google.com/docs/reference/node/firebase.database.Reference#set) writes data to the location specified by a database reference object. If the specified location in your database doesn't exist, `set()` will create it; otherwise, if it *does* already exist, `set()` will update (overwrite) the data at that location.
 
@@ -262,7 +262,7 @@ newPenguinRef.set(newPenguinObject);
 ```
 
 
-## 3.1.6: Removing Firebase data with the `remove()` function
+## 1.1.6: Removing Firebase data with the `remove()` function
 
 Firebase has a built-in [`remove()` function](https://firebase.google.com/docs/reference/node/firebase.database.Reference#remove) that does exactly what you'd expect: it removes data from a location in your database. To use this function, we must first create a database reference object for the part of our database that we want to remove.
 
@@ -289,7 +289,7 @@ penguinRef.remove();
 Notice that `remove()` doesn't require an input, since it already needs to be attached to a database reference object. That reference object is what gets removed. (A similar example is the `pop()` function built into every array, which removes the last element of whichever array it's attached to.)
 
 
-## 3.1.7: Pushing new Firebase data with the `push()` function
+## 1.1.7: Pushing new Firebase data with the `push()` function
 
 Just like you can `push()` a new value onto the end of an array, Firebase also provides its own special [`push()` function](https://firebase.google.com/docs/reference/node/firebase.database.Reference#push) to add a new *child* location into the hierarchy of your database!
 
@@ -336,7 +336,7 @@ newPenguinRef.set(editedPenguin);
 ```
 
 
-## 3.1.8: Displaying a list of Firebase data with the `forEach()` function
+## 1.1.8: Displaying a list of Firebase data with the `forEach()` function
 
 :star: **Note:** This function is definitely a bit more advanced! You'll need to be very comfortable with functions that run other functions before you *really* learn how to use this one. **So think of this as a bonus challenge!**
 
@@ -383,4 +383,4 @@ Notice that we define *two* of our own functions in the code above, since our co
 
 :trophy: **Great job if you've made it this far!** This is a *lot* of new material and it *should* be challenging. Don't worry if you don't understand it yet; we will return to these concepts and practice more.
 
-:point_right: **Next:** work on [section 3.3: Firebase practice challenges](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-3-firebase-challenges.md) or complete the steps in [section 3.4: Setting up your own Firebase app](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-3/3-4-firebase-setup.md).
+:point_right: **Next:** work on [section 1.2: Firebase practice challenges](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-2-firebase-challenges.md) or complete the steps in [section 1.3: Setting up your own Firebase app](https://github.com/LearnTeachCode/intro-javascript-class/blob/master/week-1/1-3-firebase-setup.md).
