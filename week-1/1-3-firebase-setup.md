@@ -98,9 +98,9 @@ Great, we have some data to tinker with! :) In the next several steps, we'll wri
 let dbGreetingRef = firebase.database().ref("greeting");
 ```
 
-  > Be sure to review [section 3.1.3 on Firebase database reference objects](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-1-firebase-functions.md#313-firebase-database-reference-objects-and-the-ref-function)!
+  > Be sure to review [section 1.1.3 on Firebase database reference objects](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-1-firebase-functions.md#113-firebase-database-reference-objects-and-the-ref-function)!
 
-**7. Next, we'll use another built-in Firebase function to create an event listener.** We always need to use events to access data from our Firebase database. See [section 3.1.4: Reading data with Firebase event listeners](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-1-firebase-functions.md#114-reading-data-with-firebase-event-listeners) to review!
+**7. Next, we'll use another built-in Firebase function to create an event listener.** We always need to use events to access data from our Firebase database. See [section 1.1.4: Reading data with Firebase event listeners](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-1-firebase-functions.md#114-reading-data-with-firebase-event-listeners) to review!
 
 ```javascript
 // Set up the Firebase event listener on our database reference object.
