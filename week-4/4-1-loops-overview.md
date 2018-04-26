@@ -168,7 +168,7 @@ To turn an `while` loop into a `for` loop, we have to identify the 4 parts of th
 **Identify the 4 conditions in the `for` loop!**
 
 ```javascript
-for (let dirtyDishes = 10; dirtyDishes > 0; dirtyDishes--;) {
+for (let dirtyDishes = 10; dirtyDishes > 0; dirtyDishes--) {
   console.log("Dirty dishes remaining: " + dirtyDishes);  
 }
 ```
