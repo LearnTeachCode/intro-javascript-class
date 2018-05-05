@@ -43,9 +43,19 @@ One of the easiest (but most limited) tools for saving persistent data in a web 
 
 Try refreshing the web page for both versions -- see the difference? Pretty cool, isn't it?
 
-**Discuss:** Will this new version of the game remember your information if you switch computers? Why or why not?
+<br/>
 
-:warning: But this is for demonstration purposes only. **The Web Storage API is** ***very*** limited and should not be used in place of a real database!** So please only use it for prototypes, at least until you understand its pros and cons.
+## Challenge 3:
+
+**Discuss:**
+
+  - Will this new version of the game remember your information if you switch computers?
+  - Why or why not?
+
+<br>
+:warning: **Important warning:** This is for demonstration purposes only!
+
+***The Web Storage API is very limited and should not be used in place of a real database!*** So please only use it for prototypes, at least until you understand its pros and cons.
 
 <br/>
 
