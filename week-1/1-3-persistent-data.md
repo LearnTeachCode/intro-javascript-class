@@ -34,7 +34,13 @@ When we save data into variables within our code, they're stored in the computer
 
 We use the term ***persistent data*** for information that can still be retrieved *after* shutting down the program that created the data.
 
-One of the easiest (but most limited) tools for saving persistent data in a web app is the [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API), which is built into most modern web browsers!
+One of the easiest (but most limited) tools for saving persistent data in a web app is the [**Web Storage API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API), which is built into most modern web browsers!
+
+:warning: **Important warning:** ***The Web Storage API is very limited and should not be used in place of a real database!*** So please only use it for prototypes, not for published applications meant to be used by real people -- at least until you understand its pros and cons.
+
+<br/>
+
+## Challenge 3:
 
 **Compare these two versions of our example game:**
 
@@ -43,21 +49,13 @@ One of the easiest (but most limited) tools for saving persistent data in a web 
 
 Try refreshing the web page for both versions -- see the difference? Pretty cool, isn't it?
 
-<br/>
-
-## Challenge 3:
-
 **Discuss:**
 
   - Will this new version of the game remember your information if you switch computers?
   - Why or why not?
 
-<br>
-:warning: **Important warning:** This is for demonstration purposes only!
-
-***The Web Storage API is very limited and should not be used in place of a real database!*** So please only use it for prototypes, at least until you understand its pros and cons.
-
 <br/>
+
 
 <hr/>
 
