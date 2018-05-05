@@ -115,4 +115,4 @@ Be sure to write down all of your questions as well!
 
 :trophy: **Congrats!** It may not seem like much, but building an app from start to finish is a *big* win! No matter how ambitious or complex your project may be, you'll always go through a similar process to break it down into bite-sized pieces with clear, step-by-step instructions that will gradually turn your ideas into a working product.
 
-:point_right: **Next up:** we'll review a bit about JavaScript objects and add a new feature to this game, leading up to our first look at persistent data and how to get started with the Firebase database library!
+:point_right: **Next up:** [in section 1.2, we'll review a bit about JavaScript objects and add a new feature to this game](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-2-review-objects.md), leading up to our first look at persistent data and how to get started with the Firebase database library!
