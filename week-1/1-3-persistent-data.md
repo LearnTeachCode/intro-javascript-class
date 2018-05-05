@@ -59,7 +59,6 @@ Try refreshing the web page for both versions. See the difference? *Pretty cool,
 
 <br/>
 
-
 <hr/>
 
-:point_right: **Next up:** ...
+:point_right: **Next up:** in [section 1.4, we'll take our first look at JSON data](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-4-json-intro.md), which takes us one step closer to our goal of adding persistent data to our web apps!
