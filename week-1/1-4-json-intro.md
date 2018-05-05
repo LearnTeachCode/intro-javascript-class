@@ -154,4 +154,4 @@ What's the *other* built-in JSON function? And what does it do? Why is it useful
 
 :trophy: ***Great job!*** You now know the very basics of how to package up your data in preparation to send it somewhere, whether to a database or a third-party web API (topics we'll get to soon enough)!
 
-:point_right: **Next up:** ...
+:point_right: **Next up:** in [section 1.5, we'll start learning about the Firebase database library with the important concept of **paths**](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-5-firebase-paths.md), which we need in order to access data from the databases that we'll be building later!
