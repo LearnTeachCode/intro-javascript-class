@@ -122,6 +122,6 @@ In the previous section, we created a super simple click-counting game based on 
 
 <hr/>
 
-:trophy: **Great work!**
+:trophy: **Great work!** As you develop a solid understanding of objects, you'll be a better software developer in *any* programming language, not just JavaScript.
 
-:point_right: **Next up:** ...
+:point_right: **Next up:** In [section 1.3, we'll take a quick look at one (limited) form of persistent data](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-3-persistent-data.md) using a new version of our click-counter game.
