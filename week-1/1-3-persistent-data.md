@@ -1,42 +1,42 @@
 # 1.3: Persistent data: example and discussion
 
-After discussing how to model the data for our click-counting game to work towards turning it into a multiplayer game, we might end up with something like this: https://dragon-defeater-v1-finished.glitch.me/
-
-In that working version of the game, we're now saving more information that could potentially identify each unique user: their name and their email address! This game is *far* from finished, of course, but it's a start.
+At the end of [the previous section reviewing objects](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-2-review-objects.md), we discussed how we might model the data for our click-counting game if we made a multiplayer version. Let's take a quick look at two quick examples building up from where we left off, as we move closer to working with databases!
 
 <hr/>
 
 ## Challenge 1:
 
-Take a look at [the JavaScript code for this version of the game](https://glitch.com/edit/#!/dragon-defeater-v1-finished).
+Here's a working version of the game that also tracks the player's name and email address (well, sort of!): https://dragon-defeater-v1-finished.glitch.me/
 
-Notice how instead of only tracking a single number -- the number of clicks -- we're now using an ***object*** to save information about the player along with their clicks. You could even say that the object is sort of like a miniature database!
+**Take a look at the JavaScript code here:** https://glitch.com/edit/#!/dragon-defeater-v1-finished
+
+Notice how instead of only tracking a single number -- the number of clicks -- we're now using an ***object*** to save information about the player along with their clicks. You could even say that the object is basically a miniature database!
 
 **Discuss:**
 
-  - Why does it make sense to use an object here?
-  - Why not just use several variables that are all completely separate from each other?
+  1. Why does it make sense to use an object here?
+  2. Why not just use several variables that are all completely separate from each other?
 
 <br/>
 
 ## Challenge 2:
 
-Test out [this working version of our click-counting game](https://dragon-defeater-v1-finished.glitch.me/) and discuss:
+[**Test out the game**](https://dragon-defeater-v1-finished.glitch.me/) and then **discuss:**
     
-  - What happens if you refresh the page, or if you close and open it again?
-  - Why?
+  1. What happens if you refresh the page, or if you close it and open it again?
+  2. More importantly: *why* does this happen?
 
 <br/>
 
-## Bonus example: storing data locally with the Web Storage API
+## Storing data locally with the Web Storage API
 
 When we save data into variables within our code, they're stored in the computer's **memory**. In the case of JavaScript running inside a web browser, that memory only lasts for as long as the web page is open! It's *temporary*, not *persistent*.
 
-We use the term ***persistent data*** for information that can still be retrieved *after* shutting down the program that created the data.
+:star: We use the term ***persistent data*** to describe information that can still be retrieved after shutting down the program that created it. 
 
 One of the easiest (but most limited) tools for saving persistent data in a web app is the [**Web Storage API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API), which is built into most modern web browsers!
 
-:warning: **Important warning:** ***The Web Storage API is very limited and should not be used in place of a real database!*** So please only use it for prototypes, not for published applications meant to be used by real people -- at least until you understand its pros and cons.
+:warning: **Important warning:** ***The Web Storage API has many limitations and should not be used in place of a real database!*** So please only use it for prototypes, not for published applications meant to be used by real people -- at least until you understand its pros and cons!
 
 <br/>
 
@@ -44,21 +44,22 @@ One of the easiest (but most limited) tools for saving persistent data in a web 
 
 **Compare these two versions of our example game:**
 
-  - [The version using only browser memory](https://dragon-defeater-v1-finished.glitch.me/)
-  - [This new version using the Web Storage API](https://dragon-defeater-v1-localstorage.glitch.me/)
+  1. The version from above (using only browser memory): https://dragon-defeater-v1-finished.glitch.me/
+  2. This new version using the Web Storage API: https://dragon-defeater-v1-localstorage.glitch.me/
 
-Try refreshing the web page for both versions -- see the difference? Pretty cool, isn't it?
+Try refreshing the web page for both versions. See the difference? *Pretty cool, isn't it?*
 
 **Discuss:**
 
-  - Will this new version of the game remember your information if you switch computers?
-  - Why or why not?
+  1. Will this new version of the game remember your information if you switch between your computer and your phone, or between different computers?  
+  2. Why or why not?
+  3. How can we make that information available across different computers and devices? What extra work (and what extra technologies) would we need?
+
+**Bonus question:** What about if you stay on the same computer but switch between different web browsers? Will the game still keep track of your data?
 
 <br/>
 
 
 <hr/>
-
-:trophy: **Great work!**
 
 :point_right: **Next up:** ...
