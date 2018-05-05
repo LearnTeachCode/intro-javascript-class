@@ -10,8 +10,8 @@ We'll be using their real-time database platform as the backend for our app, so 
 
 :books: **Prerequisites:**
   - Definitely do the previous activities for this week's class first!
-  - Review the Document Object Model (DOM) with [section 1.2 from our beginner curriculum](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-2-dom-challenges.md)
-  - See also the video on the DOM from [section 1.5 of our beginner curriculum](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-5-review-hangman-game.md#154-the-dom-interacting-with-html-and-css-using-javascript)
+  - Optional: you can review the Document Object Model (DOM) with [section 1.2 from our beginner curriculum](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-2-dom-challenges.md)
+  - Optional: see the video on the DOM from [section 1.5 of our beginner curriculum](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-5-review-hangman-game.md#154-the-dom-interacting-with-html-and-css-using-javascript)
 
 <hr/>
 
@@ -79,7 +79,7 @@ And what would be the path to that penguin's name?
 
 We use the special path `/` (just a single forward slash) to access the entire database (the ***root*** of the tree or hierarchy). In our case, the root is `test-web-app-4fde9` (which you can see at the top of the penguin database hierarchy in the image).
 
-    > **Note:** It's an old convention in computing to use `/` as the path for the **root** of any system. By root, we mean the top-level element containing the whole tree or hierarchy, continuing the metaphor of a *tree* which has a *root* and *branches*. (Another example: the `document` object is the root of the DOM representing the hierarchy of elements on a web page.)
+  > **Note:** It's an old convention in computing to use `/` as the path for the **root** of any system. By root, we mean the top-level element containing the whole tree or hierarchy, continuing the metaphor of a *tree* which has a *root* and *branches*. (Another example: the `document` object is the root of the DOM representing the hierarchy of elements on a web page.)  
 
 <br/>
 
@@ -104,9 +104,9 @@ let myComputer = {
 };
 ```
 
-Notice how nested objects are like folders (they can contain more stuff!) and other data types (like strings) are very much like the contents inside a file! **The property names (also called keys) make up the** ***path*** **that leads you to a specific section of the data.**
+Notice how nested objects are like folders; they can contain *more* files and folders! And other data types (like strings) are very much like the contents inside a file! **The property names (also called keys) make up the** ***path*** **that leads you to a specific section of the data.**
 
-  > **Fun fact:** If you really wanted to, you could represent all the files and folders of your computer as a giant JavaScript object! You can represent **any data** in a JavaScript object!
+  > **Fun fact:** If you really wanted to, you could essentially represent all the files and folders of your computer as a giant JavaScript object! You can represent just about any data in a JavaScript object!
 
 </br>
 
