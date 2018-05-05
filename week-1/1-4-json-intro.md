@@ -1,6 +1,6 @@
 # 1.4: Intro to JSON challenges
 
-After taking a quick look at one less-than-ideal option for persistent data in [the previous section](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-3-persistent-data.md), we've come to the conclusion that there's only one convenient way to share data in a web app across multiple computers: *send it over the internet!* This brings us to a topic important for both databases and APIs: JavaScript Object Notation, also known as **JSON (JavaScript Object Notation)**!
+After taking a quick look at one less-than-ideal option for persistent data in [the previous section](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-3-persistent-data.md), we've come to the conclusion that there's only one convenient way to share data in a web app across multiple computers: *send it over the internet!* This brings us to a topic important for both databases and APIs: JavaScript Object Notation, also known as **JSON**!
 
 <hr/>
 
