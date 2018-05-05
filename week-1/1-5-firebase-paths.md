@@ -1,4 +1,4 @@
-# 1.1: Intro to Firebase challenges: Accessing data with paths
+# 1.5: Intro to Firebase challenges: Accessing data with paths
 
 [Firebase](https://firebase.google.com/) is a set of tools (now owned by Google) that help software developers build web and mobile apps more quickly and easily.
 
@@ -9,7 +9,7 @@ We'll be using their real-time database platform as the backend for our app, so 
 <br/>
 
 :books: **Prerequisites:**
-  - Definitely do the previous activities for this week's class first!
+  - Definitely do the previous activities for this week's class first! (The previous section was [1.4: intro to JSON](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-4-json-intro.md))
   - Optional: you can review the Document Object Model (DOM) with [section 1.2 from our beginner curriculum](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-2-dom-challenges.md)
   - Optional: see the video on the DOM from [section 1.5 of our beginner curriculum](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-5-review-hangman-game.md#154-the-dom-interacting-with-html-and-css-using-javascript)
 
