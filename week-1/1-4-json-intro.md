@@ -10,7 +10,7 @@ So, we know that in order to create a multiplayer click-counting game, one way o
 
 First, make sure you've played the game from the previous section and keep it open in a tab for quick reference: https://dragon-defeater-v1-localstorage.glitch.me/
 
-Next -- and yes, this is silly, but bear with me! -- **write me an email to send me the data from your game.** Just type with your fingers, and however you see fit, send me an email containing all the information saved in *your* specific game. There's no one correct answer, as long as you communicate the data in a way I can read and understand!
+Next -- and yes, this is silly, but bear with me! -- **write me an email to send me the data from your game.** Take the information that you saved in *your specific game*, and type it or copy-paste it or somehow get it into the body of an email, and then send it to me! There's no correct answer here, as long as you communicate the data in a way I can read and understand!
 
   > We'll compare everyone's emails and then discuss!
 
@@ -86,7 +86,7 @@ This is going to feel a bit anticlimactic: **JSON** (**JavaScript Object Notatio
   
 ***So if you know how to create a JavaScript object like we've been doing so far, you already understand JSON!***
 
-JavaScript has a couple of built-in functions for working in JSON, and one of them is `**JSON.stringify()**`. It takes a JavaScript object as input and converts it into exactly what we need for our previous challenge: one giant string containing the data in JSON format.
+JavaScript has a couple of built-in functions for working in JSON, and one of them is **`JSON.stringify()`**. It takes a JavaScript object as input and converts it into exactly what we need for our previous challenge: one giant string containing the data in JSON format.
 
 Let's try it out!
 
@@ -130,7 +130,7 @@ This opens up all sorts of possibilities:
 
 ## Bonus challenge 1:
 
-Combine the code from challenge #2 and challenge #3 above to solve our problem in challenge #2 and finally display the information contained inside our example object onto the **web page** itself!
+Combine the code from challenge #2 and challenge #3 above to solve our problem in challenge #2: now you should finally be able to display the example object's data on the **web page** itself!
 
 <br/>
 
@@ -142,7 +142,7 @@ What's the *other* built-in JSON function? And what does it do? Why is it useful
 
 <br/>
 
-## Bonus info: Rules for the JSON data format**
+## Bonus info: Rules for the JSON data format
 
   - JSON can contain strings, numbers, objects and arrays -- the only thing you can't have in JSON data are functions! (Since by definition, data doesn't really *do* anything on its own; it just sits there, waiting for some software program to do something with it.)
 
