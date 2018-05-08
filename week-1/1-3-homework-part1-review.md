@@ -6,21 +6,19 @@ Like they say, practice makes perfect! Here are some practice challenges to help
 
 <hr/>
 
-### Setup
+## Setup
 
-**1. Remix the official Glitch web page starter template: https://glitch.com/edit/#!/hello-webpage**
+You'll be using one Glitch project for all of the practice challenges below.
+
+  1. **Remix the official Glitch web page starter template: https://glitch.com/edit/#!/hello-webpage**
 
   > See our [intro to Glitch video](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-1-initial-tools-intro.md#113-intro-to-glitch) if you need a refresher!
 
-You'll be using this Glitch project for all of the challenges below.
-
-**2. Share your progress and post the link to your Glitch project on our private Slack channel**!
-
-
+  2. **Share your progress and post the link to your Glitch project on our private Slack channel**!
 
 <br/>
 
-### Challenge 1:
+## Challenge 1:
 
 Modify the HTML and the JavaScript files in your new Glitch project so that the user can click on a button, and when they do, a message like `"Hello there!"` will appear inside a paragraph on the web page.
 
@@ -35,7 +33,7 @@ Modify the HTML and the JavaScript files in your new Glitch project so that the 
 
 <br/>
 
-### Challenge 2:
+## Challenge 2:
 
 Somewhere at the top of your JavaScript file, create a new variable that contains a JavaScript object with data representing at least three things about yourself -- for example: your name, zip code, and hometown.
 
