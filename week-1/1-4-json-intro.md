@@ -12,7 +12,10 @@ First, make sure you've played the game from the previous section and keep it op
 
 Next -- and yes, this is silly, but bear with me! -- **write me an email to send me the data from your game.** Take the information that you saved in *your specific game*, and type it or copy-paste it or somehow get it into the body of an email, and then send it to me! There's no correct answer here, as long as you communicate the data in a way I can read and understand!
 
-  > We'll compare everyone's emails and then discuss!
+**Discuss:**
+
+  1. Taking a look at what you typed into your email, is that code? Why or why not?
+  2. What if you had to send me the data from a JavaScript object that had *hundreds* of key-value pairs? How would you do that?
 
 <br/>
 
@@ -49,9 +52,9 @@ And here's the same data formatted in **XML**, [Extensible Markup Language](http
 </currentUser>
 ```
 
-:star: **The point is: information can't be communicated without also being formatted! (And you need to use a format that others can recognize and understand!)**
-  - It's just like sending a physical box or letter via snail mail: you first need to package it up!
-  - Another metaphor: to share your ideas with other humans, you first need to convert (or ***format***) the thoughts in your head (*the raw data*) into *words*. (And only people who speak the same language as you can understand what you say!)  
+:star: **The point is: information can't be communicated without also being formatted. (And you need to use a format that others can recognize and understand!)**
+
+It's just like how we communicate with other humans: first we need to convert (or ***format***) the thoughts in our brains (*the raw data*) into *actual words*. (And only people who speak the same language as you can understand what you say!)
 
 <br/>
 
@@ -76,7 +79,7 @@ document.body.textContent = exampleObject;
 
   1. What happened?
   2. Why did it behave that way?
-  3. How could we display *all the data* inside an object on the web page?
+  3. How could we take that object's data and display it on the web page? (In other words, how can we solve this challenge of *communicating* or *transferring* the data from the computer's memory to the user's eyes?)
 
 <br/>
 
@@ -86,7 +89,22 @@ This is going to feel a bit anticlimactic: **JSON** (**JavaScript Object Notatio
   
 ***So if you know how to create a JavaScript object like we've been doing so far, you already understand JSON!***
 
-JavaScript has a couple of built-in functions for working in JSON, and one of them is **`JSON.stringify()`**. It takes a JavaScript object as input and converts it into exactly what we need for our previous challenge: one giant string containing the data in JSON format.
+Here's what the example object from the previous challenge looks like as a string in the JSON data format:
+
+```
+{"exampleProperty":"some data here","exampleKey":"some data goes here too"}
+```
+
+You can also display strings of JSON formated data with the indentations we've been using in our code -- just like in JavaScript, spaces in between different values don't matter for JSON:
+
+```
+{
+  "exampleProperty": "some data here",
+  "exampleKey": "some data goes here too"	
+}
+```
+
+**JavaScript has a couple of built-in functions for working in JSON, and one of them is `JSON.stringify()`**. It takes a JavaScript object as input and converts it into exactly what we need for our previous challenge: one giant string containing the data in JSON format.
 
 Let's try it out!
 
@@ -112,6 +130,14 @@ let jsonFormattedString = JSON.stringify();
 
 ```
 
+The console should display a string of characters in the JSON data format:
+
+```
+{"name":"Liz","email":"liz@example.com","dragonsDefeated":17}
+```
+
+*And that's what JSON looks like: basically the same format as we've been using to create our JavaScript objects!*
+
 <br/>
 
 ## And why is this JSON stuff useful?
@@ -136,6 +162,12 @@ Combine the code from challenge #2 and challenge #3 above to solve our problem i
 
 ## Bonus challenge 2:
 
+What do you think the term *"machine-readable format"* means, compared to *"human-readable format?"* Search online for how other people define both of those terms, and see if you can find some examples that illustrate the difference between them.
+
+<br/>
+
+## Bonus challenge 3:
+
 What's the *other* built-in JSON function? And what does it do? Why is it useful? Look around online and see what you find!
 
   > This is a topic we'll return to later, when we start working with third party web APIs.
@@ -144,9 +176,11 @@ What's the *other* built-in JSON function? And what does it do? Why is it useful
 
 ## Bonus info: Rules for the JSON data format
 
+We'll come back to this topic in more detail later, but if you're curious, here's a quick look at a couple important rules for formatting JSON data:
+
   - JSON can contain strings, numbers, objects and arrays -- the only thing you can't have in JSON data are functions! (Since by definition, data doesn't really *do* anything on its own; it just sits there, waiting for some software program to do something with it.)
 
-  - In valid JSON, the property names (or keys) of any objects must be ***strings***! If you experiment with using `JSON.stringify()` on an object again, you'll notice that slight difference. It's also perfectly valid to write your properties in JavaScript code as strings. (In fact, in some special cases you *need* to do that -- but that's a topic for later.)
+  - In valid JSON, the property names (or keys) of any objects must be ***strings***! Experiment with using `JSON.stringify()` some more and you'll notice that slight difference. It's also perfectly valid to write your properties in JavaScript code as strings. (In fact, in some special cases you *need* to do that -- but that's a topic for later.)
 
 <br/>
 
