@@ -51,11 +51,9 @@ Try refreshing the web page for both versions. See the difference? *Pretty cool,
 
 **Discuss:**
 
-  1. Will this new version of the game remember your information if you switch between your computer and your phone, or between different computers?  
-  2. Why or why not?
-  3. How can we make that information available across different computers and devices? What extra work (and what extra technologies) would we need?
-
-**Bonus question:** What about if you stay on the same computer but switch between different web browsers? Will the game still keep track of your data?
+  1. Will this new version of the game remember your information if you switch between your computer and your phone, or between different computers? Why or why not?
+  2. What if you stay on the same computer but play the game in different web browsers? Will the game still keep track of your data? Why or why not?
+  3. How can we make that information available across multiple computers and devices? What extra technologies might we need?
 
 <br/>
 
