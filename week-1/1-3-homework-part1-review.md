@@ -6,15 +6,17 @@ Like they say, practice makes perfect! Here are some practice challenges to help
 
 <hr/>
 
-## Setup
+### Setup
 
-  1. Remix the official Glitch web page starter template: https://glitch.com/edit/#!/hello-webpage (See our [**intro to Glitch video**](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-1-initial-tools-intro.md#113-intro-to-glitch) if you need a refresher!)
+  1. Remix the official Glitch web page starter template: https://glitch.com/edit/#!/hello-webpage
+  
+  > See our [intro to Glitch video](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-1-initial-tools-intro.md#113-intro-to-glitch) if you need a refresher!
   
   2. Share your progress on these challenges and post the link to your Glitch project on our private Slack channel!
 
 <br/>
 
-## Challenge 1:
+### Challenge 1:
 
 Modify the HTML and the JavaScript files as needed so that the user can click on a button, and when they do, a message like `"Hello there!"` will appear inside a paragraph on the web page.
 
@@ -29,7 +31,7 @@ Modify the HTML and the JavaScript files as needed so that the user can click on
 
 <br/>
 
-## Challenge 2:
+### Challenge 2:
 
 Create a new variable that contains a JavaScript object with data representing at least three things about yourself -- for example: your name, zip code, and hometown.
 
@@ -42,7 +44,7 @@ Then change your code from challenge 1 so that when the user clicks the button, 
 
 <br/>
 
-## Challenge 3:
+### Challenge 3:
 
 Somewhere on your web page, write a detailed list of the steps required to complete challenge #1 above -- like a recipe for other beginner programmers to follow!
 
@@ -50,7 +52,7 @@ Somewhere on your web page, write a detailed list of the steps required to compl
 
 <br/>
 
-## Challenge 4:
+### Challenge 4:
 
 Now, break it! Create **five bugs** in your JavaScript code -- get creative, and try breaking things in different ways! Share your bugs with us by posting a link to your Glitch project in our private Slack channel, so we can practice debugging each others' code!
 
