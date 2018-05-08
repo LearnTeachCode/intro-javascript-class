@@ -8,8 +8,6 @@ Like they say, practice makes perfect! Here are some practice challenges to help
 
 ## Setup
 
-You'll be using one Glitch project for all of the practice challenges below.
-
   1. **Remix the official Glitch web page starter template: https://glitch.com/edit/#!/hello-webpage**
 
   > See our [intro to Glitch video](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-1-initial-tools-intro.md#113-intro-to-glitch) if you need a refresher!
