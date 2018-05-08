@@ -1,17 +1,10 @@
-# 1.5: Intro to Firebase challenges: Accessing data with paths
+# 2.4: Intro to Firebase challenges: Accessing data with paths
 
 [Firebase](https://firebase.google.com/) is a set of tools (now owned by Google) that help software developers build web and mobile apps more quickly and easily.
 
 We'll be using their real-time database platform as the backend for our app, so we don't have to worry about setting up or maintaining our own server and our own database from scratch! It's a great beginner-friendly way to start learning about databases, and these "Backend as a Service" (BaaS) tools are a huge trend in the tech industry right now.
 
 :tv: **Watch [this 2-minute video introducing the Firebase database service](https://youtube.com/watch?v=U5aeM5dvUpA)**
-
-<br/>
-
-:books: **Prerequisites:**
-  - Definitely do the previous activities for this week's class first! (The previous section was [1.4: intro to JSON](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-4-json-intro.md))
-  - Optional: you can review the Document Object Model (DOM) with [section 1.2 from our beginner curriculum](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-2-dom-challenges.md)
-  - Optional: see the video on the DOM from [section 1.5 of our beginner curriculum](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-5-review-hangman-game.md#154-the-dom-interacting-with-html-and-css-using-javascript)
 
 <hr/>
 
@@ -104,9 +97,45 @@ let myComputer = {
 };
 ```
 
+<br/>
+
+## Challenge 5:
+
+<br/>
+
 Notice how nested objects are like folders; they can contain *more* files and folders! And other data types (like strings) are very much like the contents inside a file! **The property names (also called keys) make up the** ***path*** **that leads you to a specific section of the data.**
 
   > **Fun fact:** If you really wanted to, you could essentially represent all the files and folders of your computer as a giant JavaScript object! You can represent just about any data in a JavaScript object!
+
+</br>
+
+## Challenge 6:
+
+**Remix this Glitch project: https://glitch.com/edit/#!/firebase-practice-1**
+
+That project is linked to a working Firebase database that contains our example penguin data! **On line 23 of the JavaScript file, replace the path `"helloworld"` with the paths to access the following data:**
+
+  1. Access the name of the penguin with ID number `1152`.
+  2. Access the origin of penguin number 1153.
+  3. What happens if you try to access a location in the database that doesn't exist? Does that cause any error messages or break anything?
+
+**View the live app to make sure your code works** -- the data will be displayed on the web page!
+
+</br>
+
+## Challenge 7:
+
+Next, display ***all*** the data about the penguin with the ID number `1152` onto the web page.
+
+  > **Hint:** Remember what we learned in [the previous section](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-3-json-intro.md)? Now's the time to put that to use!
+
+</br>
+
+## Challenge 8:
+
+Finally, display *the entire database* on the page!
+
+  > **Hint:** The answer is on this page in a previous section.
 
 </br>
 

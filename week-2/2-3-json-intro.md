@@ -1,6 +1,6 @@
-# 1.4: Intro to JSON challenges
+# 2.3: Intro to JSON challenges
 
-After taking a quick look at one less-than-ideal option for persistent data in [the previous section](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-3-persistent-data.md), we've come to the conclusion that there's only one convenient way to share data in a web app across multiple computers: *send it over the internet!* This brings us to a topic important for both databases and APIs: JavaScript Object Notation, also known as **JSON**!
+After taking a quick look at one less-than-ideal option for persistent data in [the previous section](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-2-persistent-data.md), we've come to the conclusion that there's only one convenient way to share data in a web app across multiple computers: *send it over the internet!* This brings us to a topic important for both databases and APIs: JavaScript Object Notation, also known as **JSON**!
 
 <hr/>
 
@@ -188,4 +188,4 @@ We'll come back to this topic in more detail later, but if you're curious, here'
 
 :trophy: ***Great job!*** You now know the very basics of how to package up your data in preparation to send it somewhere, whether to a database or a third-party web API (topics we'll get to soon enough)!
 
-:point_right: **Next up:** in [section 1.5, we'll start learning about the Firebase database library with the important concept of **paths**](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-5-firebase-paths.md), which we need in order to access data from the databases that we'll be building later!
+:point_right: **Next up:** in [section 1.5, we'll start learning about the Firebase database library with the important concept of **paths**](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-4-firebase-paths.md), which we need in order to access data from the databases that we'll be building later!

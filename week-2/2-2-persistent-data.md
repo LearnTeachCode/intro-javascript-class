@@ -1,6 +1,6 @@
-# 1.3: Persistent data: example and discussion
+# 2.2: Persistent data: example and discussion
 
-At the end of [the previous section reviewing objects](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-2-review-objects.md), we discussed how we might model the data for our click-counting game if we made a multiplayer version. Let's take a quick look at two quick examples building up from where we left off, as we move closer to working with databases!
+At the end of our previous class ([see section 1.2 on reviewing objects](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-2-review-objects.md)), we discussed how we might model the data for our click-counting game if we made a multiplayer version. Let's take a quick look at two quick examples building up from where we left off, as we move closer to working with databases!
 
 <hr/>
 
@@ -59,4 +59,4 @@ Try refreshing the web page for both versions. See the difference? *Pretty cool,
 
 <hr/>
 
-:point_right: **Next up:** in [section 1.4, we'll take our first look at JSON data](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-4-json-intro.md), which takes us one step closer to our goal of adding persistent data to our web apps!
+:point_right: **Next up:** in [section 2.3, we'll take our first look at JSON data](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-3-json-intro.md), which takes us one step closer to our goal of adding persistent data to our web apps!
