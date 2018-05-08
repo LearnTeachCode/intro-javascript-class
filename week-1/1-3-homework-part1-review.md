@@ -10,6 +10,10 @@ Like they say, practice makes perfect! Here are some practice challenges to help
 
 :clock2: **Time to complete: 1 to 2 hours.**
 
+<br/>
+
+<hr/>
+
 ## Setup
 
   1. **Remix the official Glitch web page starter template: https://glitch.com/edit/#!/hello-webpage**
