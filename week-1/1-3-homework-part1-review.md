@@ -39,7 +39,7 @@ Then change your code from challenge 1 so that when the user clicks the button, 
 
 **Review materials from our beginner curriculum:**
 
-  - :tv: [Video review of objects and practice challenges](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-3/3-2-object-challenges.md)
+  - :tv: [Video review of objects, plus object practice challenges](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-3/3-2-object-challenges.md)
   - [Overview of objects vs arrays](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-3/3-1-overview-objects-versus-arrays.md)
 
 <br/>
