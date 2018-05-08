@@ -8,17 +8,19 @@ Like they say, practice makes perfect! Here are some practice challenges to help
 
 ### Setup
 
-  1. Remix the official Glitch web page starter template: https://glitch.com/edit/#!/hello-webpage
+  1. **Remix the official Glitch web page starter template: https://glitch.com/edit/#!/hello-webpage**
   
   > See our [intro to Glitch video](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-1-initial-tools-intro.md#113-intro-to-glitch) if you need a refresher!
   
-  2. Share your progress on these challenges and post the link to your Glitch project on our private Slack channel!
+  2. Share your progress and **post the link to your Glitch project on our private Slack channel**!
+
+:star: **You'll be using this Glitch project for all of the challenges below.**
 
 <br/>
 
 ### Challenge 1:
 
-Modify the HTML and the JavaScript files as needed so that the user can click on a button, and when they do, a message like `"Hello there!"` will appear inside a paragraph on the web page.
+Modify the HTML and the JavaScript files in your new Glitch project so that the user can click on a button, and when they do, a message like `"Hello there!"` will appear inside a paragraph on the web page.
 
   > Try to do this *before* looking at previous examples -- see how much you remember off the top of your head! Spend at least 15 minutes on it, and then use the review materials below if you need them to finish this challenge.
   
@@ -33,7 +35,7 @@ Modify the HTML and the JavaScript files as needed so that the user can click on
 
 ### Challenge 2:
 
-Create a new variable that contains a JavaScript object with data representing at least three things about yourself -- for example: your name, zip code, and hometown.
+Somewhere at the top of your JavaScript file, create a new variable that contains a JavaScript object with data representing at least three things about yourself -- for example: your name, zip code, and hometown.
 
 Then change your code from challenge 1 so that when the user clicks the button, one piece of data from your object will be displayed on the page!
 
@@ -46,7 +48,7 @@ Then change your code from challenge 1 so that when the user clicks the button, 
 
 ### Challenge 3:
 
-Somewhere on your web page, write a detailed list of the steps required to complete challenge #1 above -- like a recipe for other beginner programmers to follow!
+Somewhere on your web page, write a list of the steps required to complete challenge #1 above -- like a recipe for other beginner programmers to follow!
 
   > Feel free to use paragraphs, an ordered or unordered list, a table, or whatever HTML elements you want for structuring your web page.
 
