@@ -33,7 +33,7 @@ As with any project, no matter how big or small, we'll begin by making a plan. T
 
 ## Challenge 2:
 
-**Discuss the following, and write down both your answers and your queestions:**
+**Discuss the following, and write down both your answers and your questions:**
 
   1. How can we use JavaScript variables to keep track of the **state** of this system? (By [*state*](https://en.wikipedia.org/wiki/State_(computer_science)), we mean any piece of information that changes over time and affects what the computer program will do next.)
 
