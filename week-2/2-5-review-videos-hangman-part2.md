@@ -1,4 +1,4 @@
-# 2.5: Review and finishing version 0 of theHangman game
+# 2.5: Review and finishing version 0 of the Hangman game
 
 In [the first set of review videos for building our Hangman game (section 1.5)](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-5-review-hangman-game.md), we learned about flowcharts, linking JS files to HTML files, variables, the DOM, and conditional statements! In this second part of our review, we'll finish building version 0 of our game -- but with a cliffhanger bug! (Your homework is to take a stab at finding the bug, [following section 2.4](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-2/2-4-debugging-challenge.md))
 
