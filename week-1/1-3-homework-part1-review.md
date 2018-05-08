@@ -44,7 +44,7 @@ Then change your code from challenge 1 so that when the user clicks the button, 
 
 <br/>
 
-### Challenge 3:
+## Challenge 3:
 
 Somewhere on your web page, write a list of the steps required to complete challenge #1 above -- like a recipe for other beginner programmers to follow!
 
@@ -52,7 +52,7 @@ Somewhere on your web page, write a list of the steps required to complete chall
 
 <br/>
 
-### Challenge 4:
+## Challenge 4:
 
 Now, break it! Create **five bugs** in your JavaScript code -- get creative, and try breaking things in different ways! Share your bugs with us by posting a link to your Glitch project in our private Slack channel, so we can practice debugging each others' code!
 
