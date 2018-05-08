@@ -58,7 +58,7 @@ In Firebase, each part of your database is treated as a *location* specified by 
 
 Looking at the image of our penguin database from above, what path would let you access the section of the database that contains the entire list of penguins?
 
-  > This is second level in the hierarchy, whereas the *root* or the database itself is the top level.
+  > This is the second level in the hierarchy, whereas the *root* or the database itself is the top level.
 
 
 <br/>
