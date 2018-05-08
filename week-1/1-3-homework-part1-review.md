@@ -2,9 +2,13 @@
 
 Like they say, practice makes perfect! Here are some practice challenges to help you review [the basics from our first class](https://github.com/LearnTeachCode/intro-javascript-class/tree/may-2018-int/week-1). 
 
+<br/>
+
+✔️ **To submit this assignment:** Share a link to your new Glitch project in our private Slack chat channel!
+
 ❓ **If you have any questions, please ask on the private Slack channel for our class.** (See our [**intro to Slack video**](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-1-initial-tools-intro.md#111-intro-to-slack) if you need a refresher.)
 
-<hr/>
+:clock2: **Time to complete: 1 to 2 hours.**
 
 ## Setup
 
