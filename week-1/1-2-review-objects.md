@@ -124,4 +124,4 @@ In the previous section, we created a super simple click-counting game based on 
 
 :trophy: **Great work!** As you develop a solid understanding of objects, you'll be a better software developer in *any* programming language, not just JavaScript.
 
-:point_right: **Next up:** In [the first part of this week's homework (section 1.3)](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-3-homework-part1-review.md), we'll do some extra practice to review what we worked on in this week's class.
+:point_right: **Next up:** [In the first part of this week's homework (section 1.3)](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-3-homework-part1-review.md), we'll do some extra practice to review what we worked on in this week's class.
