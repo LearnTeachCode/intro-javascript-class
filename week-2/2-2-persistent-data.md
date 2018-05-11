@@ -32,7 +32,7 @@ Notice how instead of only tracking a single number -- the number of clicks -- w
 
 When we save data into variables within our code, they're stored in the computer's **memory**. In the case of JavaScript running inside a web browser, that memory only lasts for as long as the web page is open! It's *temporary*, not *persistent*.
 
-:star: We use the term ***persistent data*** to describe information that can still be retrieved after shutting down the program that created it. 
+:star: **We use the term** ***persistent data*** **to describe information that can still be retrieved after shutting down the program that created it.**
 
 One of the easiest (but most limited) tools for saving persistent data in a web app is the [**Web Storage API**](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API), which is built into most modern web browsers!
 
