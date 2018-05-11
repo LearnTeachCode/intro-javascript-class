@@ -94,6 +94,7 @@ let myComputer = {
     guest: {
       documents: null
     }
+  }
 };
 ```
 
