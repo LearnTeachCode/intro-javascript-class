@@ -1,6 +1,6 @@
 # 1.4: Homework Part 2: Planning your project
 
-Now that you've finished [homework part 1 (section 1.3)](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-4-homework-part2-project.md), it's time to practice with your own project!
+Now that you've finished [homework part 1 (section 1.3)](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-3-homework-part1-review.md), it's time to practice with your own project!
 
 If it feels intimidating to get started on a project, *that's totally normal!* Try to avoid the temptation to think about everything all at once; start small, have fun with it, and experiment! You can always change your mind later.
 
