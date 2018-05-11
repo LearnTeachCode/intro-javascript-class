@@ -80,7 +80,11 @@ We use the special path `/` (just a single forward slash) to access the entire d
 
 Did you notice that accessing nested data in Firebase is exactly like accessing nested objects within our JavaScript code, just with a slash instead of a dot?
 
-Looking at the JavaScript code below, how would you access the contents of the `resumeFile` and display it in the console?
+:star: **The keys/property names of an object make up the** ***path*** **that leads you to a specific section of the data.**
+
+<br/>
+
+**Your challenge:** Looking at the JavaScript code below, how would you access the contents of the `resumeFile` and display it in the console? **Test your code in your browser console and/or [Python Tutor](http://pythontutor.com/javascript.html#mode=edit)!**
 
 ```javascript
 let myComputer = {
@@ -94,22 +98,15 @@ let myComputer = {
     guest: {
       documents: null
     }
+  }
 };
 ```
+
+  > **Fun fact:** If you really wanted to, you could essentially represent all the files and folders of your computer as a giant JavaScript object! In fact, you can represent just about *any data* in a JavaScript object.
 
 <br/>
 
 ## Challenge 5:
-
-<br/>
-
-Notice how nested objects are like folders; they can contain *more* files and folders! And other data types (like strings) are very much like the contents inside a file! **The property names (also called keys) make up the** ***path*** **that leads you to a specific section of the data.**
-
-  > **Fun fact:** If you really wanted to, you could essentially represent all the files and folders of your computer as a giant JavaScript object! You can represent just about any data in a JavaScript object!
-
-</br>
-
-## Challenge 6:
 
 **Remix this Glitch project: https://glitch.com/edit/#!/firebase-practice-1**
 
@@ -123,7 +120,7 @@ That project is linked to a working Firebase database that contains our example 
 
 </br>
 
-## Challenge 7:
+## Challenge 6:
 
 Next, display ***all*** the data about the penguin with the ID number `1152` onto the web page.
 
@@ -131,11 +128,26 @@ Next, display ***all*** the data about the penguin with the ID number `1152` ont
 
 </br>
 
-## Challenge 8:
+## Challenge 7:
 
 Finally, display *the entire database* on the page!
 
-  > **Hint:** The answer is on this page in a previous section.
+  > **Hint:** To solve this, you'll need to use what worked for challenge #6 above ***and*** some of the new information presented on this page.
+
+
+</br>
+
+## Bonus challenge:
+
+Create a JavaScript object (using object literal notation) that represents the DOM (Document Object Model) for [our Firebase practice page](https://glitch.com/edit/#!/firebase-practice-1) that we used for the previous challenges.
+
+  - The keys/properties and the structure of your object should reflect the entire *tree* or *hierarchy* of the HTML elements of our web page.
+  
+  - You can use placeholders for the values, so you don't have to do a bunch of typing!
+  
+  - For elements of the same type, you can name them something like `thing1`, `thing2`, `thing3` if needed.
+  
+  - The details don't have to perfectly match the HTML code. Again, just the *overall structure* of your object should match the DOM of our example web page.
 
 </br>
 
