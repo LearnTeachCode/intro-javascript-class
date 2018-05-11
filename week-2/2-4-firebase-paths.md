@@ -100,9 +100,7 @@ let myComputer = {
 
 <br/>
 
-Notice how **nested objects are like folders**; they can contain *more* files and folders!
-
-**The keys/property names of an object make up the** ***path*** **that leads you to a specific section of the data.**
+:star: **The keys/property names of an object make up the** ***path*** **that leads you to a specific section of the data.**
 
   > **Fun fact:** If you really wanted to, you could essentially represent all the files and folders of your computer as a giant JavaScript object! You can represent just about any data in a JavaScript object!
 
