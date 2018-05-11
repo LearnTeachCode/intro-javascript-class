@@ -134,4 +134,4 @@ Finally, start writing the actual code for this first version of your project!
 
 :trophy: **Wonderful!** Little by little, you're turning your ideas into reality! By creating a project of your own, you're learning *so much more* compared to following step-by-step tutorials. Keep up the good work!
 
-:point_right: **In our next class:** we'll start learning about persistent data, the JSON data format, and Google's Firebase database library!
+:point_right: **In our next class:** [we'll start learning about persistent data, the JSON data format, and Google's Firebase database library!](https://github.com/LearnTeachCode/intro-javascript-class/tree/may-2018-int/week-2)
