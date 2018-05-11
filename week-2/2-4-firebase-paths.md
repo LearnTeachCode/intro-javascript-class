@@ -132,7 +132,22 @@ Next, display ***all*** the data about the penguin with the ID number `1152` ont
 
 Finally, display *the entire database* on the page!
 
-  > **Hint:** To solve this, you'll need to use what worked for challenge #7 above, ***and*** some of the new information presented on this page.
+  > **Hint:** To solve this, you'll need to use what worked for challenge #6 above ***and*** some of the new information presented on this page.
+
+
+</br>
+
+## Bonus challenge:
+
+Create a JavaScript object (using object literal notation) that represents the DOM (Document Object Model) for [our Firebase practice page](https://glitch.com/edit/#!/firebase-practice-1) that we used for the previous challenges.
+
+  - The keys/properties and the structure of your object should reflect the entire *tree* or *hierarchy* of the HTML elements of our web page.
+  
+  - You can use placeholders for the values, so you don't have to do a bunch of typing!
+  
+  - For elements of the same type, you can name them something like `thing1`, `thing2`, `thing3` if needed.
+  
+  - The details don't have to perfectly match the HTML code. Again, just the *overall structure* of your object should match the DOM of our example web page.
 
 </br>
 
