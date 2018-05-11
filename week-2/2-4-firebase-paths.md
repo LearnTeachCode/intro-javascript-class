@@ -80,7 +80,11 @@ We use the special path `/` (just a single forward slash) to access the entire d
 
 Did you notice that accessing nested data in Firebase is exactly like accessing nested objects within our JavaScript code, just with a slash instead of a dot?
 
-Looking at the JavaScript code below, how would you access the contents of the `resumeFile` and display it in the console?
+:star: **The keys/property names of an object make up the** ***path*** **that leads you to a specific section of the data.**
+
+<br/>
+
+**Your challenge:** Looking at the JavaScript code below, how would you access the contents of the `resumeFile` and display it in the console? **Test your code in your browser console and/or [Python Tutor](http://pythontutor.com/javascript.html#mode=edit)!**
 
 ```javascript
 let myComputer = {
@@ -98,13 +102,9 @@ let myComputer = {
 };
 ```
 
+  > **Fun fact:** If you really wanted to, you could essentially represent all the files and folders of your computer as a giant JavaScript object! In fact, you can represent just about *any data* in a JavaScript object.
+
 <br/>
-
-:star: **The keys/property names of an object make up the** ***path*** **that leads you to a specific section of the data.**
-
-  > **Fun fact:** If you really wanted to, you could essentially represent all the files and folders of your computer as a giant JavaScript object! You can represent just about any data in a JavaScript object!
-
-</br>
 
 ## Challenge 5:
 
