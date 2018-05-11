@@ -100,17 +100,15 @@ let myComputer = {
 
 <br/>
 
-## Challenge 5:
+Notice how **nested objects are like folders**; they can contain *more* files and folders!
 
-<br/>
-
-Notice how nested objects are like folders; they can contain *more* files and folders! And other data types (like strings) are very much like the contents inside a file! **The property names (also called keys) make up the** ***path*** **that leads you to a specific section of the data.**
+**The keys/property names of an object make up the** ***path*** **that leads you to a specific section of the data.**
 
   > **Fun fact:** If you really wanted to, you could essentially represent all the files and folders of your computer as a giant JavaScript object! You can represent just about any data in a JavaScript object!
 
 </br>
 
-## Challenge 6:
+## Challenge 5:
 
 **Remix this Glitch project: https://glitch.com/edit/#!/firebase-practice-1**
 
@@ -124,7 +122,7 @@ That project is linked to a working Firebase database that contains our example 
 
 </br>
 
-## Challenge 7:
+## Challenge 6:
 
 Next, display ***all*** the data about the penguin with the ID number `1152` onto the web page.
 
@@ -132,11 +130,11 @@ Next, display ***all*** the data about the penguin with the ID number `1152` ont
 
 </br>
 
-## Challenge 8:
+## Challenge 7:
 
 Finally, display *the entire database* on the page!
 
-  > **Hint:** The answer is on this page in a previous section.
+  > **Hint:** To solve this, you'll need to use what worked for challenge #7 above, ***and*** some of the new information presented on this page.
 
 </br>
 
