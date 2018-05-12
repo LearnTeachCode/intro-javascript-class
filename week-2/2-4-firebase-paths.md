@@ -24,10 +24,10 @@ Here's how our example penguin data is represented in an actual Firebase databas
 
 :star: **There are four key concepts for accessing data from Firebase:**
 
-  1. Determining the **path** of the location of your data in the database's hierarchy
+  1. Determining the **path** to your data's location in the database
   2. Creating a **reference object** in your JavaScript code, which represents a database location (a chunk of data)
   3. Setting up Firebase **event listeners** to retrieve the data from your database (which also updates in real time!)
-  4. Using the **data snapshot** object and extracting the **value** of the data
+  4. Using the **data snapshot** object to extract the **value** of the data
 
 We'll learn about the first of those concepts -- ***paths*** -- in this section.
 
