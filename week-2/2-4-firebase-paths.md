@@ -22,7 +22,7 @@ Here's how our example penguin data is represented in an actual Firebase databas
 
 ![Fictional penguins Firebase database](https://user-images.githubusercontent.com/1555022/27147872-37732274-50f3-11e7-90f2-70c82e539477.png)
 
-**There are four key concepts for getting started with accessing data from Firebase:**
+:star: **There are four key concepts for accessing data from Firebase:**
 
   1. Determining the **path** of the location of your data in the database's hierarchy
   2. Creating a **reference object** in your JavaScript code, which represents a database location (a chunk of data)
@@ -153,6 +153,6 @@ Create a JavaScript object (using object literal notation) that represents the D
 
 <hr/>
 
-:trophy: **Congratulations!** Once you're familiar with paths and hierarchical data structures, you'll start seeing them *everywhere!* The next time you look at a URL, search for files or folders on your computer, or work with just about *any* programming language, your  knowledfe of paths will come in handy.
+:trophy: **Congratulations!** Once you're familiar with paths and hierarchical data structures, you'll start seeing them *everywhere!* The next time you look at a URL, search for files or folders on your computer, or work with just about *any* programming language, your  knowledge of paths will come in handy.
 
 :point_right: **Next up:** [in section 2.5 we'll take a closer look at creating database reference objects for Firebase](https://github.com/LearnTeachCode/intro-javascript-class/tree/may-2018-int/week-2/2-5-firebase-reference-objects.md), which allow us to access many built-in Firebase functions to access or modify our data.
