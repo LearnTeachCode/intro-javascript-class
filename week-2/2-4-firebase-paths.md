@@ -153,7 +153,6 @@ Create a JavaScript object (using object literal notation) that represents the D
 
 <hr/>
 
-:trophy: **Congratulations!** We've covered *a lot* of information so far! It'll start to sink in with a lot of practice; for now, consider all of this a preview, just a first look at some new ideas.
+:trophy: **Congratulations!** Once you're familiar with paths and hierarchical data structures, you'll start seeing them *everywhere!* The next time you look at a URL, search for files or folders on your computer, or work with just about *any* programming language, your  knowledfe of paths will come in handy.
 
-:point_right: Next time, we'll use paths to access data in a real Firebase database, and after that you'll create a Firebase database of your own!
-
+:point_right: **Next up:** [in section 2.5 we'll take a closer look at creating database reference objects for Firebase](https://github.com/LearnTeachCode/intro-javascript-class/tree/may-2018-int/week-2/2-5-firebase-reference-objects.md), which allow us to access many built-in Firebase functions to access or modify our data.
