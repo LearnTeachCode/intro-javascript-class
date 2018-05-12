@@ -178,9 +178,15 @@ What's the *other* built-in JSON function? And what does it do? Why is it useful
 
 We'll come back to this topic in more detail later, but if you're curious, here's a quick look at a couple important rules for formatting JSON data:
 
-  - JSON can contain strings, numbers, objects and arrays -- the only thing you can't have in JSON data are functions! (Since by definition, data doesn't really *do* anything on its own; it just sits there, waiting for some software program to do something with it.)
+  - JSON can contain strings, numbers, Booleans, objects, arrays, and the `null` data type.
+  
+  - But you ***cannot*** put functions inside your JSON data! (Since by definition, data doesn't really *do* anything on its own; it just sits there, waiting for some software program to do something with it.)
+  
+  - You also cannot use `undefined` as a value in JSON data.
 
-  - In valid JSON, the property names (or keys) of any objects must be ***strings***! Experiment with using `JSON.stringify()` some more and you'll notice that slight difference. It's also perfectly valid to write your properties in JavaScript code as strings. (In fact, in some special cases you *need* to do that -- but that's a topic for later.)
+  - In valid JSON, the property names (or keys) of any objects must be ***strings***, as in `{"exampleKey": "example value"}`. Experiment with using `JSON.stringify()` some more and you'll notice that slight difference.
+  
+  > **Note:** It's also perfectly valid in your JavaScript code to put quote marks around the keys/properties of your objects. (In fact, in some special cases you *need* to -- but that's a topic for later!)
 
 <br/>
 

@@ -22,12 +22,12 @@ Here's how our example penguin data is represented in an actual Firebase databas
 
 ![Fictional penguins Firebase database](https://user-images.githubusercontent.com/1555022/27147872-37732274-50f3-11e7-90f2-70c82e539477.png)
 
-**There are four key concepts for getting started with accessing data from Firebase:**
+:star: **There are four key concepts for accessing data from Firebase:**
 
-  1. Determining the **path** of the location of your data in the database's hierarchy
+  1. Determining the **path** to your data's location in the database
   2. Creating a **reference object** in your JavaScript code, which represents a database location (a chunk of data)
   3. Setting up Firebase **event listeners** to retrieve the data from your database (which also updates in real time!)
-  4. Using the **data snapshot** object and extracting the **value** of the data
+  4. Using the **data snapshot** object to extract the **value** of the data
 
 We'll learn about the first of those concepts -- ***paths*** -- in this section.
 
@@ -134,7 +134,6 @@ Finally, display *the entire database* on the page!
 
   > **Hint:** To solve this, you'll need to use what worked for challenge #6 above ***and*** some of the new information presented on this page.
 
-
 </br>
 
 ## Bonus challenge:
@@ -153,7 +152,6 @@ Create a JavaScript object (using object literal notation) that represents the D
 
 <hr/>
 
-:trophy: **Congratulations!** We've covered *a lot* of information so far! It'll start to sink in with a lot of practice; for now, consider all of this a preview, just a first look at some new ideas.
+:trophy: **Congratulations!** Once you're familiar with paths and hierarchical data structures, you'll start seeing them *everywhere!* The next time you look at a URL, search for files or folders on your computer, or work with just about *any* programming language, your  knowledge of paths will come in handy.
 
-:point_right: Next time, we'll use paths to access data in a real Firebase database, and after that you'll create a Firebase database of your own!
-
+:point_right: **Next up:** [in section 2.5 we'll take a closer look at creating database reference objects for Firebase](https://github.com/LearnTeachCode/intro-javascript-class/tree/may-2018-int/week-2/2-5-firebase-reference-objects.md), which allow us to access many built-in Firebase functions to access or modify our data.
