@@ -134,7 +134,6 @@ Finally, display *the entire database* on the page!
 
   > **Hint:** To solve this, you'll need to use what worked for challenge #6 above ***and*** some of the new information presented on this page.
 
-
 </br>
 
 ## Bonus challenge:

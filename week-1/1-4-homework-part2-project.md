@@ -1,6 +1,6 @@
 # 1.4: Homework Part 2: Planning your project
 
-Now that you've finished [homework part 1 (section 1.3)](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-4-homework-part2-project.md), it's time to practice with your own project!
+Now that you've finished [homework part 1 (section 1.3)](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-3-homework-part1-review.md), it's time to practice with your own project!
 
 If it feels intimidating to get started on a project, *that's totally normal!* Try to avoid the temptation to think about everything all at once; start small, have fun with it, and experiment! You can always change your mind later.
 
@@ -134,4 +134,4 @@ Finally, start writing the actual code for this first version of your project!
 
 :trophy: **Wonderful!** Little by little, you're turning your ideas into reality! By creating a project of your own, you're learning *so much more* compared to following step-by-step tutorials. Keep up the good work!
 
-:point_right: **In our next class:** we'll start learning about persistent data, the JSON data format, and Google's Firebase database library!
+:point_right: **In our next class:** [we'll start learning about persistent data, the JSON data format, and Google's Firebase database library!](https://github.com/LearnTeachCode/intro-javascript-class/tree/may-2018-int/week-2)
