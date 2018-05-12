@@ -230,7 +230,7 @@ penguinNameRef.set("Polly");
 
 ```javascript
 // Create a database reference object for penguin #1152 (the whole penguin)
-let penguinRef = firebase.database().ref("penguins/1152/name");
+let penguinRef = firebase.database().ref("penguins/1152");
 
 // Make a new object to replace penguing #1152's data
 let newObject = {
