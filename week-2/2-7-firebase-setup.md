@@ -1,33 +1,33 @@
-# 1.3: Setting up your own Firebase app
+# 2.7: Setting up your own Firebase app
 
-[Firebase](https://firebase.google.com/) is a set of tools (now owned by Google) that help software developers build web and mobile apps more quickly and easily. We'll be using their real-time database platform as the backend for our app, so we don't have to worry about setting up or maintaining our own server! It's a great beginner-friendly way to start learning about databases, and these "Backend as a Service" (BaaS) tools are a huge trend in the tech industry right now!
-
-:tv: **Watch [this 2-minute video introducing the Firebase database service](https://youtube.com/watch?v=U5aeM5dvUpA)**
+After learning more about Firebase in [the sections for week 2](https://github.com/LearnTeachCode/intro-javascript-class/tree/may-2018-int/week-2), it's time to finally create a Firebase app of your very own!
 
 <br/>
 
 **Table of Contents:**  
-  - [1.3.1: Including the Firebase Library in Your Project](#131-including-the-firebase-library-in-your-project)
-  - [1.3.2: Creating a Firebase App](#132-creating-a-firebase-app)
-  - [1.3.3: Displaying Data from Your Firebase Database](#133-displaying-data-from-your-firebase-database)
+  - [2.7.1: Including the Firebase Library in Your Project](#271-including-the-firebase-library-in-your-project)
+  - [2.7.2: Creating a Firebase App](#272-creating-a-firebase-app)
+  - [2.7.3: Displaying Data from Your Firebase Database](#273-displaying-data-from-your-firebase-database)
 
 <hr/>
 
-## 1.3.1: Including the Firebase library in your project
+## 2.7.1: Including the Firebase library in your project
 
-First create a new website project in [Glitch](https://glitch.com/) (or feel free to use any other tool, or develop this app locally on your computer if you prefer).
+First create a new website project by [remixing the official Glitch website starter template](https://glitch.com/edit/#!/hello-webpage) (or feel free to use any other tool, or develop this app locally on your computer if you prefer).
+
 In your HTML file, *before your existing `<script>` tag that imports your JavaScript file*, import the Firebase library by copy-pasting the code below:
 ```
 <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js" defer></script>
 ```
-So your HTML page should look like it does in this example: 
-https://glitch.com/edit/#!/firebase-starter1?path=index.html:1:0
+
+So your HTML page should look like it does in this example:
+https://glitch.com/edit/#!/firebase-practice-1?path=index.html
 
   > Again, remember that you need to include the Firebase library ***before*** you include your own JavaScript file! (Do you remember why? You can try breaking it on purpose and see what error messages appear in your browser's console.)
 
 <br/>
 
-## 1.3.2: Creating a Firebase app
+## 2.7.2: Creating a Firebase app
 
 **1. [Click here to open the Firebase console](https://console.firebase.google.com/)**, which is just a web page that lets you manage your app. Log in using your Google account if it asks you to.
 
@@ -49,8 +49,8 @@ https://glitch.com/edit/#!/firebase-starter1?path=index.html:1:0
 
   ![Copy Firebase initialization code](https://raw.githubusercontent.com/LearnTeachCode/intro-javascript-class/may-2018-int/week-1/img/addfirebase.png)
 
-So your JavaScript file should now look very similar to this:
-https://glitch.com/edit/#!/firebase-starter1?path=script.js:12:31
+So the top of your JavaScript file should now look very similar to our example here:
+https://glitch.com/edit/#!/firebase-practice-1?path=script.js
 
   > **Note:** If you see red dots (indicating errors) inside of Glitch next to any functions from Firebase, that's OK! It's just that Glitch doesn't always recognize code from an external JavaScript library. So if you see that, it doesn't necessarily mean there are any problems with your code.
 
@@ -78,12 +78,12 @@ That's exactly what we want right now; while we're testing this first version of
 
 <br/>
 
-:trophy: **Congrats, you now have a Firebase app!** :) To recap, your project should look similar to this:  
-https://glitch.com/edit/#!/firebase-starter1 
+:trophy: **Congrats, you now have a Firebase app!** :) To recap, your project should look similar to this one:  
+https://glitch.com/edit/#!/firebase-practice-1
 
 <br/>
 
-## 1.3.3: Displaying data from your Firebase database
+## 2.7.3: Displaying data from your Firebase database
 
 Now let's make sure our Firebase app is working! First we'll add some sample data directly in the Firebase console, and then we'll test it out by displaying that data on a web page.
 
@@ -126,11 +126,11 @@ Great, we have some data to tinker with! :) In the next several steps, we'll wri
 let dbGreetingRef = firebase.database().ref("greeting");
 ```
 
-  > Be sure to review [section 1.1.3 on Firebase database reference objects](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-1-firebase-functions.md#113-firebase-database-reference-objects-and-the-ref-function)!
+  > Be sure to review [section 2.4 on Firebase database reference objects](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-4-firebase-paths.md)!
 
 <br/>
 
-**7. Next, we'll use another built-in Firebase function to create an event listener.** We always need to use events to access data from our Firebase database. See [section 1.1.4: Reading data with Firebase event listeners](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-1-firebase-functions.md#114-reading-data-with-firebase-event-listeners) to review!
+**7. Next, we'll use another built-in Firebase function to create an event listener.** We always need to use events to access data from Firebase -- something we'll learn more about together in our next class! 
 
 ```javascript
 // Set up the Firebase event listener on our database reference object.
@@ -150,7 +150,7 @@ function displayFirebaseGreeting(dataSnapshot) {
 }
 ```
 
-  > Lots of new concepts here! The topics above are also covered in [section 1.1.4: Reading data with Firebase event listeners](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-1-firebase-functions.md#114-reading-data-with-firebase-event-listeners), so be sure to read those notes.
+  > Lots of new concepts here! We'll learn more about all of this together in our next class. For now, the goal is to *just get it working!*
 
 <br/>
 
@@ -166,6 +166,8 @@ To get back to editing the data in your Firebase console, you can click "Develop
 
   > **Shortcut:** [Click on this link](https://console.firebase.google.com/project/_/database/data) and then choose your project.
 
+<br/>
+
 Click on your `"Hi from Firebase!"` message, and type in the box to change the value to something else like `"I changed this data in Firebase!"` Then press the **Enter key** to save your changes:
 
 ![change data](https://raw.githubusercontent.com/LearnTeachCode/intro-javascript-class/may-2018-int/week-1/img/changeddata.png)
@@ -176,4 +178,6 @@ Now look at your web page again. If it worked, you'll see the data change *in re
 
 <hr/>
 
-:trophy: ***Congratulations!*** **You now have your very own Firebase app, which you can use to build database-driven applications for any idea you can think of!**
+:trophy: ***Congratulations!*** You now have your very own Firebase app, which you can use to build database-driven applications for any idea you can think of! Feel free to create *another* separate Firebase app for your personal project(s) as well.
+
+:point_right: **In our next class:** we'll dig more into Firebase event listeners and other functions to display, add, edit, and delete data from our databases!
