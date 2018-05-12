@@ -197,4 +197,4 @@ Without that namespacing, if you created a function of your own named `round()`,
 
 :trophy: **Congratulations!** You're 50% finished with the concepts needed to display data from a Firebase database!
 
-:point_right: **Next up:** [in section 2.6, we'll take a break from Firebase and dip our toes into the command line](https://github.com/LearnTeachCode/intro-javascript-class/tree/may-2018-int/week-2/2-5-firebase-reference-objects.md) -- now that you're familiar with paths, you pretty much already know how to navigate around a file system the *old-school* way!
+:point_right: **Next up:** [in section 2.6, we'll take a break from Firebase and dip our toes into the command line](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-6-command-line-intro.md) -- now that you're familiar with paths, you pretty much already know how to navigate around a file system the *old-school* way!
