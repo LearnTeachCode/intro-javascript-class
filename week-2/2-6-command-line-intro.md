@@ -86,12 +86,12 @@ Using your newfound knowledge of these magical commands, enter the `maze` direct
 let mazeDirectory = {
   redDoor: {
     greenDoor: {
-        "deadEnd.txt": "No luck!"
+        "deadEnd.txt": "No luck."
     },
     blueDoor: {
-      "monster.txt": "Roar!!",
+      "monster.txt": "Roar!",
       greenDoor: {
-        "deadEnd.txt": "Still no luck!"
+        "deadEnd.txt": "Still no luck."
       }
     },
     blueDoor: {
@@ -103,6 +103,15 @@ let mazeDirectory = {
       },
       "monster.txt": "Rawr!!"
     }
+  },
+  blueDoor: {
+    "monster.txt": "Yumm, I see food!",
+    greenDoor: {
+      "deadEnd.txt": "No luck here either."
+    },
+    redDoor: {
+      "bottomlessPit.txt": "Game over!"
+    },
   }
 };
 ```
