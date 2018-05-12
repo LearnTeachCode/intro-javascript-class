@@ -47,14 +47,14 @@ One of the easiest (but most limited) tools for saving persistent data in a web 
   1. The version from above (using only browser memory): https://dragon-defeater-v1-finished.glitch.me/
   2. This new version using the Web Storage API: https://dragon-defeater-v1-localstorage.glitch.me/
 
-Try refreshing the web page for both versions. See the difference? *Pretty cool, isn't it?*
-
 **Discuss:**
 
-  1. Will this new version of the game remember your information if you switch between your computer and your phone, or between different computers? Why or why not?
-  2. What if you stay on the same computer but play the game in different web browsers? Will the game still keep track of your data? Why or why not?
-  3. How can we make that information available across multiple computers and devices? What extra technologies might we need?
-
+  1. What happens if you refresh the page in your web browser, or if you *close* the page and reopen it?
+  2. What if you close your web browser entirely -- what do you think will happen? Test it and find out!
+  3. What if you turned off your computer entirely, turned it back on, and went back to the web page? What do you think would happen? (You don't need to test it right now.)
+  4. Will this new version of the game remember your information if you switch between your computer and your phone, or between different computers? Why or why not?
+  5. What if you stay on the same computer but play the game in different web browsers? Will the game still keep track of your data? Why or why not?
+  6. How can we make that information available across multiple computers and devices? What extra technologies might we need?
 
 <br/>
 
