@@ -12,7 +12,7 @@ They may seem old-fashioned, but [command line interfaces](https://en.wikipedia.
 
   1. **Remix this Glitch project: https://glitch.com/edit/#!/command-line-practice-1**
 
-  2. On the left-side menu,** click "Logs"** and a window will pop up at the bottom of the screen
+  2. On the left-side menu, **click "Logs"** and a window will pop up at the bottom of the screen
   
   3. To the left of the words "Activity Log", **click the "Console" button**
   
