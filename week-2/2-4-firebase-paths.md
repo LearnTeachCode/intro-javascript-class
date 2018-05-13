@@ -118,8 +118,8 @@ let myComputer = {
 
 That project is linked to a working Firebase database that contains our example penguin data! **On line 22 of the JavaScript file, replace the path `"penguins/7344/name"` with the paths to access the following data:**
 
-  1. Access the name of the penguin with ID number `1152`.
-  2. Access the origin of penguin number 1153.
+  1. Access the name of the penguin with ID number 1152.
+  2. Access the `canFly` property of penguin number 7344.
   3. What happens if you try to access a location in the database that doesn't exist? Does that cause any error messages or break anything?
 
 **View the live app to make sure your code works** -- the data will be displayed on the web page!
