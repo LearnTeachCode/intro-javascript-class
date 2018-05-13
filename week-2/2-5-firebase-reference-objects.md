@@ -59,7 +59,7 @@ First, let's review something familiar! Imagine we have the following code in ou
 
 As we're starting to see, the process of creating ***database reference objects*** is pretty similar to how we've been creating DOM element objects since the first day of our class!
 
-Let's look at **line 18** and **line 23** from [our previous example Glitch project](https://glitch.com/edit/#!/firebase-practice-1) and compare them side-by-side:
+Let's look at **line 18** and **line 22** from [our previous example Glitch project](https://glitch.com/edit/#!/firebase-practice-1) and compare them side-by-side:
 
 ```javascript
 // Create a JS object to represent the paragraph element 
@@ -67,8 +67,8 @@ Let's look at **line 18** and **line 23** from [our previous example Glitch proj
 let testMessageElem = document.getElementById("testmessage");
 
 // Create a database reference object for the database location
-// with the path of "helloworld"
-let helloWorldRef = firebase.database().ref("helloworld");
+// with the path of "penguins/7344/name"
+let penguinDatabaseRef = firebase.database().ref("penguins/7344/name");
 ```
 
 ### Side-by-side comparison:
@@ -106,7 +106,7 @@ let helloWorldRef = firebase.database().ref("helloworld");
 
 That project is linked to the same working Firebase database we've been tinkering with so far, except now let's practice writing more of the code ourselves!
 
-***Your challenge:*** Based on [the penguin database from section 2.4](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-4-firebase-paths.md#the-structure-of-firebase-databases), **write the missing JavaScript code to display the *name* of the penguin with ID number `7344`**.
+***Your challenge:*** Based on [the penguin database from section 2.4](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-4-firebase-paths.md#the-structure-of-firebase-databases), **write the missing JavaScript code to display the *name* of the penguin with ID number `1153`**.
 
 **Hints:**
 
@@ -124,34 +124,34 @@ Which of the following *ten* versions of the code below would actually work?
 
 ```javascript
 // Version 1:
-let lizBirthdayRef = firebaseDatabase("/people/liz/birthday");
+let lizBirthdayRef = firebaseDatabase("people/liz/birthday");
 
 // Version 2:
-let lizBirthdayRef = firebase.Ref("/people/liz/birthday");
+let lizBirthdayRef = firebase.Ref("people/liz/birthday");
 
 // Version 3:
-let lizBirthdayRef = firebase().Database("/people/liz/birthday");
+let lizBirthdayRef = firebase().Database("people/liz/birthday");
 
 // Version 4:
-let lizBirthdayRef = firebase.ref("/people/liz/birthday");
+let lizBirthdayRef = firebase.ref("people/liz/birthday");
 
 // Version 5:
-let lizBirthdayRef = firebase.database().Ref("/people/liz/birthday");
+let lizBirthdayRef = firebase.database().Ref("people/liz/birthday");
 
 // Version 6:
-let lizBirthdayRef = firebaseDatabase.ref("/people/liz/birthday");
+let lizBirthdayRef = firebaseDatabase.ref("people/liz/birthday");
 
 // Version 7:
-let lizBirthdayRef = firebase().database().Ref("/people/liz/birthday");
+let lizBirthdayRef = firebase().database().Ref("people/liz/birthday");
 
 // Version 8:
-let lizBirthdayRef = firebase.database().ref("/people/liz/birthday");
+let lizBirthdayRef = firebase.database().ref("people/liz/birthday");
 
 // Version 9:
-let lizBirthdayRef = firebase.database.ref("/people/liz/birthday");
+let lizBirthdayRef = firebase.database.ref("people/liz/birthday");
 
 // Version 10:
-let lizBirthdayRef = firebaseDatabase().Ref("/people/liz/birthday");
+let lizBirthdayRef = firebaseDatabase().Ref("people/liz/birthday");
 ```
 
 Now you know why it's important to take frequent breaks to rest your eyes (and stretch your legs), *especially* when you're debugging! :laughing:
