@@ -35,15 +35,21 @@ We'll learn about the first of those concepts -- ***paths*** -- in this section.
 
 ## Follow the path to find your data!
 
-In Firebase, each part of your database is treated as a *location* specified by a ***path***, which is a specially formatted string. We use paths with the same format in many other areas of computing, not just with Firebase!
+In Firebase, each part of your database is treated as a *location* specified by a ***path***, which is a ***specially formatted string***. We use paths with the same format in many other areas of computing, not just with Firebase!
 
-**Examples of paths:**
+**Examples of paths in general:**
 
   - Paths can refer to files or folders on your computer. For example, you might access the documents folder on your computer with the path `C:/Users/Liz/Documents`
 
   - Paths can also refer to the part of the URL that specifies the location of a web page. For example: `example.com/events/birthday-party/` or `example.com/login.html`
 
-  - For more than you ever wanted to know about paths, see [Wikipedia's page on Path (computing)](https://en.wikipedia.org/wiki/Path_(computing))
+  > For more than you ever wanted to know about paths, see [Wikipedia's page on Path (computing)](https://en.wikipedia.org/wiki/Path_(computing))
+
+<br/>
+
+:star: **Just like the examples above, *Firebase paths* are strings indicating the location of a chunk of data, with each level of the hierarchy separated by a *slash*:**
+  - The path to the *name* of penguin #7344 is the string `"penguins/7344/name"`
+  - And the path to that penguin's *origin* is the string `"penguins/7344/origin"`
 
 <br/>
 
@@ -110,29 +116,13 @@ let myComputer = {
 
 **Remix this Glitch project: https://glitch.com/edit/#!/firebase-practice-1**
 
-That project is linked to a working Firebase database that contains our example penguin data! **On line 23 of the JavaScript file, replace the path `"helloworld"` with the paths to access the following data:**
+That project is linked to a working Firebase database that contains our example penguin data! **On line 22 of the JavaScript file, replace the path `"penguins/7344/name"` with the paths to access the following data:**
 
   1. Access the name of the penguin with ID number `1152`.
   2. Access the origin of penguin number 1153.
   3. What happens if you try to access a location in the database that doesn't exist? Does that cause any error messages or break anything?
 
 **View the live app to make sure your code works** -- the data will be displayed on the web page!
-
-</br>
-
-## Challenge 6:
-
-Next, display ***all*** the data about the penguin with the ID number `1152` onto the web page.
-
-  > **Hint:** Remember what we learned in [the previous section](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-3-json-intro.md)? Now's the time to put that to use!
-
-</br>
-
-## Challenge 7:
-
-Finally, display *the entire database* on the page!
-
-  > **Hint:** To solve this, you'll need to use what worked for challenge #6 above ***and*** some of the new information presented on this page.
 
 </br>
 
