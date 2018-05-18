@@ -129,4 +129,4 @@ So now we've covered those **four key concepts for accessing data from Firebase:
 
 :trophy: ***Great work!*** Working with event listeners *is not easy*, so congratulations on digging into a challenging topic! Good news is, modifying data in our Firebase database is *much* easier than what we've just been working on.
 
-**Next up:** [in section 3.3, we'll learn how to add, update, and delete data from our Firebase database]!
+**Next up:** [in section 3.3, we'll learn how to add, update, and delete data from our Firebase database](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-3/3-3-firebase-set-remove.md)!
