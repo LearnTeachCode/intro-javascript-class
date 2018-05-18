@@ -1,6 +1,6 @@
 # 3.2: Intro to Firebase challenges: Displaying data using the Firebase `.on` event listener
 
-If you're comfortable using event listeners to respond to a user's actions on a web page, then Firebase event listeners will look very familiar!
+Now that we've [reviewed event listeners in the previous section](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-3/3-1-event-listeners-review.md), you'll see that Firebase event listeners will look very familiar!
 
 To recap, there are **four key concepts for accessing data from Firebase:**
 
@@ -19,3 +19,14 @@ First, let's review the familiar pattern we've been using so far to respond to u
 <button id="win">Click here to win a bazillion dollars!</button>
 ```
 
+
+
+
+
+<br/>
+
+<hr/>
+
+:trophy: ***Woohoo!*** ......
+
+**Next up:** ....
