@@ -2,11 +2,15 @@
 
 :weight_lifting_man: Let's warm up those coding muscles with a quick review of how we've been using event listeners so far!
 
-Remember that event listeners allow you to respond to all sorts of events (for example, the user clicking something on the web page). When you set up an event listener, you're basically telling a section of your code to *wait* until an event happens!
+<br/>
 
 :tv: **Video: Intro to events and event listeners (19 min): https://youtu.be/UbwCNBCUrhQ**
 
+Remember that event listeners allow you to respond to all sorts of events (for example, the user clicking something on the web page). When you set up an event listener, you're basically telling a section of your code to *wait* until an event happens!
+
 Web browsers provide a built-in JavaScript function named `addEventListener`, which is available on any JavaScript object that represents an element of the web page (also called DOM elements).
+
+<br/>
 
 :books: **Review materials:**
 
@@ -14,9 +18,6 @@ Web browsers provide a built-in JavaScript function named `addEventListener`, wh
   - [Beginner class section 2.3: intro to functions](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-2/2-3-function-intro-challenges.md)
   - [Beginner class section 4.2: functions with inputs](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-4/4-2-function-input-challenges.md)
   - [Beginner class section 4.3: scope, function outputs, and the `return` statement](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-4/4-3-scope-and-function-output-challenges.md)
-  
-
-<br/>
 
 <hr/>
 
