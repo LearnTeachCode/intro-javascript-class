@@ -1,4 +1,4 @@
-# 3.2: Review: Event listeners
+# 3.1: Event listeners review challenges
 
 :weight_lifting_man: Let's warm up those coding muscles with a quick review of how we've been using event listeners so far!
 
