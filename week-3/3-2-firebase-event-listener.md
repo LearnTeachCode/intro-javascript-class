@@ -112,6 +112,16 @@ Now, let's finally display the penguin's name on the web page itself! Follow the
   
   3. In the same section of code where we were using `console.log()`, change the text inside that paragraph so that its new value becomes the name of our penguin!
 
+<br/>
+
+## Recap:
+
+So now we've covered those **four key concepts for accessing data from Firebase:**
+
+  1. [**From section 2.4:**](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-4-firebase-paths.md) Determining the **path** to your data's location in the database
+  2. [**From section 2.5:**](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-5-firebase-reference-objects.md) Creating a **reference object** in your JavaScript code, which represents a database location (a chunk of data)
+  3. **Today:** Setting up Firebase **event listeners** to retrieve the data from your database (which also updates in real time!)
+  4. **Today:** Using the **data snapshot** object to extract the **value** of the data
 
 <br/>
 
