@@ -38,9 +38,9 @@ Every time you use an event listener, there are **three main questions** you'll 
 
   1. **Where is the event happening?** Here, it's happening anywhere in the `document.body` (the `<body>`, the entire web page!)
   2. **Which event are we listening for?** Here, it's a `"click"` event ([see the list of all built-in events here!](https://developer.mozilla.org/en-US/docs/Web/Events))
-  3. **What should happen when the event occurs?** Here, we run our function named `logClick`
+  3. **What should happen when the event occurs?** Here, we run our function named `logMouseEvent`
 
-This is totally optional, but in our example above, our `logClick` function also receives an ***input*** from the event listener, which contains information about the event that just occurred! This is something we'll learn more about in our next set of challenges on functions.
+This is totally optional, but in our example above, our `logMouseEvent` function also receives an ***input*** from the event listener, which contains information about the event that just occurred! This is something we'll learn more about in our next set of challenges on functions.
 
   > :pencil: **Preview of a more advanced topic:** In the example code above, the `event` variable is a *parameter* that the `addEventListener` function will replace with a `MouseEvent` object, which is what contains all the information about each mouse click. (Phew, try saying that 10 times fast! Again, just a note for later. Not important right now.)
 
