@@ -2,6 +2,8 @@
 
 Compared to [displaying data (which we learned about in the previous section)](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-3/3-2-firebase-event-listener.md), modifying data in Firebase is *much* easier!
 
+In these next challenges, we'll take our first look at adding, updating, and deleting data with our shared Firebase database.
+
 <hr/>
 
 <br/>
@@ -116,6 +118,21 @@ Use the `set()` function again to add yourself back to the database!
 
 ## Group coding challenge:
 
+*If we have enough time, we'll do one last mob coding session!*
+
+**Open this Glitch project and then click the link at the top of the page to code with us: https://dragon-defeater-v2-group.glitch.me/**
+
+:dragon: **Our goal:** using Firebase, let *anyone* increase the number of dragons defeated and keep track of our collaborative score!
+
+This will require a few pieces:
+
+  - Set up our Firebase database with a location containing the initial number (we'll start at 0)
+  
+  - Link our web app to our Firebase database (see [section 2.7: setting up your own Firebase database](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-7-firebase-setup.md))
+  
+  - Set up a Firebase event listener so that the web page will always display the current number of dragons defeated (which is now stored in the database)
+  
+  - When the user (*any* user!) clicks the button, increase the number of dragons defeated by one, and *update the database* so that it'll contain that new number.
 
 
 <br/>
@@ -139,6 +156,6 @@ Using what we learned in our last class, fix your code so that the web page will
 
 <hr/>
 
-:trophy: ***Woohoo!*** ......
+:trophy: ***Woohoo!*** You now know *just enough* about using Firebase to start prototyping some web apps that use persistent data across any device!
 
-**Next up:** ....
+**Next up:** we'll take a look at APIs and if we have time, we'll also work on setting up a user login system with Firebase.
