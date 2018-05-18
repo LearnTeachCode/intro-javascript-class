@@ -28,7 +28,7 @@ For these next challenges, we'll be using a new section of our shared Firebase d
     studentname3: "This placeholder string for STUDENTNAME3 is stored in Firebase!"
   }    
 }
-``
+```
 
 But instead of `"studentname1"` etc, there's a database location where the ***key*** is ***your first name!***
 
