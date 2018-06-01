@@ -88,6 +88,10 @@ Compare the first two lines of code to the next two lines of code:
 
 ## Challenge 3:
 
+:star: *You might find it helpful to use [**Python Tutor**](http://pythontutor.com/javascript.html#mode=edit) for the next challenges, so you can visualize your code and see the order in which it runs!*
+
+<br/>
+
 Define an empty function:
   1. Give it a name that describes the repetitive actions in our example code.
   2. Give it ***one parameter*** that represents the part of the code will ***change*** between each repetitive action.
@@ -112,9 +116,11 @@ Replace the part of the code that changes with the name of your parameter.
 
 Call the function three times with different arguments so that the output in the console will look ***exactly the same*** as the example code given in challenge 1 above.
 
-:trophy: Woohoo! You've parameterized some code to turn it into a reusable function!
+<br/>
 
-Notice that you can now call the function *As many times as you want* by typing *way less code*. It's also way easier to change how it works, since now you only need to change the code in one place!
+:trophy: *Woohoo! You've parameterized some code to turn it into a reusable function!*
+
+Notice that you can now call the function *as many times as you want* by typing *way less code*. It's also much easier to change how it works, since now you only need to change the code in one place!
 
 <br/>
 
