@@ -19,7 +19,7 @@
 
 ## Group coding challenge: Functions review
 
-**Open this Glitch project and then *click the link at the top of the page* to code with us: https://reviewgroup2.glitch.me/**
+:star: ***Open this Glitch project and then *click the link at the top of the page* to code with us: https://reviewgroup2.glitch.me/***
 
 **Our challenges:**
   1. Define a function that does nothing (just the skeleton of a function definition)
