@@ -42,20 +42,52 @@ To make this as easy as possible, for now we'll use the command line built into 
 
 ## Challenge 1:
 
-Copy-paste the code below into your command line, and then press Enter to request `example.com` using cURL:
+Copy-paste the code below into your command line, and then press Enter to send a request to the server for `example.com` using cURL:
 
 ```bash
 curl http://example.com/
 ```
 
-Compare the response body to the response you saw in the Network tab. ***Are they the same?***
+**Your challenge:** Take a look at the results that appear in the command line, and compare it to the response body that you saw in Chrome's Network tab. ***Are they the same?***
 
 <br/>
 
 ## Challenge 2:
 
-....
+Try running the command below, and take a look at the result. For an easier-to-read version of the same results, see [**our example cURL printout**](https://github.com/LearnTeachCode/intro-javascript-class/raw/may-2018-int/week-4/curl-verbose-example.pdf) (links to a PDF file download).
 
+<br/>
+
+Run this command and then press Enter to send the request:
+
+```bash
+curl http://example.com/ -v
+```
+
+<br/>
+
+The `-v` flag at the end stands for **Verbose** mode, which will show *everything* being sent and received -- not just the body of the response (the web page itself), but also all the *headers* included in the request and the response!
+
+<br/>
+
+:star: **The *headers* contain *extra information* about the client, the server, how they're communicating, and some *meta-data* describing the information being sent and received.**
+
+Note: When you see the data in your command line, the request headers are prefaced with the `>` symbol, and the response headers are prefaced with the `<` symbol (facing the opposite direction).
+
+<br/>
+
+**Discuss:**
+
+  1. Do you see the same information in the command line that appeared in Chrome's network tab?
+  
+  2. Can you spot where it shows the HTTP request method?
+  
+  3. What's the value of `User-Agent` and what do you think it represents?
+  
+  4. Can you find the value of `User-Agent` in Chrome's network tab? Is it the same value in Chrome as it is in the command line using cURL?
+  
+  > **Hint:** Look at the request headers, which appear *above* the response headers and have the `>` symbol at the beginning of each line. This will appear *below* the "TLS handshake" stuff, which handles establishing a secure connection because we're using HTTP**S** and not HTTP. (The **S** stands for a **S**ecure connection.)
+ 
 <br/>
 <hr/>
 
