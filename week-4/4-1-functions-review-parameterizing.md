@@ -196,4 +196,4 @@ Change your function definition so that it now returns an ***output***. Then cha
 
 <hr/>
 
-:point_right: **Next up:** [in section 3.2, we'll start using Firebase's `.on()` event listener function to display data from a database](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-3/3-2-firebase-event-listener.md)!
+:point_right: **Next up:** [in section 4.2, we'll take our first look at the underlying protocol that allows us to access APIs over the internet](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-4/4-2-apis-intro-http.md)!
