@@ -78,4 +78,4 @@ Open up the web page for our shared Glitch project from before https://reviewgro
 <br/>
 <hr/>
 
-:point_right: **Next up:** [**let's test this out in the command line!**](https://github.com/LearningNerd/intro-apis-workshop/blob/master/curl-intro.md)
+:point_right: **Next up:** [in section 4.4, we'll use the command line to try out a much more powerful tool for making HTTP requests (for API calls)](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-4/4-4-curl-intro.md)!
