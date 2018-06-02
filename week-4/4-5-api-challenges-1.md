@@ -91,4 +91,4 @@ First: make sure you've solved the previous challenge and identified the part of
 <br/>
 <hr/>
 
-:point_right: **Next up:** [**let's try some APIs that require an API or a personal access token in order to use them.**](https://github.com/LearningNerd/intro-apis-workshop/blob/master/api-challenges-2.md)
+:point_right: **Next up:** [for homework, in section 4.6 you'll follow some suggested steps to start integrating a Firebase database into your personal project](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-4/4-6-project-homework-firebase.md)!
