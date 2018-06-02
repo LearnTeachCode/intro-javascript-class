@@ -107,4 +107,4 @@ Most of the time when you're browsing the web, your web browser is just sending 
 
 <hr/>
 
-:point_right: **Next up:** [in section 3.2, we'll start using Firebase's `.on()` event listener function to display data from a database](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-3/3-2-firebase-event-listener.md)!
+:point_right: **Next up:** [in section 4.3, we'll learn the basics of Chrome's network tab to see what happens behind the scenes every time you visit a website (which is basically the same as making an API call)](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-4/4-3-chrome-network-tab.md)!
