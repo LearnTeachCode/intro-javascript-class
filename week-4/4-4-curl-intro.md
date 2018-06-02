@@ -91,4 +91,4 @@ Note: When you see the data in your command line, the request headers are prefac
 <br/>
 <hr/>
 
-:point_right: **Next up:** [**let's tackle a fun series of practice challenges using cURL to access some fun APIs!**](https://github.com/LearningNerd/intro-apis-workshop/blob/master/api-challenges-1.md)
+:point_right: **Next up:** [in section 4.5, we'll get our feet wet by making API calls to a funny example API](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-4/4-5-api-challenges-1.md)!
