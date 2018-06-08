@@ -144,10 +144,11 @@ Great work! Now that we've discovered the missing piece to our API puzzle, let's
 
 And that's it!
 
-
 <br/>
 
-## Bonus challenge:
+## Bonus challenge set 1:
+
+:star: First, remix our Glitch project so you can work on your own personal copy!
 
   1. Make one tiny change to the code so that the API call requests the data in JSON format instead of plain text.
   
@@ -158,6 +159,18 @@ And that's it!
   4. Make one more small change so that only the joke's ID is displayed on the page (none of the other info).
   
   5. Create another paragraph on the page, and then display the joke's ID inside *one* paragraph, and the joke itself inside *another* paragraph!
+  
+  <br/>
+
+## Bonus challenge set 2:
+
+  1. (If you haven't already, be sure that you've remixed our Glitch project to work on your own personal copy.)
+  
+  2. Create a Firebase app and link it to your project.
+  
+  3. Add some code so that after each random dad joke is downloaded, **insert** *the joke and its ID* into Firebase! (So every time the user clicks the button, your Firebase database will have a longer and longer list of jokes where each entry in the database will follow this format: `R7UfaahVfFd: "What do you call a fly without wings? A walk."`)
+  
+  4. Somewhere at the very bottom of your file (outside of any other functions), set up a Firebase event listener to **display** the entire list of all previous jokes onto the web page!
 
 <br/>
 <hr/>
