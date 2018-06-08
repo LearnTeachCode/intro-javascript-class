@@ -144,6 +144,17 @@ Great work! Now that we've discovered the missing piece to our API puzzle, let's
 
 And that's it!
 
+
+<br/>
+
+## Bonus challenge 1:
+
+  1. Make one tiny change to the code so that the API call requests the data in JSON format instead of plain text.
+  
+  2. What shows up on the page? Why does it look that way?
+  
+  3. Fix it so that the actual data appears on the page, using of one of JavaScript's built-in JSON functions.
+
 <br/>
 <hr/>
 
