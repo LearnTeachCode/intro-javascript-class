@@ -147,13 +147,17 @@ And that's it!
 
 <br/>
 
-## Bonus challenge 1:
+## Bonus challenge:
 
   1. Make one tiny change to the code so that the API call requests the data in JSON format instead of plain text.
   
   2. What shows up on the page? Why does it look that way?
   
   3. Fix it so that the actual data appears on the page, using of one of JavaScript's built-in JSON functions.
+  
+  4. Make one more small change so that only the joke's ID is displayed on the page (none of the other info).
+  
+  5. Create another paragraph on the page, and then display the joke's ID inside *one* paragraph, and the joke itself inside *another* paragraph!
 
 <br/>
 <hr/>
