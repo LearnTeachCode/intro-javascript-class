@@ -59,7 +59,7 @@ How many ***events*** will we need to use in our program?
 
 <br/>
 
-## Challenge 6:
+## (Group) Challenge 6:
 
 All together now, let's write the first parts of our code! We'll leave **placeholders** for the parts that we don't remember how to accomplish just yet.
 
@@ -177,4 +177,4 @@ And that's it!
 
 :trophy: **Great work!** We built our first application that makes use of a third-party web API!
 
-:point_right: **Next up:** [in section 5.2,.....................](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-1/1-2-review-objects.md), .................
+:point_right: **Next up:** [in section 5.2, we'll work with NASA's API to build another small app together and learn about query parameters, rate limits and API keys](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-5/5-2-nasa-api.md)!
