@@ -75,7 +75,7 @@ OK, the first parts of our app are completed, and we've confirmed that our code 
 
   > With APIs, you can't make any assumptions! If it worked yesterday, it might not still work today. Testing APIs with `curl` is great for debugging, because it's entirely separate from your JavaScript code -- like a little quarantine zone.
   
-  :books: **Review:** 
+  :books: For a **review of using `curl`**, [see the instructions in section 4.4](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-4/4-4-curl-intro.md).
 
 <br/>
 
