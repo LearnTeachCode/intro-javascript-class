@@ -20,37 +20,66 @@ Many APIs will let you test out their services like this with a fake/temporary A
 
 <br/>
 
-:trophy: **Your challenge:** Request some fun astronomy facts from NASA!
+:trophy: **Your challenge:** Request some photos and fun astronomy facts from NASA!
 
-  1. First, try to access NASA's Astronomy Picture of the Day by requesting this URL: `https://api.nasa.gov/planetary/apod` <br/><br/> ***...Uh oh, it didn’t work! Why not?***
+  1. First, try to access NASA's Astronomy Picture of the Day by navigating to this URL in your web browser (just like visiting any normal website): `https://api.nasa.gov/planetary/apod` <br/><br/> ***...Uh oh, it didn’t work! Why not?***
 
   2. Look at [their API documentation](https://api.nasa.gov/api.html#apod) to figure out how to get this to work.
     
-  3. Test it out by entering the correct URL into your web browser's address bar (just like how you visit any normal website)/
+  3. Once you find the correct URL from their documentation link above, test it out by pasting that link into your web browser's address bar (again, here we're accessing their API just like how we visit any normal website).
 
 <br/>
 
-  > ***Yup, web browsers can display JSON data!*** So you *can* access APIs (using a `GET` request) directly in your web browser. You just have less control this way, compared to making API requests using `curl` via command line or using code.
+  > ***Yup, web browsers can display JSON data!*** So you *can* access APIs (using a `GET` request) directly in your web browser. You just have less control this way, compared to making API requests via your code or via `curl` in the command line.
+
+<br/>
+
+## Query strings for sending parameters with an HTTP request
+
+For the previous challenge, we needed to use a ***query string*** to send a key-value pair to NASA's server.
+
+<br/>
+
+:star: A ***query string*** is some optional information that can be included at the end of a URL. The query string always begins with a `?` (question mark), followed by a string. It can *only* appear at the ***end*** of a URL.
+
+**Examples:**
+
+  1. **Any URL can have a query string at the end:** <br/> `https://example.com?thisisaquerystring` <br/>If that website's server doesn't make use of query strings, it'll just ignore everything after the `?` in the URL.
+  
+  2. **When you do a search on Google, they put your search terms in the URL as a query string:** <br/> `https://www.google.com/search?q=What+is+a+query+string`<br/> This lets you bookmark the search results page so you can easily return to it later!
+
+<br/>
+
+**The most common use for query strings: *sending key-value pairs to the server!***
+
+  - The conventional format for sending a key-value pair in the query string is: `?key=value`
+  
+  - Most API documentation will use the phrase ***query parameters***, rather than "key-value pairs", but they basically mean the same thing.
+
+<br/>
+
+**To provide multiple *query parameters*, the end of the URL will follow this format:**
+
+```
+?key1=value1&key2=value2
+```
 
 <br/>
 
 ## Challenge 2:
 
-We used *one* query parameter in our previous challenge, but you'll often need to provide *more than one* parameter to request more specific information.
 
 <br/>
 
-**To provide multiple query parameters in a URL, the end of the URL will follow this format:**
-
-```
-?param1=value1&param2=value2
-```
+:trophy: **Your challenge:** Make a request for NASA's featured picture for **December 31st, 2017**! Look at [NASA's API docs](https://api.nasa.gov/api.html#apod) again to identify how to add the appropriate query parameters.
 
 <br/>
 
-:trophy: **Your challenge:** Figure out how to request NASA's featured picture for **December 31st, 2017**! Look at [NASA's API docs](https://api.nasa.gov/api.html#apod) again to identify how to add the appropriate query parameter.
+Feel free to test this out using any of the following ways (even better if you practice using all of them!):
 
-  > You can test this directly in your web browser as well. Feel free to try it out using `curl` via command line too!
+  - Navigate to the URL directly in your web browser (like visiting any normal website)
+  - Make the request using `curl` via command line too
+  - Use JavaScript code (following [our previous example code](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-5/5-1-api-group-challenge.md)) to make the request, either from your browser console or in a Glitch project
 
 <br/>
 
@@ -107,7 +136,7 @@ OK, let's stop using the demo key so we won't be blocked for the rest of the hou
 
 ## Challenge 7:
 
-Using Chrome or `curl` via command line, request another random photo from NASA, ***but this time use your own API key*** instead of the demo key.
+Using Chrome (navigate to the URL) or using `curl` via command line, request another random photo from NASA, ***but this time use your own API key*** instead of the demo key.
 
 Check the response headers (using `curl` or Chrome's network tab) to confirm how many API requests you're now allowed to make each hour! *The difference is astronomical!*
 
@@ -130,35 +159,77 @@ function handleResponse () {
 
 <br/>
 
-## Group challenge:
+## Bonus project challenge:
 
-:star: **[Click this link to collaborate on our shared Glitch project!](https://glitch.com/edit/#!/join/d41c9162-9467-47ea-839d-80d5e994cfdf)**
+Let's build a tiny web app to get some more practice using APIs!
 
 <br/>
 
-:hammer: **What are we building?** An app that lets the user retrieve NASA's Astronomy Picture of the Day for any date of their choosing.
+:hammer: **What are we building?** An app that displays today's NASA's Astronomy Picture of the Day as soon as you open the web page. (Users can visit this app every day to see every new picture.)
 
 **Feature requirements:**
 
   - HTML elements needed:    
-    - A text input box that the user can type a date into
-    - A paragraph with instructions to tell the user what date format they need to use
-    - A button that the user can click on
     - A heading (let's use the `<h2>` tag) to show the title of NASA's photo
-    - An image to display NASA's photo itself
-    
-  - When the user clicks the button, save their input to a variable.
-  
-  - Make an API call to NASA with the required parameters (get their photo for the date chosen by the user)
+    - An image to display NASA's picture
+
+  - Make an API call to NASA (you can just use their demo API key since this app is just a tiny prototype)
   
   - When NASA's response has finished downloading:
     - Display the title inside our heading element
     - Display the image inside our image element
 
+**Suggested steps for building this app:**
+
+  1. Create a new Glitch project by [remixing the official Glitch website starter template](https://glitch.com/edit/#!/hello-webpage).
+
 <br/>
 
-  > Notice how the flowcharts we sketched for our previous app *almost perfectly match* the steps required for this new app! The only change here is that now the user types into a box, and we need to take that data and use it to make our API request.
+  2. In your HTML file, create the necessary HTML elements (as outlined in the feature requirements above) <br/>  *Feel free to search online for a refresher of how to create these HTML elements.*
 
+<br/>
+
+  3. In your JavaScript file, first create new variables to contain JavaScript objects that represent each of those HTML elements that you just created.
+
+<br/>
+
+  4. Before you worry about the API request, first practice *changing the text* of the heading element using JavaScript code. (Always good to review and double check that it works before moving on.)
+
+<br/>
+
+  5. Next, we'll practice modifying that image element! To do that, first get a URL to a random photo from the internet. <br/> *For example: `https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Shar_Pei_puppies.jpg/640px-Shar_Pei_puppies.jpg`*
+
+<br/>
+
+  6. Access the `src` property of the JavaScript object representing your image element, and assign it a new value -- the new value will be that URL to a photo (as a string)! <br/><br/> *The `src` property is similar to the `textContent` property that we've been using all along!*
+
+<br/>
+
+  7. Next, make your API request to NASA by reusing and modifying [the JavaScript code from our previous project](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-5/5-1-api-group-challenge.md). Display the response in the console first.
+
+<br/>
+
+  8. Remember when we talked about [the JSON data format back in section 2.3](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-3-json-intro.md)? The NASA API sent us back a ***JSON-formatted string***! So instead of using the `JSON.stringify()` function, we'll need to use its polar opposite function named `JSON.parse()`.<br/>*Look up some examples of how it works, and practice parsing the response text that you received from NASA!*
+
+<br/>
+
+  9. After *parsing* the response text and turning it into a usable JavaScript object, practice *accessing its properties* and displaying them in the console!<br/>*What are the names of the **two properties** you'll need to get NASA's title and photo URL?*
+
+<br/>
+
+  10. Change the text of your header element to display the title of NASA's picture.
+
+<br/>
+
+  11. Change the `src` property of your image element, assigning NASA's photo URL as its new value.
+
+<br/>
+
+  12. Don't forget to test the page to make sure that your app works! You should see the title and photo appear on your web page now!
+
+<br/>
+
+:star: ***Extra bonus challenge:*** Add a feature so that the user can type in the date of their choosing into a text box, press a button to submit their choice, and then the web app will make the API rquest and display NASA's photo and title for *that particular date*!
 
 <br/>
 <hr/>
