@@ -167,6 +167,8 @@ Let's build a tiny web app to get some more practice using APIs!
 
 :hammer: **What are we building?** An app that displays today's NASA's Astronomy Picture of the Day as soon as you open the web page. (Users can visit this app every day to see every new picture.)
 
+<br/>
+
 **Feature requirements:**
 
   - HTML elements needed:    
@@ -178,6 +180,8 @@ Let's build a tiny web app to get some more practice using APIs!
   - When NASA's response has finished downloading:
     - Display the title inside our heading element
     - Display the image inside our image element
+
+<br/>
 
 **Suggested steps for building this app:**
 
