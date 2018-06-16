@@ -2,7 +2,7 @@
 
 So far, in our past classes and [in the previous section](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-6/6-1-github-api-group-project.md), we've only used one of the HTTP request methods: GET. (Remember, the GET method is used to ask for some information, *without modifying any of that information.*)
 
-Now let's make use of the other three most common methods to create, modify, and delete data on GitHub's servers using  their API!
+Now let's use a couple of the other most common HTTP request methods to create, modify, and delete data on GitHub's servers using  their API!
 
 :books: **Prerequisites:**
   - [Review APIs and using cURL from week 4 here](https://github.com/LearnTeachCode/intro-javascript-class/tree/may-2018-int/week-4)
@@ -41,11 +41,13 @@ When using `curl`, we use the `--data` flag followed by a string of data (enclos
 <br/>
  
   6. Use `curl` to send a request to GitHub's endpoint for creating new repos, and include the `--d` flag followed by your JSON-formatted string.
-  
-***Note:*** It's easiest if you copy-paste your string straight from your browser console and then surround your string with single quotes, as in the example below. (Because it uses *double* quotes internally.)
+
+<br/>
+
+***Note:*** It's easiest if you copy-paste your string straight from your browser console and then surround your string with single quotes, as in the example below:
   
 ```bash
-curl https://some_URL_here  --data  'your JSON string "with double quotes" goes in these single quotes'
+curl https://some_URL_here  --data 'your JSON string "with double quotes" goes in these single quotes'
 ```
 
 <br/>
@@ -58,9 +60,9 @@ If you got back a message saying that your request requires authentication, then
 
 ## Authentication and personal access tokens
 
-Say you want to publish a new post on Facebook (or insert your favorite social network here). What's the *very first step* that you need to take?
+Say you want to publish a new post on Facebook (or your other favorite social network). What's the *very first step* that you need to take?
 
-You need to log into your account by providing a password that (hopefully) only you know! That's how you prove that you're *you*.
+You need to log into your account by providing a password that (hopefully) only you know! That's how you prove that you're ***you***.
 
 <br/>
 
@@ -76,7 +78,7 @@ To create a new GitHub project on your account, you can *authenticate* yourself 
 
 <br/>
 
-When you're testing an API or building a tool that's meant to be used *only by you* (you're not building an app to be used by other people), personal access tokens are very convenient!
+Personal access tokens are convenient when you're testing an API or building a tool that's meant to be used *only by you* (you're not building an app to be used by other people).
 
 They grant permissions for only certain tasks -- for example, creating projects but not deleting them. So if somebody else gets hold of your personal access token, the damage they can do is more limited. (If they got hold of your password, there's no restriction to what they can do!)
 
@@ -102,13 +104,17 @@ curl -H "Accept: application/json" https://icanhazdadjoke.com/
 
 <br/>
 
-It's common practice to send your personal access token within a header named `Authorization`, with a value of `token YOUR-ACTUAL-TOKEN-HERE`. So your `curl` request would look something like this:
+GitHub lets you *authenticate* by sending your personal access token within a header named `Authorization`, with a value of `token YOUR-ACTUAL-TOKEN-HERE`. So your `curl` request would look something like this:
 
 ```
 curl -H "Authorization: token YOUR-ACTUAL-TOKEN-HERE" https://some_URL_here
 ```
 
+<br/>
+
 **Your challenge:** Create a new repo on your GitHub account by again making a POST request using `curl` -- but this time include your personal access token in the request headers, copying pieces from the example above.
+
+<br/>
 
 **To see if it worked:** Check your GitHub profile page by going to https://github.com, clicking your profile photo in the top right, and then clickin on "Your profile" in the pop-up menu. You should see your new project appear in your list of repositories!
 
@@ -117,6 +123,8 @@ curl -H "Authorization: token YOUR-ACTUAL-TOKEN-HERE" https://some_URL_here
 ## Challenge 4:
 
 Make another API request using `curl` to ***change*** the name of the GitHub repo that you just created:
+
+<br/>
 
   1. Look through [GitHub's API documentation for repositories](https://developer.github.com/v3/repos/) and identify the ***endpoint*** for changing a GitHub repo.
   
@@ -144,6 +152,8 @@ There's one more flag we'll use with `curl` today -- the `-X` flag. This sets th
 curl -X "GET" https://icanhazdadjoke.com/
 ```
 
+<br/>
+
 If we don't specify which HTTP request method to use and there's no `--data` flag, then `curl` makes a GET request by default. If there *is* data being sent and there *is* a `--data` flag, then `curl` will automatically send it as a POST request.
 
 <br/>
@@ -151,6 +161,8 @@ If we don't specify which HTTP request method to use and there's no `--data` fla
 ## Challenge 5:
 
 Make one more API request to ***delete*** the repo that you just created.
+
+<br/>
 
   1. Once again, look through [GitHub's API documentation for repositories](https://developer.github.com/v3/repos/) and identify the ***endpoint*** for deleting a GitHub repo.
 
@@ -177,6 +189,8 @@ If you got back a message saying that you need to have admin rights to the repos
 Go to [your GitHub personal access tokens](https://github.com/settings/tokens), click on the name of your token, and then scroll down the list of permissions and check the box next to "delete_repo" to allow this token to delete repositories.
 
 Then run your `curl` command from the previous challenge one more time to delete your repo!
+
+<br/>
 
 **To see if it worked:** Go back to your GitHub profile page again -- you should see that your repo now has a new name!
 
