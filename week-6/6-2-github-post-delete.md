@@ -116,7 +116,7 @@ curl -H "Authorization: token YOUR-ACTUAL-TOKEN-HERE" https://some_URL_here
 
 <br/>
 
-**To see if it worked:** Check your GitHub profile page by going to https://github.com, clicking your profile photo in the top right, and then clickin on "Your profile" in the pop-up menu. You should see your new project appear in your list of repositories!
+**To see if it worked:** Check your GitHub profile page by going to https://github.com, clicking your profile photo in the top right, and then clicking on "Your profile" in the pop-up menu. You should see your new project appear in your list of repositories!
 
 <br/>
 
@@ -186,7 +186,7 @@ If you got back a message saying that you need to have admin rights to the repos
 
 ## Challenge 6:
 
-Go to [your GitHub personal access tokens](https://github.com/settings/tokens), click on the name of your token, and then scroll down the list of permissions and check the box next to "delete_repo" to allow this token to delete repositories.
+Go to [your GitHub personal access tokens](https://github.com/settings/tokens), click on the name of your token, and then scroll down the list of permissions and check the box next to ***"delete_repo"*** to allow this token to delete repositories. Last but not least, click the green ***"Update token"*** button at the very bottom of the page.
 
 Then run your `curl` command from the previous challenge one more time to delete your repo!
 
@@ -200,4 +200,4 @@ Then run your `curl` command from the previous challenge one more time to delete
 
 :trophy: **Great work!** Now that you've practiced identifying endpoints, sending your own JSON data, and using more of the most common common HTTP request methods, you know just enough to find your way around *any* API!
 
-:point_right: **Next up:** for homework, we'll set up a simple user login system using Firebase and GitHub!
+:point_right: **Next up:** in our next class, we'll set up a user login system using Firebase and GitHub and use it to build another mini project together as a group!
