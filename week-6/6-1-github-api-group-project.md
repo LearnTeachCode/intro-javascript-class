@@ -1,4 +1,4 @@
-# 6.1: GitHub API group project
+# 6.1: GitHub API group project challenges
 
 [Last week](https://github.com/LearnTeachCode/intro-javascript-class/tree/may-2018-int/week-5), we practiced using a third party web API in our own little app, displaying a random dad joke on the page every time the user clicks a button. Let's practice some more with a new API and a *slightly* more challenging project!
 
