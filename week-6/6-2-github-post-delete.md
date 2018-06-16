@@ -1,4 +1,4 @@
-# 6.2: GitHub API challenges: Making POST requests
+# 6.2: GitHub API challenges: Making POST and DELETE requests
 
 So far, in our past classes and [in the previous section](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-6/6-1-github-api-group-project.md), we've only used one of the HTTP request methods: GET. (Remember, the GET method is used to ask for some information, *without modifying any of that information.*)
 
