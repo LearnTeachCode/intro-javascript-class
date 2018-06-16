@@ -273,4 +273,4 @@ Almost there! The only thing missing now is to let the user decide *which* GitHu
 
 :trophy: **Woohoo!** We built our second web app that makes use of a third-party web API!
 
-:point_right: **Next up:** [in section 6.2, we'll finally make our own POST requests to create new data with the GitHub API, and we'll need to use an API key to do it](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-6/6-2-github-challenges-continued.md)!
+:point_right: **Next up:** [in section 6.2, we'll make POST, PUT, and DELETE requests to create and modify new data with the GitHub API, and we'll need to use an API key to do it](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-6/6-2-github-post-put-delete.md.md)!
