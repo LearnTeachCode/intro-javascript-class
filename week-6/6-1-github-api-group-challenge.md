@@ -171,6 +171,8 @@ Now that we've finished our initial planning, research, and testing for our proj
 
 :star: **[Click this link to collaborate on our shared Glitch project!](https://glitch.com/edit/#!/join/826ce4c3-4848-4d3e-b8f0-8633dd4b14d5)**
 
+<br/>
+
 **Steps to implement our first feature: requesting example data from GitHub's API:**
 
   1. Make an empty function to contain our API request code. Give it an appropriate name!
@@ -211,6 +213,8 @@ Now that we've finished our initial planning, research, and testing for our proj
 
 We've finished the most important part of our project: retrieving the data and displaying it on the page! But we want the data to only appear *after* the user has click the button. Let's take care of that next.
 
+<br/>
+
 **Steps to implement our second feature: triggering the API request after a button click:**
 
  1. Set up an event listener for our button. Test that it works by using `console.log()` to display a message only when the button is clicked.
@@ -230,10 +234,11 @@ We've finished the most important part of our project: retrieving the data and d
 
 Almost there! The only thing missing now is to let the user decide *which* GitHub user's data they want to see.
 
+<br/>
 
 **Steps to implement our last feature: making the API request based on the user's input:**
 
- 1. Referencing out flowcharts again, identify the section of our code where we should access the user's input from the text input box.
+ 1. Referencing our flowcharts again, identify the section of our code where we should access the user's input from the text input box.
   
 <br/>
 
@@ -243,7 +248,7 @@ Almost there! The only thing missing now is to let the user decide *which* GitHu
 
   3. Pass the user's input as an ***argument*** to our API-requesting function.
   
-  > Whenever you have a function calling another function, it's usually best to pass your variables directly between them this way -- like passing the baton! :runner: <br/>This makes your code more organized and easier to debug, compared to relying on global variables for everything.
+  > Whenever you have a function calling another function, it's usually best to pass your variables directly between them this way -- like passing the baton! :runner: <br/><br/> This makes your code more organized and easier to debug, compared to relying on global variables for everything.
 
 <br/>
 
