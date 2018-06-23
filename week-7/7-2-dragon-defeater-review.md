@@ -40,21 +40,39 @@ We already have our code from the previous version of our game, which lets us cl
  
   3. Identify the ***path*** in the database for our score.
   
+  <br/>
+  
   4. Create a ***database reference object*** using that path, and save it to a new variable.
+  
+  <br/>
   
   5. Set up a ***Firebase event listener*** that calls a function (which we'll create later), triggered by the `"value"` event which happens when the page loads *and also* any time the value of our score in the database changes.
   
+  <br/>
+  
   6. Define a new function that handles the updated value from Firebase -- give it a descriptive name!
+  
+  <br/>
   
   7. Give that function definition ***one parameter*** named `dataSnapshot`, which is a placeholder for the messy data that Firebase sends us in an object full of all sorts of weird stuff. (lol)
   
+  <br/>
+  
   8. Inside our new event handler function, call the Firebase function `dataSnapshot.val()` to convert the messy data object into the actual value we want from our database -- in this case, just a number representing our current score!
+  
+  <br/>
   
   9. Call `console.log()` inside our event handler function to display our updated score in the browser console.
   
+  <br/>
+  
   10. Test that the event listener works by manually changing the data in the Firebase console, and see if the new data instantly appears in the browser console -- for *everyone*, in real time!
   
+  <br/>
+  
   11. Inside our event handler function, update our `dragonsDefeated` variable, assigning it a new value: the ***output*** of calling `dataSnapshot.val()`! This way, our game's ***local state*** will always stay in sync with the database -- *for everyone who plays the game!*
+  
+  <br/>
   
   12. Modify our *other* event handler function so that whenever *anybody* clicks the button, in addition to increasing the score by one, we should also ***insert*** the new score into the database.
 
