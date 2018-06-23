@@ -34,7 +34,7 @@
 
 <br/>
 
-:point_right: **[Take a look at our HTML mockup here](https://group-github-login.glitch.me/).**
+:point_right: **[Take a look at our HTML mockup here](https://group-firebase-github-login.glitch.me/).**
 
 <br/>
 
