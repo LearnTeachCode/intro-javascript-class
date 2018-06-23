@@ -297,6 +297,8 @@ So instead of relying on *hiding* and *unhiding* elements, we could instead use 
   
   > **Hint:** It works the same way as before -- we're just accessing and assigning values to properties of objects.
 
+<br/>
+
 After experimenting with those new functions on their own, see how you can use them within this project to create and display elements on the fly, only when they're needed!
 
 <br/>
