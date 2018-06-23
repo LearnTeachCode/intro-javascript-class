@@ -90,8 +90,12 @@ Let's take the first steps to setting up our app and letting a user log into our
 
   :heavy_check_mark: 1.  *Already finished:* Set up Firebase app with authentication and connect it to a GitHub API key.
 
+<br/>
+
   :heavy_check_mark: 2. *Already finished:* Create JavaScript objects for each HTML element that we need to access.
-  
+
+<br/>
+
   :heavy_check_mark: 3. *Already finished:* Set up two event listeners, one to handle when the user clicks on the login/logout buttons (We named these event-handler functions `handleLoginClick()` and `handleLogoutClick`.) 
 
 <br/>
@@ -189,7 +193,9 @@ firebase.auth().signOut();
 <br/>
   
   3. Right now, our code always does the *same thing* whether the user has just opened the page, logged in, or logged out. But we want to do something ***different*** depending on whether the user has logged in or logged out. How can we tell the difference?
-  
+
+<br/>
+
   4. Let's create a conditional statement that checks whether there's a user currently logged in or not. If there is a current user logged in, then display `"User is logged in"` to the console; otherwise, display `"User is logged out"`.
 
 
@@ -216,6 +222,8 @@ Now that the core of our login system is working, let's update the user interfac
 nameOfElem.style.display = "none";
 ```
 
+<br/>
+
 **Then to show an element, we can do this:**
 
 ```javascript
@@ -238,6 +246,8 @@ Finally, let's display the current user's data onto the page when we know withou
   1. Change the `textContent` property of the welcome message to say `"Welcome, [user's name here]!"` (where it actually displays the name of the current user).
   
   2. Change the `src` property of the image to show the current user's profile photo.
+
+<br/>
 
 Let's be sure to test the app again, as we do after every new feature we add to our code!
 
