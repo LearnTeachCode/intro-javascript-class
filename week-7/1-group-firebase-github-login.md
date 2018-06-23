@@ -12,6 +12,8 @@
 
 :hammer: **What are we building now?** Let's make a tiny app where users can log in with their GitHub account and see a welcome message and their own GitHub profile photo.
 
+<br/>
+
 **Feature requirements:**
 
   - By default (if no user is logged in), the page will display "Click login to get started with our awesome app!"
@@ -302,4 +304,4 @@ After experimenting with those new functions on their own, see how you can use t
 
 :trophy: **We've summoned the spirit of Kenny Loggins, king of logins!** Woohoo! We've implemented our very first user login system with just a handful of new functions, combined with our knowledge of objects, event listeners, and accessing HTML elements with JavaScript.
 
-:point_right: **Next up:** [in section 7.2, .....](#)!
+:point_right: **Next up:** [in section 7.2, we'll review the other Firebase functions by rebuilding "Dragon Defeater" as a real-time, collaborative game!](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-7/7-2-dragon-defeater-review.md)!
