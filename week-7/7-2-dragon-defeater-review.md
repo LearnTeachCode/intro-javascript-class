@@ -6,7 +6,7 @@ Let's review what we've learned so far about Firebase to update our first group 
 
 :books: **Review materials:**
 
-  - [2.4: Accessing Firebase data with paths](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-4-firebase-paths.md)
+  - [Section 2.4: Accessing Firebase data with paths](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-4-firebase-paths.md)
   - [Section 2.5: Database reference objects](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-2/2-5-firebase-reference-objects.md)
   - [Section 3.2: Displaying data using the Firebase `.on` event listener](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-3/3-2-firebase-event-listener.md)
   - [Section 3.3: Adding, updating, and deleting data](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-3/3-3-firebase-set-remove.md)
