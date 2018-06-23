@@ -151,7 +151,7 @@ Imagine the JavaScript object as a bunch of physical things (maybe a set of furn
 
 ## Challenge 7:
 
-So what's the ***inverse** or the *opposite* of "stringifying" an object? Search online to find the JavaScript equivalent of *unpacking* the data!
+So what's the ***inverse*** or the *opposite* of "stringifying" an object? Search online to find the JavaScript equivalent of *unpacking* the data!
 
 Then test out the function that you found by giving it the example string below as its *input*. Then display the *output* of your function call in the console.
 
