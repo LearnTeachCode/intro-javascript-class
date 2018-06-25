@@ -166,4 +166,7 @@ A quick overview of how to create a web page locally on your computer and then v
   
   - [ ] Try making a typo in one of your file names or in the `<script>` or `<link>` tags in your HTML file, and see what happens when you load your web page. (Then don't forget to fix it again!)
 
-<br/>👉 **Next up, [Section 1.2: Programming concepts review and the Hangman game](https://github.com/LearnTeachCode/intro-javascript-class/blob/march-2018/week-1/1-2-review-hangman-game.md)!**
+<br/>
+<hr/>
+👉 **To be posted soon:** Guidelines and suggestions for personal projects, plus example projects from past students, will be shared soon -- keep an eye out for another email update!
+
