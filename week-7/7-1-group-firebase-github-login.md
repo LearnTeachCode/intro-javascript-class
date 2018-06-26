@@ -274,34 +274,6 @@ Notice that when we log out of the app, our photo and name are still showing on 
 Oops! When we added that last feature, we also created a new bug! If the user logs out and then logs back in, their profile photo doesn't show up again. **Fix this bug!**
 
 <br/>
-
-## Bonus Challenge:
-
-Here's one more small improvement you could make to this app. Notice that when you first open the page, some elements "flicker" very briefly. That's because we can see the result of the original HTML code *before* our JavaScript file downloads and runs our code.
-
-So instead of relying on *hiding* and *unhiding* elements, we could instead use JavaScript to ***create*** brand new HTML elements on the fly and insert them into the HTML!
-
-<br/>
-
-:star: ***Before anything else, make a remix of our group project on Glitch so you'll have your own personal copy to work with.*** 
-
-<br/>
-
-**Search online to find the following:**
-
-  1. What built-in JavaScript function lets you create new HTML elements?
-  
-  2. And what built-in function lets you add your new element into the actual web page?
-  
-  3. How would you set the `textContent`, the `id`, and/or the `src` properties of your new element?
-  
-  > **Hint:** It works the same way as before -- we're just accessing and assigning values to properties of objects.
-
-<br/>
-
-After experimenting with those new functions on their own, see how you can use them within this project to create and display elements on the fly, only when they're needed!
-
-<br/>
 <hr/>
 
 :trophy: **We've summoned the spirit of Kenny Loggins, king of logins!** Woohoo! We've implemented our very first user login system with just a handful of new functions, combined with our knowledge of objects, event listeners, and accessing HTML elements with JavaScript.
