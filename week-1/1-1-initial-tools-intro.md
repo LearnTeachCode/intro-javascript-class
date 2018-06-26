@@ -213,5 +213,7 @@ A quick overview of how to create a web page locally on your computer and then v
 <br/>
 <hr/>
 
-👉 **To be posted soon:** Guidelines and suggestions for personal projects, plus example projects from past students, will be shared soon -- keep an eye out for another email update!
+:trophy: **Woohoo!** You're off to a great start! We'll gradually learn more about all of these tools throughout our class.
+
+👉 **Next up: go to [section 1.2 and answer the prompts to start brainstorming and planning your initial project ideas!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-1/1-2-project-planning.md)** 
 
