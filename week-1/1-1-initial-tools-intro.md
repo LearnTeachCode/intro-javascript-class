@@ -1,11 +1,20 @@
 # 1.1: Getting started with our first software tools
 
-Writing quality code is a form of *craftsmanship*, just like blacksmithing or carpentry; in software development, using the right tools for the job can make all the difference. (Fun fact: [software craftsmanship](https://en.wikipedia.org/wiki/Software_craftsmanship) is totally a thing! So is [software carpentry](https://software-carpentry.org/)!) Let's get a jump start before our first class by getting familiar with a few of the first tools we'll be using.
+Writing quality code is a form of *craftsmanship*, just like blacksmithing or carpentry; in software development, using the right tools for the job can make all the difference.
 
-✔️ **To complete this section:** Follow the steps below to get started with Slack, GitHub, Glitch, and Visual Studio Code. Please complete this *before our first class meeting*! 
+  > **Fun fact:** [software craftsmanship](https://en.wikipedia.org/wiki/Software_craftsmanship) is totally a thing! So is [software carpentry](https://software-carpentry.org/)!
+
+<br/>
+
+Let's get a jump start before our first class by getting familiar with a few of the tools we'll be using.
+
+<br/>
+
+✔️ **To complete this section:** Follow the steps below to get started with Slack, GitHub, Glitch, Chrome's JavaScript console, and Visual Studio Code. Please complete this *before our first class meeting*! 
 
 ❓ **If you have any questions,** please ask on the private Slack channel for our class. (See below for an intro to Slack.)
 
+<br/>
 
 **Table of Contents:**
   - [1.1.1: Intro to Slack](#111-intro-to-slack)
@@ -21,7 +30,11 @@ Writing quality code is a form of *craftsmanship*, just like blacksmithing or ca
 
 Get started with the Learn Teach Code chatroom on Slack, where everyone in our entire community can discuss ideas, ask and answer questions, meet study partners, and chat about all things code!
 
-:tv: **Video: Intro to Slack (5 min): https://youtu.be/J4o5uEVjooI**
+<br/>
+
+:tv: **[Video: Intro to Slack](https://youtu.be/J4o5uEVjooI)** (5 min)
+
+<br/>
 
 **Tasks to do:**
 
@@ -35,7 +48,7 @@ Get started with the Learn Teach Code chatroom on Slack, where everyone in our e
 
   - [ ] Download the Slack mobile app and sign into the LearnTeachCode group on your phone.
 
-  - [ ] If you're new to Slack, be sure to [watch our short video intro](https://youtu.be/J4o5uEVjooI) (also linked to above).
+<br/>
 
 **Slack resources:**
 
@@ -51,12 +64,17 @@ Get started with the Learn Teach Code chatroom on Slack, where everyone in our e
 
   - Article in Business Insider: ["$5 billion Slack hits a $200 million milestone as the chat wars with Microsoft continue to escalate"](http://www.businessinsider.com/slack-200-million-annual-recurring-revenue-2017-9)
 
+<br/>
 
 ## 1.1.2: Intro to GitHub
 
 GitHub is the world's largest repository of source code that also serves as a social network and collaboration hub for developers. Once you join GitHub, you'll be true a member of the global software development community!
 
-:tv: **Video: Intro to GitHub (6 min): https://youtu.be/g8vGm8wQSMY**
+<br/>
+
+:tv: **[Video: Intro to GitHub](https://youtu.be/g8vGm8wQSMY)** (6 min)
+
+<br/>
 
 **Tasks to do:**
 
@@ -65,6 +83,8 @@ GitHub is the world's largest repository of source code that also serves as a so
   - [ ] Share your GitHub username with us in the private Slack channel for our class.
   
   - [ ] Check out the featured projects and topics at https://github.com/explore and just have some fun exploring GitHub!
+
+<br/>
 
 **GitHub resources:**
 
@@ -76,12 +96,17 @@ GitHub is the world's largest repository of source code that also serves as a so
   
   - [The Octodex](https://octodex.github.com/), GitHub's collection of octocat artwork!
 
+<br/>
 
 ## 1.1.3: Intro to Glitch
 
 Get started with Glitch, a web app that makes it easy to collaborate with others in real-time to create your own websites and apps! Once you see what it can do, you'll probably be as obsessed with it as I am. ;)
 
-:tv: **Video: Intro to Glitch (6 min): https://youtu.be/juqFTEoHN2Q**
+<br/>
+
+:tv: **[Video: Intro to Glitch](https://youtu.be/juqFTEoHN2Q)** (6 min)
+
+<br/>
 
 **Tasks to do:**
 
@@ -91,24 +116,29 @@ Get started with Glitch, a web app that makes it easy to collaborate with others
   
   - [ ] Create a new website project on Glitch and test out some of its features.
 
+<br/>
+
 **Glitch resources:**
 
  - [Blog post introducing Glitch](https://medium.com/glitch/welcome-to-glitch-fe161d0fc39b ) by Anil Dash, CEO of Fog Creek
 
   - [Glitch's official "About" page](https://glitch.com/about/)
 
-  - A talk by the creators of Glitch: ["We Don’t Learn Alone"](https://www.youtube.com/watch?v=HiIjqttuC4c) by Anil Dash And Jenn Schiffer
+  - ["We Don’t Learn Alone"](https://www.youtube.com/watch?v=HiIjqttuC4c), a talk by Anil Dash and Jenn Schiffer, the creators of Glitch
   
   - [Liz teaching a workshop using Glitch (photo shared on Twitter)](https://twitter.com/LearningNerd/status/940623177700405248)
 
-
-
+<br/>
 
 ## 1.1.4: Intro to Chrome's developer tools and the browser console
 
 Meet your new best friend: the dev tools built right into your web browser! This is a quick intro to opening the console, inspecting HTML with the Elements panel, and applying JavaScript code directly to the current web page.
 
-:tv: **Video: Intro to Chrome's developer tools and the browser console (4 min): https://youtu.be/O_sJE_3jKZ4**
+<br/>
+
+:tv: **[Video: Intro to Chrome's developer tools and the browser console](https://youtu.be/O_sJE_3jKZ4)** (4 min)
+
+<br/>
 
 **Tasks to do:**
 
@@ -122,18 +152,25 @@ Meet your new best friend: the dev tools built right into your web browser! This
   
   - [ ] Test out using the built-in `console.log()` function in your JavaScript file and then checking if your messages appear in the browser console when you refresh your web page.
 
+<br/>
+
 **Chrome browser resources:**
 
   - [Official Chrome DevTools documentation](https://developers.google.com/web/tools/chrome-devtools/)
   
   - The [Google Chrome Developers official YouTube channel](https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw) has lots of tutorials, interviews, and other interesting things to watch!
 
+<br/>
 
 ## 1.1.5: Intro to text editors: Visual Studio Code
 
 Take the first step in setting up your local development environment by installing Visual Studio Code (VS Code), which is currently the most popular text editor in the JavaScript community.
 
-:tv: **Video: Intro to Visual Studio Code (8 min): https://youtu.be/av257EQfefU**
+<br/>
+
+:tv: **[Video: Intro to Visual Studio Code](https://youtu.be/av257EQfefU)** (8 min)
+
+<br/>
 
 **Tasks to do:**
 
@@ -145,6 +182,8 @@ Take the first step in setting up your local development environment by installi
   
   - [ ] Try out the different color schemes! Go to File > Preferences > Color Theme to explore the built-in themes.
 
+<br/>
+
 **Visual Studio Code resources:**
 
   - [Visual Studio Code's official "Getting Started" guides](https://code.visualstudio.com/docs)
@@ -153,12 +192,17 @@ Take the first step in setting up your local development environment by installi
 
   - [The State of JavaScript 2017 survey's page on text editors](https://stateofjs.com/2017/other-tools/), ranking Visual Studio Code as the most popular by a long shot!
 
+<br/>
 
 ## 1.1.6: Creating websites locally with VS Code
 
 A quick overview of how to create a web page locally on your computer and then view it in your web browser.
 
-:tv: **Video: Creating websites locally with VS Code (5 min): https://youtu.be/E4FmXNatxt0**
+<br/>
+
+:tv: **[Video: Creating websites locally with VS Code](https://youtu.be/E4FmXNatxt0)** (5 min)
+
+<br/>
 
 **Tasks to do:**
 
@@ -168,5 +212,6 @@ A quick overview of how to create a web page locally on your computer and then v
 
 <br/>
 <hr/>
+
 👉 **To be posted soon:** Guidelines and suggestions for personal projects, plus example projects from past students, will be shared soon -- keep an eye out for another email update!
 
