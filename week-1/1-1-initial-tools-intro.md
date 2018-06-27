@@ -10,7 +10,7 @@ Let's get a jump start before our first class by getting familiar with a few of 
 
 <br/>
 
-✔️ **To complete this section:** Follow the steps below to get started with Slack, GitHub, Glitch, Chrome's JavaScript console, and Visual Studio Code. Please complete this *before our first class meeting*! 
+:white_check_mark: **To complete this section:** Follow the steps below to get started with Slack, GitHub, Glitch, Chrome's JavaScript console, and Visual Studio Code. Please complete this *before our first class meeting*! 
 
 ❓ **If you have any questions,** please ask on the private Slack channel for our class. (See below for an intro to Slack.)
 
