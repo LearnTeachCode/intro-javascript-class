@@ -135,4 +135,4 @@ Last step! For ***each*** of your top 3 ideas, spend a few minutes drawing a sev
 
 :trophy: ***Great work!***  See how quickly you can generate *lots* of ideas? Once you choose the project you'd like to work on, you'll refine these ideas over the course of our 8 weeks together.
 
-:point_right: **Next up: go to [section 1.3 to take a look at some examples of past student projects](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-1/1-3-past-project-examples.md)**.
+:point_right: **Next up: go to [section 1.3 to take a look at some examples of past student projects, plus guidelines for building your own](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-1/1-3-project-guidelines-past-examples.md)**.
