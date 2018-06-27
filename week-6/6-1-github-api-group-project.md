@@ -169,7 +169,7 @@ let dataStringToUnpack = ' {"name": "Liz", "awesomenessLevel" : "infinite"} ';
 
 Now that we've finished our initial planning, research, and testing for our project, we're ready to start coding!
 
-:star: **[Click this link to collaborate on our shared Glitch project!](https://glitch.com/edit/#!/join/826ce4c3-4848-4d3e-b8f0-8633dd4b14d5)**
+:star: **[Click this link to collaborate on our shared Glitch project!](https://glitch.com/edit/#!/join/0b6235b7-3b34-47f4-b511-02de82bdd206)**
 
 <br/>
 
