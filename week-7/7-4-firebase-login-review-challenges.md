@@ -243,3 +243,5 @@ After experimenting with those new functions on their own, see how you can use t
 <hr/>
 
 🏆 ***Congratulations, you built your first web app with a working user login system!*** This is the first step towards turning all your wildest ideas into web applications that could potentially have millions of users! ;)
+
+:point_right: **In our next class:** we'll combine what we learned in these two group challenges to make "Dragon Defeater" into a game that everyone can play individually, with a user login system that syncs up with the database to save each user's progress separately.
