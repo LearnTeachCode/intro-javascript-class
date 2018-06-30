@@ -1,4 +1,4 @@
-# 8.1: Putting it all together: "Dragon Defeater" for multiple users
+# 8.2: Putting it all together: "Dragon Defeater" for multiple users
 
 In [our class last week](https://github.com/LearnTeachCode/intro-javascript-class/tree/may-2018-int/week-7), we built two small group projects: a tiny example of a user login system with Firebase and GitHub, and then a collaborative version of our Dragon Defeater game where we had one shared score for everyone.
 
@@ -61,16 +61,6 @@ In your flowcharts, include the ***names of variables and functions*** associate
 All together now! Let's draw a new flowchart that outlines what we think we need to do to build our new app, combining pieces from both of our previous apps.
 
 The more detail, the better! Let's reuse those function names wherever possible!
-
-<br/>
-
-## Challenge 3....:
-
-Review db structure:
-
-  - make an object representing yourself with 3 properties
-  - small example Glitch to remix, identify path (give yourself a unique ID #), make db ref object, and insert object into our Firebase dB
-  - set vs update
 
 <br/>
 
@@ -202,4 +192,4 @@ Let's use what we learned last week to make for a better ***user experience*** (
 
 :trophy: **Great work, team!** We've applied our new knowledge to create a web app with that contains some of the most common components that exist in the many applications we use every day (like all social network sites, online shopping sites, productivity tools, games, and more). With more practice, you can expand on this example to create working prototypes for any ideas you can think of!
 
-:point_right: **Next up:** [in section 8.2, we'll ....](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-8/8-2-*************.md)!
+:point_right: **Next up:** [in section 8.3, we'll ....](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-8/8-3-*************.md)!
