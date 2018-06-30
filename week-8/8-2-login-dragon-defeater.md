@@ -64,7 +64,7 @@ The more detail, the better! Let's reuse those function names wherever possible!
 
 <br/>
 
-## Challenge NUM:
+## (Group) Challenge 3:
 
 Let's add the basic template for our login system into our new app! We'll need to do a few steps here:
 
@@ -80,7 +80,7 @@ Let's add the basic template for our login system into our new app! We'll need t
 
 <br/>
 
-## Challenge NUM:
+## (Group) Challenge 4:
 
 Once our users can log in and log out, let's display their profile info from GitHub on the page!
 
@@ -112,7 +112,7 @@ Once our users can log in and log out, let's display their profile info from Git
 
 <br/>
 
-## Challenge NUM:
+## (Group) Challenge 5:
 
 Let's also save the user's profile information to Firebase! We don't actually *need* to for this very simple app, but this way we'll have their data handy for future features -- like a leaderboard showing the names of every player with the top scores.
 
@@ -140,7 +140,7 @@ Let's also save the user's profile information to Firebase! We don't actually *n
 
 <br/>
 
-## Challenge NUM:
+## (Group) Challenge 6:
 
 Now that we have the user's info being saved *and* displayed on the page, let's turn our attention to the game itself. We'll need to change our existing code so that it will *display* and *insert* the user's current score.
 
@@ -180,7 +180,7 @@ Now that we have the user's info being saved *and* displayed on the page, let's 
 
 <br/>
 
-## Challenge NUM:
+## (Group) Challenge 7:
 
 We're basically done! Just a couple final touches: hiding and showing parts of the user interface as needed! Which parts of the part should the user see when they're logged in or logged out?
 
@@ -190,6 +190,6 @@ Let's use what we learned last week to make for a better ***user experience*** (
 <br/>
 <hr/>
 
-:trophy: **Great work, team!** We've applied our new knowledge to create a web app with that contains some of the most common components that exist in the many applications we use every day (like all social network sites, online shopping sites, productivity tools, games, and more). With more practice, you can expand on this example to create working prototypes for any ideas you can think of!
+:trophy: **Great work, team!** We've applied our new knowledge to create a truly multi-user app! With more practice, you can expand on this example to create working prototypes for any ideas you can think of -- and invite people to use your app!
 
 :point_right: **Next up:** [section 8.3 contains a list of some more APIs and examples of API project ideas in case you need some extra inspiration!](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-8/8-3-bonus-api-suggestions.md)
