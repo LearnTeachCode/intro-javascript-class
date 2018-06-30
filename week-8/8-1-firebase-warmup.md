@@ -3,18 +3,17 @@
 :weight_lifting_woman: Let's warm up those coding muscles with a few quick review challenges! We'll also take a look at one Firebase function that we've never used before in our class, which will come in handy for our next group project.
 
 <br/>
+
+:star: **For all of these review challenges, *remix this Glitch project:* https://glitch.com/edit/#!/firebase-practice-4**
+
 <hr/>
 
 
 ## Challenge 1:
 
-<br/>
+Remember objects? This should only take a minute then! :)
 
-:star: **For all of these review challenges, *remix this Glitch project:* https://glitch.com/edit/#!/firebase-practice-4**
-
-<br/>
-
-Remember objects? This should only take a minute then! :) In your remixed copy of the Glitch project (link above), **create a new object that represents yourself.** Give it ***three*** different key/value pairs.
+In your remixed copy of the Glitch project (link above), **create a new object that represents yourself.** Give it ***three*** different key/value pairs.
 
 <br/>
 
@@ -54,10 +53,33 @@ See the example code at the very bottom of that page and modify it to work with 
 
 <br/>
 
-## Bonus challenge:
+## Challenge 6:
 
-Turn yourself in a ***nested*** object and insert that new data into the database!
+There's one major problem with using students' names as the keys or properties in our database... what if two students have the same name?! 
 
+First, **delete** yourself from the database.
+
+Next, change the **path** so that the key/property that represents you is *guaranteed* to be unique. Then add yourself back into the database under that new path.
+
+<br/>
+
+## Bonus challenge 1:
+
+Turn yourself in a ***nested*** object and add this new, more complicated version of yourself into the database!
+
+<br/>
+
+## Bonus challenge 2:
+
+Display a list of every student's information on the web page.
+
+<br/>
+
+## Bonus challenge 3:
+
+For each student in the list, create a new HTML element containing their data, and add it to the web page.
+
+  > Do some Googling to figure out how to do this! You'll also probably find the [Firebase dataSnapshot.forEach() method](https://firebase.google.com/docs/reference/js/firebase.database.DataSnapshot#forEach) useful!
 
 <br/>
 <hr/>
