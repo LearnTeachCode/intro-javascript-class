@@ -82,4 +82,4 @@ We already have our code from the previous version of our game, which lets us cl
 
 :trophy: **Fantastic!** We've built a collaborative, real-time game that anybody on the internet can play together. It's all of humanity versus the dragons! (I think we'll win.) This was a warmup exercise to prepare for our next challenge: allowing each user to log into the app and save *their own separate score*.
 
-:point_right: **Next up:** we'll combine what we learned in these two group challenges to make "Dragon Defeater" into a game that everyone can play individually, with a user login system that syncs up with the database to save each user's progress separately.
+:point_right: **Next up:** in [section 7.3, you'll set up your own Firebase app to allow for a user login system!](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-7/7-3-firebase-login-setup.md)
