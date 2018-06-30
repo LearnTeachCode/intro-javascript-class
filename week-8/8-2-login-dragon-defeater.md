@@ -192,4 +192,4 @@ Let's use what we learned last week to make for a better ***user experience*** (
 
 :trophy: **Great work, team!** We've applied our new knowledge to create a web app with that contains some of the most common components that exist in the many applications we use every day (like all social network sites, online shopping sites, productivity tools, games, and more). With more practice, you can expand on this example to create working prototypes for any ideas you can think of!
 
-:point_right: **Next up:** [in section 8.3, we'll ....](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-8/8-3-*************.md)!
+:point_right: **Next up:** [section 8.3 contains a list of some more APIs and examples of API project ideas in case you need some extra inspiration!](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-8/8-3-bonus-api-suggestions.md)
