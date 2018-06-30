@@ -65,7 +65,7 @@ Next, change the **path** so that the key/property that represents you is *guara
 
 ## Bonus challenge 1:
 
-Turn yourself in a ***nested*** object and add this new, more complicated version of yourself into the database!
+Turn yourself into a ***nested*** object and add this new, more complicated version of yourself into the database!
 
 <br/>
 
