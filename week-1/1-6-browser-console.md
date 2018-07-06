@@ -1,4 +1,4 @@
-# Section 1.5: Using the browser console
+# Section 1.6: Using the browser console
 
 Now that we've learned the very basics of how to display new information onto a web page using JavaScript, we're one step closer to finishing our Dragon Defeater game!
 
