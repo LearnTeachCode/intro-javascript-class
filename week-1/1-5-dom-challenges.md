@@ -1,4 +1,4 @@
-# Section 1.4: Interacting with the web page and the Document Object Model
+# Section 1.5: Interacting with the web page and the Document Object Model
 
 To create our game, we'll need to *change* the text that appears on web page, so the user knows what's going on!
 
