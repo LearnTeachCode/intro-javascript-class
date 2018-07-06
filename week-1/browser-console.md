@@ -10,12 +10,9 @@ In this next set of coding challenges, we'll take a little detour to learn about
 
 Let's take a closer look at what we've learned so far and discuss it from a different perspective:
 
-<br/>
-
   1. In our previous practice challenges, what was the information or the ***data*** that we were putting into our code?
   
   2. ***Where*** did the data come from, and where did we send it?
-
 
 <br/>
 
@@ -36,6 +33,8 @@ document.getElementById("outcome").textContent = "hi!";
 
 console.log("hi!");
 ```
+
+<br/>
 
 ***Before* you run the code, discuss:**
 
@@ -73,7 +72,9 @@ Next, **open the console** while you're looking at the live web page. Do you see
 
 <br/>
 
-As you can see, ***the `console.log()` function allows us to display any data inside the web browser's console.***
+:star: As you can see, **the `console.log()` function allows us to display any data inside the web browser's console.**
+
+<br/>
 
 So our code `console.log("hi!")` displays (or ***logs***) the data `"hi!"` inside the console:
 
@@ -105,11 +106,17 @@ There's a bug in the following code. Before you run it, make a prediction:
   
   3. Why would this code confuse the web browser?
 
+<br/>
+
 ```javascript
 console.log(hello);
 ```
 
+<br/>
+
 Then ***run the code*** by copying it into your JavaScript file in the Glitch code editor, open the live page by clicking "Show Live", and open the console while you're looking at the live page.
+
+<br/>
 
 Were your predictions correct? Now, solve the bug! Test it again to make sure it works.
 
@@ -143,11 +150,15 @@ Yet another bug. For this one, first **discuss:**
   
   2. Will it be different from the previous error messages? Why or why not?
 
+<br/>
+
 Then run the broken code below, and look inside the console again to see if your predictions were correct:
 
 ```javascript
 console.log "hello";
 ```
+
+<br/>
 
 Finally, fix it!
 
@@ -165,17 +176,17 @@ OK, one last bug! Once again, first **discuss:**
   
   4. Compare this to the code we used in our previous section to display text on the page. How is it similar, and how is it different?
 
+<br/>
+
 Then run broken code below, and look inside the console:
 
 ```javascript
 console.log = "hello";
 ```
 
-Why do you think it worked that way?
-
 <br/>
 
-
+Why do you think it worked that way?
 
 
 <br/>
