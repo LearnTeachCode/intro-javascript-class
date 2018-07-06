@@ -1,4 +1,4 @@
-# Planning our group project: Dragon Defeater!
+# Section 1.4: Planning our group project: Dragon Defeater!
 
 Let's build a super tiny game to start learning the basics of combining JavaScript with HTML to create an interactive web page! We'll start by planning out the game and identifying what we'll need to learn in order to create it.
 
@@ -16,9 +16,9 @@ This will also serve as a model for the planning process that you'll use for you
   
   - And there should be a paragraph that says how many times the button was clicked.
   
-  - Every time the user clicks that button, the number of clicks should increase by one, and that new number should be displayed in the paragraph described above.
+  - Every time the user clicks that button, the number of clicks should increase by one, and that new number should be displayed in the paragraph described above. The paragraph should say something like `"Dragons defeated: 27"`
   
-  - Initially, that paragraph should say that the button was clicked **0** times.
+  - Initially, that paragraph should say `"Dragons defeated: 0"`.
   
   - ... and that's all! Super simple!
 
