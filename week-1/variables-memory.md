@@ -1,10 +1,48 @@
 # Section ###: Variables, data types, and storing data in memory
 
-Time to tinker with code and break stuff! Below are several practice challenges where you either need to solve a bug, *create* a bug, or write some code from scratch.
+Now that we've learned the very basics of how to display new information onto a web page using JavaScript, we're one step closer to finishing our Dragon Defeater game!
 
-:trophy: For all of these challenges, the goal is ***have fun!*** It doesn't matter if you're correct or not. Like they say, we learn more from our failures than from our successes. So let's have fun "failing", breaking things on purpose, and learning from the experience!
+
 
 <hr/>
+
+## Next steps of our game:
+
+Quick recap! Let's take another look at our flowcharts outlining the steps of our game. We'll discuss:
+
+  1. Which step of the game can we now implement using our JavaScript code?
+  
+  2. What's missing? What do we still need to learn how to do in order to implement this feature?
+  
+<br/>
+
+## Storing information in the computer's memory
+
+Let's discuss:
+
+  1. In our previous practice challenges, what was the information or the ***data*** that we were working with?
+  
+  2. What ***type*** of information did we use? Looking at the data from our previous examples, what did they all have in common?
+  
+  3. ***Where*** did the data come from, and where did we send it?
+
+<br/>
+
+... memory as a spreadsheet ... tables with Markdown formatting
+
+... introduce console.log BEFORE talking about vars...
+
+... new console.log challenge: compare it against previous functions. same text, but data sent to different places.
+
+-- challenge / discuss: what if we wanted to change the data itself -- like in our game.. ? need to store it in memory.
+
+... a bit further down: short explainer about the difference between displaying data, showing it in the console, and saving to memory 
+
+<br/>
+
+.... to revise:
+
+<br/>
 
 ## Group Challenge 1: 
 
