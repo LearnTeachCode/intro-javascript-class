@@ -1,4 +1,4 @@
-# Section 1.6: Intro to data types
+# Section 1.7: Intro to data types
 
 So far, we've learned how to display data on the web page and in the browser's console.
 
