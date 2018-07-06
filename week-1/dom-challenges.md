@@ -178,6 +178,17 @@ This is a Google challenge! Look online to figure out how to ***change the backg
   3. Bonus: use JavaScript to change the background color of your unique paragraph.
 
 <br/>
+
+## Applying our new knowledge:
+
+Let's take another look at our flowcharts outlining the steps of our game and discuss:
+
+  1. Which step of the game can we now implement using our JavaScript code?
+  
+  2. What's missing? What do we still need to learn how to do in order to implement this feature?
+
+
+<br/>
 <hr/>
 
 :trophy: ***Wonderful!!*** This is a fundamental first step in using HTML and JavaScript together to make truly interactive web pages!
