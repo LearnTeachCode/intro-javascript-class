@@ -193,4 +193,4 @@ Let's take another look at our flowcharts outlining the steps of our game and di
 
 :trophy: ***Wonderful!!*** This is a fundamental first step in using HTML and JavaScript together to make truly interactive web pages!
 
-:point_right: **[Next up: .....](#)**
+:point_right: ***Next up: [section 1.6](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-1/1-6-browser-console.md)!***
