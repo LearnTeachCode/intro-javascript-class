@@ -418,4 +418,4 @@ The sentence should turn into something like `"Debug it again and again and agai
 
 :trophy: ***Congrats!*** Understanding how to manipulate information in the computer's memory will help you with *any* programming language you learn in the future.
 
-:point_right: **[Next up: ....](#)**
+:point_right: **Next up: in [section 1.9, we'll put everything together to build our Dragon Defeater game](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-1/1-9-putting-it-together.md)!**
