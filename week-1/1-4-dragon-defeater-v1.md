@@ -109,4 +109,4 @@ Your job is to make it functional, taking this static page and making it come to
 
 :trophy: **Great work so far!** Most of the hard work in building something new will happen *away* from the computer -- sketching, flowcharting, and discussing with others out loud.
 
-:point_right: **Next up:** [in section ####, .....](#)!
+:point_right: ***Next up: [section 1.5](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-1/1-5-dom-challenges.md)!***
