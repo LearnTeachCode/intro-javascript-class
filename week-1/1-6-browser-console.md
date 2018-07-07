@@ -194,4 +194,5 @@ Why do you think it worked that way?
 
 :trophy: ***Congrats!*** The browser console and the `console.log()` function are a couple of the most useful tools that you'll be using to inspect data in your application and "look under the hood" to see how your code is working.
 
-:point_right: **[Next up: ....](#)**
+:point_right: ***Next up: [section 1.7](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-1/1-7-data-types.md)!***
+
