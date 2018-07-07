@@ -405,4 +405,4 @@ Looking at the flowcharts we made for our Dragon Defeater game, let's discuss:
 
 :trophy: ***Wonderful!*** Data types are at the very heart of computing, both in theory and in practice. As a programmer, you'll be making use of different types of data *every single day*!
 
-:point_right: **[Next up: ....](#)**
+:point_right: ***Next up: [section 1.8](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-1/1-8-memory-variables.md)!***
