@@ -109,4 +109,5 @@ Almost no projects get finished within the span of our class, but our past stude
 <br/>
 <hr/>
 
-:point_right: **Next up:** See you in class very soon! In the meantime, please be sure to participate in the ongoing conversations happening in our class Slack channel.
+:point_right: **Next up:** See you in class very soon! We'll work together starting on [**section 1.4**](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-1/1-4-dragon-defeater-v1.md).
+
