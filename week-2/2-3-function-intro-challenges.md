@@ -16,11 +16,11 @@ Functions are one of the most fundamental concepts in programming, but full of n
 
 You can think of functions a few different ways:
 
-  1. Functions are the ***verbs*** of programming; they perform actions! Even more importantly, functions are ***reusable*** actions. For example, if you have a function `eat()`, you can use it to eat lots of things -- `eat("cupcakes")` and `eat("cookies")` and maybe even some vegetables once in a while.
+  1. **Functions are the *verbs* of programming**; they perform actions! Even more importantly, functions are ***reusable*** actions. For example, if you have a function `eat()`, you can use it to eat lots of things -- `eat("cupcakes")`, `eat("cookies")`, and maybe even some vegetables once in a while!
   
-  2. A function is also like a factory; it takes raw materials as ***inputs***, combines them in some way, and then produces some final product as its ***output***. (This is a bit oversimplified of course, as metaphors usually are, but that's the basic idea.)
+  2. **A function is also like a *factory***; it takes raw materials as ***inputs***, combines them in some way, and then produces some final product as its ***output***. (This is a bit oversimplified of course, as metaphors usually are, but that's the basic idea.)
   
-  3. You can also think of functions as miniature computer programs in and of themselves! They can have their own variables and their own space in the computer's memory.
+  3. You can also think of **functions as *miniature computer programs*** in and of themselves! They can have their own variables and their own space in the computer's memory.
 
 <br/>
 
