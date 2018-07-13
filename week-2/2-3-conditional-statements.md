@@ -213,4 +213,4 @@ This program is *very similar* to the one in challenge #11 above, but there's on
 <br/>
 <hr/>
 
-:trophy: ***Super 1337 coding skills!*** **[Next up: ...!](#)**
+:trophy: ***Super 1337 coding skills!*** **[Next up: let's starting working with functions!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-2/2-4-function-challenges.md)**
