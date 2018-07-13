@@ -235,6 +235,8 @@ First, define a function that takes ***one input***, subtracts 10 from it, and t
 
   > [**Camel case formatting**](https://en.wikipedia.org/wiki/Camel_case) refers to the convention of naming variables and functions with wordsLikeThis, with noHyphensOrUnderscores, where every word *except* the first word is capitalized. Famous examples of camelCase names in popular culture include "iPhone" and "eBay".
 
+<br/>
+
 Next, test your function by **calling it three times** with three different numbers as inputs! Be sure to check the console to see if it worked; you should see three different results.
 
 <br/>
@@ -327,7 +329,7 @@ Then test it to find out!
 
 ## Why are functions useful?
 
-Because when use effectively, functions keep your code modular and **DRY**: ***Don't Repeat Yourself***, one of the most important principles of software development!
+Because when used effectively, functions keep your code modular and **DRY**: ***Don't Repeat Yourself***, one of the most important principles of software development!
 
 Just like it's harder to find things if you have a messy office with papers scattered all over the place, it's harder to find the cause of a bug if your *code* is scattered all over the place! Functions help us keep our code organized into separate, reusable actions. That makes bugs easier to find, and easier to avoid in the first place.
 
