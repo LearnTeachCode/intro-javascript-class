@@ -352,4 +352,4 @@ Just like it's harder to find things if you have a messy office with papers scat
 
 :trophy: ***Wonderful work!*** You're on your way to being a functional programming wizard!
 
-:point_right: **[Next up: ...!](#)**
+:point_right: **[Next up: responding to user actions with events and event listeners!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-2/2-5-event-listeners.md)**
