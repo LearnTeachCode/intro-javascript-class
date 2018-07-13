@@ -118,8 +118,8 @@ function sevenLanguageGreeting (name) {
    console.log("Hujambo, " + name);
    console.log("Hyvää päivää, " + name);
    console.log("здравствуйте, " + name);
-   console.log("Ciao, " + name):
-   console.log("السَّلَامُ عَلَيْكُمْ‬, " name);   
+   console.log("Ciao, " + name);
+   console.log("السَّلَامُ عَلَيْكُمْ‬, " + name);   
 }
 
 sevenLanguageGreeting("Boaty McBoatface");
