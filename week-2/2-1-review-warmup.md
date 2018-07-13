@@ -100,4 +100,4 @@ document.getElementById(theanswer).textContent = 42;
 
 <hr/>
 
-:trophy: ***Ready for a workout now?*** **[Next up: asking questions with comparison and logical operators!](#)**
+:trophy: ***Ready for a workout now?*** **[Next up: asking questions with comparison and logical operators!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-2/2-2-comparison-logic.md)**
