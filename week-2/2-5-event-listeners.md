@@ -334,4 +334,4 @@ A couple suggestions:
 
 :trophy: ***Woohoo!*** You can now say you've already written your first bit of *asynchronous code!* (A more advanced topic, but in short, this refers to the fact that now you know how to write code that *waits* for an event to happen!)
 
-:point_right: **[Next up: ...!](#)**
+:point_right: **[Next up: as another group project, let's build a minimal version of the Hangman game!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-2/2-6-group-project-hangman.md)**
