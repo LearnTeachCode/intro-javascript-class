@@ -210,4 +210,4 @@ Be sure to test it out for yourself -- do some experiments! And take notes on wh
 <br/>
 <hr/>
 
-:trophy: ***Great job!*** **[Next up: making decisions with conditional statements!](#)**
+:trophy: ***Great job!*** **[Next up: making decisions with conditional statements!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-2/2-3-conditional-statements.md)**
