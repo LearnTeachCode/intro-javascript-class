@@ -88,7 +88,9 @@ Let's get even crazier! Create a *third* event listener and function to accompli
 
 There are *lots* of built-in events that web browsers provide for you to use in your code! So far, we've only been using one: `"click"`.
 
-Take a look at [this reference page listing *all* the built-in web browser events](https://developer.mozilla.org/en-US/docs/Web/Events), and **change your code** from challenge #6 so that your function is triggered when the user **double clicks** on the last paragraph (instead of a single click).
+**Your challenge:** Take a look at [this reference page listing *all* the built-in web browser events](https://developer.mozilla.org/en-US/docs/Web/Events), and **change your code** from challenge #6 so that your function is triggered when the user **double clicks** on the last paragraph (instead of a single click).
+
+<br/>
 
   > **Important note:** The name of every event is just a **string**, and *every single built-in event* is included in that giant list! You'll probably only need a handful of those events; most of them are rarely used.
 
@@ -108,7 +110,7 @@ Every time you use an event listener, there are **three main questions** you'll 
 
 <br/>
 
-### Visualizing the event listener pattern in code:
+### Visualizing the event listener pattern with an ugly diagram:
 
 ![eventlistener-example](https://user-images.githubusercontent.com/1555022/41071909-97028790-69af-11e8-94fd-2c3fada9499d.png)
 
@@ -132,13 +134,17 @@ Every time you use an event listener, there are **three main questions** you'll 
 
 ## Challenge 8:
 
-Find the name of the event that's triggerd when the user types on their keyboard! There's actually *more than one* event name to accomplish this.
+Find the names of the three event that are triggered when the user types on their keyboard! (Yes, there's three names for this type of event! They're all a tiny bit different.)
+
+<br/>
 
 Create an event listener so that if the user types on their keyboard, *anywhere on the web page*, the console will display the message `"The user typed something!"`
 
+<br/>
+
 Then test it out with *all of the keyboard events* and discuss:
 
-  1. What's the difference between each of the keyboard events?
+  1. What's the difference between each of the different keyboard events?
   2. What are some situations where one type of keyboard event would be better than another? Why?
 
 <br/>
@@ -163,11 +169,15 @@ function logMouseEvent(event) {
 }
 ```
 
+<br/>
+
 Try running this code, either inside your Glitch project or directly in your browser console on any web page. (Be sure to also click somewhere on the page to trigger the event!) Then take a look at what appears in the console -- a `MouseEvent` object!
 
 ![console-expand-object](https://user-images.githubusercontent.com/1555022/26953972-67a12a30-4c62-11e7-8bb0-bb786e433bd1.gif)
 
 If you expand the object inside your browser's console, you can see it contains a long list of information about the event that just occurred. Each category of events will provide different information about the event that just happened.
+
+<br/>
 
   > **Note:** The magic of *how* that information gets sent to your function is a more advanced topic that we'll return to later. For now, we'll just focus on putting this to use!
 
@@ -176,6 +186,8 @@ If you expand the object inside your browser's console, you can see it contains 
 ## Challenge 10:
 
 Time for a quick scavenger hunt! After trying out the example code provided above, expand the MouseEvent object in your browser console and look through the long list to find out: what's the name (or names!) used to show us the ***coordinates*** of where the user clicked on the page?
+
+<br/>
 
   > **Bonus:** You'll see that web pages have a somewhat unintuitive coordinate system. What are the x and y coordinates of the very *top-left corner* of the web page? As you move to the right, or as you move down, how do those coordinates change?
 
@@ -200,7 +212,7 @@ Be sure to test your code and confirm that it works! You can run it directly in 
 
 ## Challenge 12:
 
-Using your browser's console, take a look at the information contained inside that event object to find out: what's the name (or names!) used to show us ***which key** was pressed by the user?
+Using your browser's console, take a look at the information contained inside that event object to find out: ***which key*** was pressed by the user? Which name (or names) are used to label this information?
 
 <br/>
 
@@ -232,21 +244,7 @@ This is just a quick preview of a very big topic that we'll return to in our fut
 
 ## Challenge 13:
 
-First, let's take another quick look at our previous example, where we got our first look at the `MouseEvent` object that contains all that extra information related to where/when/how the user clicked on the page:
-
-```javascript
-document.body.addEventListener("click", logMouseEvent);
-
-function logMouseEvent(event) {
-  console.log(event);
-}
-```
-
-Looking inside the browser console, we saw information like this:
-
-![console-expand-object](https://user-images.githubusercontent.com/1555022/26953972-67a12a30-4c62-11e7-8bb0-bb786e433bd1.gif)
-
-So to access one of those specific pieces of information contained inside the `MouseEvent` object, we can make one tiny change to our code like this:
+To access one of those specific pieces of information contained inside the `MouseEvent` object, we can just replace the `event` parameter from our earlier example with `event.clientX` or `event.clientY` like this:
 
 ```javascript
 document.body.addEventListener("click", logMouseEvent);
@@ -260,23 +258,21 @@ function logMouseEvent(event) {
 }
 ```
 
-The code above will display the pieces of information named `clientX` and `clientY` that are contained inside that giant `MouseEvent` object, so we can see *only that one number* appear in the console.
+The code above will display *only* the pieces of information named `clientX` and `clientY`, which are contained inside that giant `MouseEvent` object. So instead of logging the entire `MouseEvent` object itself, we're just logging the data that we need -- in this case, two numbers.
 
 <br/>
 
-:star: **Your challenge:** Modify your existing code in your Glitch project to accomplish the following:
-
-  - When the user clicks anywhere on the page, display their mouse's X and Y coordinates on the web page, replacing the text of the last paragraph at the bottom of the page.
+:star: **Your challenge:** Modify your existing code in your Glitch project so that when the user clicks anywhere on the page, display their mouse's X and Y coordinates inside the last paragraph at the bottom of the page.
 
 <br/>
 
 ## Challenge 14:
 
-First, take all the existing JavaScript code in your Glitch project and ***comment it out!*** (Or delete it if you prefer, or paste it into a file or an email to yourself to save your work.)
+First, take all the existing JavaScript code in your Glitch project and ***comment it out!*** (Or save it somewhere else as a backup.)
 
 <br/>
 
-  > **Remember this keyboard shortcut:** You can comment or uncomment multiple lines all at once by selecting the text and the pressing `Cmd + /` on a Mac of `Ctrl + /` on a PC. <br/><br/>**To download a backup of your Glitch project:** Click the project name in the top left, then click "Advanced Options" at the very bottom, and then click "Download Project".
+  > **Remember this keyboard shortcut:** You can comment or uncomment multiple lines all at once by selecting the text and the pressing `Cmd + /` on a Mac, or `Ctrl + /` on a PC. <br/><br/>**To download a backup of your Glitch project:** Click the project name in the top left, then click "Advanced Options" at the very bottom, and then click "Download Project".
 
 <br/>
 
