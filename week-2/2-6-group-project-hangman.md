@@ -6,7 +6,7 @@ But as with any project, we'll start by making something *as simple and minimal*
 
  <hr/>
 
-## Challenge 1:
+## What are we building?
 
 :star: **Take a look at [our finished Hangman game](https://hangman-v0-final.glitch.me) for all the following challenges.**
 
@@ -14,63 +14,88 @@ But as with any project, we'll start by making something *as simple and minimal*
 
 <br/>
 
-**We'll discuss:**
+**High-level overview:**
 
-  - What are some limitations of the game?
-  - What programming concepts will we need to use in order to build this game from scratch?
-  - Is there anything involved in this game that we haven't learned how to do yet? If so, what?
+  1. What are the features of this game?
+  
+  2. What are some limitations of the game?
+  
+  3. What programming concepts will we need to use in order to build this game from scratch?
+  
+  4. Is there anything involved in this game that we haven't learned how to do yet? If so, what?
+
 <br/>
 
-## Challenge 2:
+## Challenge 1:
 
-Identify each DOM element (pieces of the web page/the HTML code) that will need to be accessed or modified by JavaScript. How many DOM elements do we need to worry about for this Hangman game?
+:hourglass_flowing_sand: Get out your pencils and paper! Let's draw ***two versions*** of a flowchart to visualize how this game works.
 
 <br/>
 
-## Challenge 3:
+**First:** In *two minutes or less*, draw a quick flowchart from the ***user's perspective***: what steps would the user take in order to use this app? How would they experience it?
+
+<br/>
+
+**Second:** In a few more minutes, draw a second flowchart, this time from your perspective as a *developer*, including all the implementation details -- in other words, from the ***computer's perspective***. Be as detailed as possible.
+
+<br/>
+
+## Take a look at our HTML mockup
 
 :star: [**Click here to open our shared Glitch project**](https://glitch.com/edit/#!/join/c88e45bc-1c83-4791-afc8-aa37cfeca162)!
 
+We'll be writing code here together as a group!
+
 <br/>
 
-Let's look in the HTML file and identify the `id` attribute of each of those elements that we identified in the previous challenge.
 
-Did you find them all? :) Did they match up with what you came up with for the previous challenge?
+## Challenge 2:
+
+What information does the computer need to remember for this game to work, and what data type should we use for each piece of information?
+ 
+ <br/>
+ 
+  > **Side note:** As we briefly discussed in our previous class, we call this [the ***state*** of the program](https://en.wikipedia.org/wiki/State_(computer_science)). The *state* refers to the information stored by the computer to remember past actions. The *state* combined with any *inputs* determine what the computer program will do next.
 
 <br/>
 
 ## Challenge 3:
 
-Using your browser console (remember to open it while on the *live web page* for the game), use JavaScript to test out how you would access each of those DOM elements that you identified, to make sure your JavaScript code works before we continue with writing more of the code.
+Let's take a closer look at the user interface, and how our JavaScript code will interact with it:
 
-<br/>
+  1. How many **HTML elements** (parts of the web page like a button or paragraph) will our JavaScript code need to interact with?
+  
+  2. What do we need to *access* or *change* for each of these elements?
+  
+  3. What are the `id` attributes of each of these elements that we'll need to access wiht our JavaScript code?
 
-**Bonus:** How would you create three *variables*, one for each of those DOM elements?
-
-  > That way you can essentially give them shorter names, instead of typing that whole long line of code every time you want to reference one of those DOM elements. Very handy! (Remember, lazy programmers are the *best* programmers; do as little typing as possible!)
 
 <br/>
 
 ## Challenge 4:
 
-Let's identify the three pieces of information that control how the Hangman game works. What data type do you think we should use for each of them?
+What **external events** (outside the control of your code) will affect the state of this system? Let's answer those three important questions that we need to think about for *every* event listener:
 
-<br/>
+  1. Where is the event happening?
 
-These three variables encompass what we call the ***state*** of the application; in other words, the state of the Hangman game at any given moment depends on these three variables, and the game won't work unless our code keeps track of all three!
+  2. Which event are we listening for?
+
+  3. What should happen when the event occurs?
+
 
 <br/>
 
 ## Challenge 5:
 
-Next, let's write the conditional logic for our Hangman game to specify the entire decision-making process that makes our game work! Be sure to test your code to check that it works for every situation that can happen in the game.
+Next, let's write the conditional logic for our Hangman game -- the entire decision-making process that makes our game work!
+
+An easy way to test this in isolation from the rest of our code is to use ***fake / example data*** and test the logic on its own; this way, we don't need to type in the text box and click the button over and over again. This also makes it easier for us to isolate any bugs that come up.
 
 <br/>
 
-Below is an example set of conditional statements with fake/placeholder data for you to reference:
+Below is an example set of conditional statements with fake/placeholder, as an example of what we'll be doing:
  
 ```javascript
-// Example code:
 // Imagine this is part of the code for a game, and the user just "leveled up".
 // We need to decide what bonus item to give them as a reward.
 
@@ -88,16 +113,6 @@ if (newplayerLevel >= 9) {
   // Otherwise, if player just became level 7 or higher:
   console.log("Here we'd give the player a golden necklace");
 
-} else if (newplayerLevel >= 3) {
-  
-  // Otherwise, if player just became level 3 or higher:
-  console.log("Here we'd give the player a silver arrow");
-  
-} else {
-  
-  // Otherwise, for any other case:
-  console.log("Here we'd give the player a loaf of bread");
-  
 }
 ```
 
@@ -105,17 +120,45 @@ if (newplayerLevel >= 9) {
 
 ## Challenge 6:
 
-Find out how to use JavaScript to access the user's input (whatever they type into the text box on the web page). 
+Let's find out how to use JavaScript to access the user's input (whatever they type into the text box on the web page). 
 
-  > **Hint:** you'll need to look up something **new** that we haven't learned in our class yet!
-  
-**How to test if you got this right:** Open the live page for our game, type something into the text box, and then open the browser console while you're on that page. Run your code in the console -- something like `console.log(document.body.textContent)` -- but of course that isn't the answer. If it works, you'll see the text that hte user typed (and *only* that text) appear in the console.
+This will be trickier than you might think!
 
 <br/>
 
 ## Challenge 7:
 
-In our Hangman game, we need to count down the number of guesses that the player has remaining. When should we do this? Let's get this part working!
+Let's actually count down the number of guesses that the player has left before they lose the game, and display that number inside a message that appears on the web page!
+
+<br/>
+
+## Challenge 8:
+
+There's one last feature that's still missing. What happens if you win or lose the game, but then you make another guess? Let's try it out.
+
+<br/>
+
+...that shouldn't happen!
+
+<br/>
+
+So to solve this and create a better user experience, let's start with one of the easiest solutions: when the user wins or loses, we'll ***turn off*** the event listener so that additional clicks will no longer trigger the code to do anything!
+
+Let's do a little research to figure out how to do that, and then compare notes.
+
+<br/>
+
+## Final notes to review:
+
+:star: ***Don't review these links until after you've completed the steps above on your own, and you've put in a good effor into writing the code yourself.***
+
+  - Flowcharts from the user's perspective (simpler version) and from the developer's perspective (with implementation details): https://github.com/LearnTeachCode/hangman-game
+  
+  > Notice how more detailed flowchart breaks down the decision point into ***yes/no*** questions -- whereas humans can easily ask a quesiton and answer it with three possibilities, computers can't! So, in our code, we need to turn our one question into *two separate yes-no questions*.
+
+<br/>
+
+  - Code for the finished version of this first Hangman game prototype: https://glitch.com/edit/#!/hangman-v0-final
 
 
 <br/>
