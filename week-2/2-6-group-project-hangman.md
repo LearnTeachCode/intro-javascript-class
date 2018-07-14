@@ -150,15 +150,19 @@ Let's do a little research to figure out how to do that, and then compare notes.
 
 ## Final notes to review:
 
+<br/>
+
 :star: ***Don't review these links until after you've completed the steps above on your own, and you've put in a good effor into writing the code yourself.***
 
-  - Flowcharts from the user's perspective (simpler version) and from the developer's perspective (with implementation details): https://github.com/LearnTeachCode/hangman-game
+<br/>
+
+**Flowcharts** from the user's perspective (simpler version) and from the developer's perspective (with implementation details): https://github.com/LearnTeachCode/hangman-game
   
   > Notice how more detailed flowchart breaks down the decision point into ***yes/no*** questions -- whereas humans can easily ask a quesiton and answer it with three possibilities, computers can't! So, in our code, we need to turn our one question into *two separate yes-no questions*.
 
 <br/>
 
-  - Code for the finished version of this first Hangman game prototype: https://glitch.com/edit/#!/hangman-v0-final
+**Code for the finished version** of this first Hangman game prototype: https://glitch.com/edit/#!/hangman-v0-final
 
 
 <br/>
