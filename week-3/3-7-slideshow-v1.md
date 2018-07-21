@@ -1,4 +1,4 @@
-# Section 3.7: Simple slideshow version 1 with nested data!
+# Section 3.7: Simple slideshow version 1
 
 Now that we've learned the basics of working with objects, let's put them to use in a new feature for our simple slideshow app!
 
@@ -140,5 +140,5 @@ See how repetitive our code is with responding to these two buttons? We can *ref
 
 🏆 ***Woohoo!*** We've made use of our first *nested data structure*! Any project you build in the future will most definitely need to use arrays and objects to keep your data organized, so you're well on your way towards data mastery!
 
-:point_right: **Next up:** [....](#)
+:point_right: **Next up:** [in section 3.8, we'll take our first look at using a command line interface!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-3/3-8-command-line-intro.md)
 
