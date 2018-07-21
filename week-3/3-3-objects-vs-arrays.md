@@ -42,6 +42,6 @@ For each real-world example below, discuss whether you think it makes more sense
 
 <hr/>
 
-:trophy: **Onwards!** 
+:trophy: **Yay, structured data!** As long as you have a solid understanding of the *big picture ideas*, you can always find the details that you need with a little Googling. ;)
 
 :point_right: **Next up:** [in section 3.4, we'll write some code to practice creating and accessing data from arrays!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-3/3-4-arrays.md)
