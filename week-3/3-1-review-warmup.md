@@ -81,4 +81,4 @@ console.log( 1 !== 4 || 3 > 5 );
 
 :trophy: ***Great! Ready for a coding workout?***
 
-:point_right: **Next up:** [in section 3.2, we'll discuss today's group project!](#)
+:point_right: **Next up:** [in section 3.2, we'll discuss today's group project!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-3/3-2-slideshow-project-planning.md)
