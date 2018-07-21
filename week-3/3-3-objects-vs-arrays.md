@@ -42,5 +42,6 @@ For each real-world example below, discuss whether you think it makes more sense
 
 <hr/>
 
-:trophy: **Onwards!**  **[Next up: ..!](#)**, we'll write some code to create and access data from arrays!
+:trophy: **Onwards!** 
 
+:point_right: **Next up:** [in section 3.4, we'll write some code to practice creating and accessing data from arrays!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-3/3-4-arrays.md)
