@@ -119,5 +119,5 @@ See how repetitive our code is with responding to these two buttons? We can *ref
 
 🏆 ***Way to go, team!*** We've just opened the door towards *so many* more interesting and complex projects, now that we can start grouping our data in different ways! 
 
-:point_right: **Next up:** [....](#)
+:point_right: **Next up:** [in section 3.6, we'll practice using JavaScript objects so that we can then make this app better!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-3/3-6-objects.md)
 
