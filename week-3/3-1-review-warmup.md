@@ -79,4 +79,6 @@ console.log( 1 !== 4 || 3 > 5 );
 
 <hr/>
 
-:trophy: ***Great! Ready for a coding workout?*** **[Next up: ..!](#)**
+:trophy: ***Great! Ready for a coding workout?***
+
+:point_right: **Next up:** [in section 3.2, we'll discuss today's group project!](#)
