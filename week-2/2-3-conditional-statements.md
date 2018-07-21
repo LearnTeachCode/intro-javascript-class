@@ -1,6 +1,6 @@
 # Section 2.3: Making decisions with conditional statements
 
-***Conditional statements*** are the commands that allow us to tell a computer to ***make a decision*** based on the answer to [our yes-or-no questions (***comparisons***) that we learned about in the previous section](https://github.com/LearnTeachCode/js-intro-logic/blob/master/2-comparison-logic.md).
+***Conditional statements*** are the commands that allow us to tell a computer to ***make a decision*** based on the answer to our yes-or-no questions (***comparisons***) that we learned about in the previous section.
 
 Let's do some decision-making!
 
