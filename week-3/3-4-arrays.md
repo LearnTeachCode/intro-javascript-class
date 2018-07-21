@@ -170,5 +170,4 @@ They type `["hip", "hip"]` -- a "hip hip" *array!* :laughing:
 
 🏆 ***Wonderful!*** You can now work with lists of data like a pro!
 
-:point_right: **Next up:** [....](#)
-
+:point_right: **Next up:** [in section 3.5, we'll build version 0 of our simple slideshow app using the power of arrays!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-3/3-5-slideshow-v0.md)
