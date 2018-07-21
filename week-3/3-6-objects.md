@@ -187,5 +187,5 @@ Then think if there's a way to take *all* of the data inside an object and do so
 
 :trophy: ***Great job!*** You can now use objects to store and access collections of data, an essential tool for every software application you'll ever create!
 
-:point_right: **Next up:** [....](#)
+:point_right: **Next up:** [in section 3.7, we'll put these objects to use so add a new feature to our simple slider app!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-3/3-7-slideshow-v1.md)
  
