@@ -110,5 +110,5 @@ Keeping this difference in mind, let's talk more about structuring groups of dat
 <br/>
 <hr/>
 
-:point_right: **Next up:** [....](#)
+:point_right: **Next up:** [in section 3.3, we'll discuss the difference between objects and arrays!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-3/3-3-objects-vs-arrays.md)
 
