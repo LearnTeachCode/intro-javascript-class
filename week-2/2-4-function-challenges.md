@@ -320,7 +320,7 @@ function saySomething () {
 	console.log("Something");
 }
 
-doSomething("hi", "hello", "are you listening?", "stop play Overwatch and pay attention!");
+doSomething("hi", "hello", "are you listening?", "stop playing Overwatch and pay attention!");
 ```
 
 Then test it to find out!
