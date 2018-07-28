@@ -97,3 +97,4 @@ And voila, we have a tiny to-do list!
 
 🏆 ***Great job, team!*** Creating version 0 of our to-do list was pretty easy, huh? But in order to build it, we still had to learn a couple of very useful new JavaScript tricks!
 
+:point_right: ***Next up:*** [in section 4.3, we'll add one more feature to this app!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-4/4-3-todolist-v1.md)
