@@ -14,15 +14,6 @@ Try to solve these ***without*** looking at any references or examples first, to
 
 ### Challenge 1:
 
-Define a new function named `doNothing` that takes no inputs and doesn't do anything at all. (So just write the shell of a function. Do you remember the syntax off the top of your head?)
-
-Then call your function. (It won't do anything, of course. But write the code to call it anyway!)
-
-<br/>
-
-
-### Challenge 1:
-
 Create a new variable that contains an array of three numbers. (Name it whatever you want.)
 
 <br/>
@@ -54,6 +45,8 @@ Create an array named `dogsArray` that contains those two dog objects as element
 ### Challenge 6:
 
 Access the second dog in the array and display it (the whole object) in the console.
+
+<br/>
 
 ### Challenge 7:
 
