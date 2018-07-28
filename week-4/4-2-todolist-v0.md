@@ -1,6 +1,6 @@
 # Section 4.2: Group project: Simple to-do list version 0
 
-......
+Let's build another tiny app together!
 
 <hr/>
 
