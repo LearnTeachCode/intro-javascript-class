@@ -65,3 +65,4 @@ Access the breed of the second dog, and display it (*only its breed*) in the con
 
 :trophy: ***Great! Ready for a coding workout?***
 
+:point_right: ***Next up:*** [in section 4.2, we'll build the first version of a very minimal to-do list app!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-4/4-2-todolist-v0.md)
