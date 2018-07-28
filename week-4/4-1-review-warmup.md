@@ -81,5 +81,3 @@ console.log( 1 !== 4 || 3 > 5 );
 
 :trophy: ***Great! Ready for a coding workout?***
 
-:point_right: **Next up:** [in section 4.2,   ](#)
-
