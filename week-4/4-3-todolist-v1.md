@@ -123,3 +123,4 @@ Our next steps:
 
 🏆 ***Yay, we did it!*** This is how real projects are built: one tiny step at a time, learning what we need *just in time* for when we need it. Combining that with general learning (from books, tutorials, etc) is the key to mastering these new skills!
 
+:point_right: ***Next up:*** [in section 4.4, we'll experiment with drawing and animating some random shapes using the p5js library!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-4/4-4-drawing-p5js.md)
