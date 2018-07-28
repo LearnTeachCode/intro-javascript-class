@@ -22,7 +22,7 @@ We'll be working in pairs to tinker with more code, using functions provided by 
 
 <br/>
 
-Copy the example code below and paste it ***right after*** the `createCanvas()` function that's being used on **line 10** in our example JavaScript file.
+Copy the example code below and paste it inside the `setup()` function, after the existing lines of code. (Read the comments in the file.)
 
 ```javascript
 rect(200, 300, 50, 100);
