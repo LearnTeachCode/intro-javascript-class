@@ -1,6 +1,6 @@
 # Section 4.3: Group project: Simple to-do list version 1
 
-....
+Now that we have the core functionality of our front-end interface working (at least for this first prototype), let's add just a little bit more.
 
 <hr/>
 
