@@ -65,7 +65,7 @@ Looking in the network tab for `example.com`, identify the following:
 
 ## Challenge 2:
 
-Open up the web page for our shared Glitch project from before https://reviewgroup2.glitch.me/ and then open up the network tab to inspect the information being sent to and from Glitch's servers when you visit that page!
+Open up the web page for our previous group project at https://simple-slideshow-group.glitch.me/ and then open up the network tab to inspect the information being sent to and from Glitch's servers when you visit that page!
 
 **Identify the following:**
 
