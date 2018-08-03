@@ -91,4 +91,4 @@ Note: When you see the data in your command line, the request headers are prefac
 <br/>
 <hr/>
 
-:point_right: **Next up:** [in section 5.4, we'll get our feet wet by making API calls to a funny example API](#)!
+:point_right: **Next up:** [in section 5.4, we'll get our feet wet by making API calls to a funny example API](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-5/5-4-api-practice.md)!
