@@ -107,4 +107,4 @@ Most of the time when you're browsing the web, your web browser is just sending 
 
 <hr/>
 
-:point_right: **Next up:** [in section 5.2, we'll learn the basics of Chrome's network tab to see what happens behind the scenes every time you visit a website (which is basically the same as making an API call)](#)!
+:point_right: **Next up:** [in section 5.2, we'll learn the basics of Chrome's network tab to see what happens behind the scenes every time you visit a website (which is basically the same as making an API call)](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-5/5-2-network-tab.md)!
