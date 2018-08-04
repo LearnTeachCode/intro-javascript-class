@@ -18,7 +18,7 @@ There are only a couple differences:
   
   - Compared to visiting a website as a *user*, accessing an API as a *developer* does require you to read some documentation beforehand to learn each API's unique rules and conventions.
   
-  - Developers need to decide on and sent *much more* information than just which URL to access, as you'll see very soon!
+  - Developers need to decide on and send *much more* information than just which URL to access, as you'll see very soon!
 
 <br/>
 
