@@ -1,6 +1,6 @@
-# Section 6.1: API group practice challenge
+# Section 6.2: API group practice challenge
 
-[In our previous class](https://github.com/LearnTeachCode/intro-javascript-class/tree/july-aug-2018/week-5), we learned the very basics of working with APIs over the web: HTTP, requests vs responses, HTTP request methods (like GET vs POST), headers, data formats, and how to view request/response data in Chrome's network tab, and how to access APIs via the command line using the `curl` command!
+[In our previous class](https://github.com/LearnTeachCode/intro-javascript-class/tree/july-aug-2018/week-5), we learned the very basics of working with APIs over the web: HTTP, requests vs responses, HTTP request methods (like GET vs POST), headers, data formats, and how to view request/response data in Chrome's network tab, and how to access APIs via the command line using the `curl` command! Let's put that knowledge to use and build something together!
 
 :books: **Prerequisites:**
   - [Review APIs and using cURL from our previous class here](https://github.com/LearnTeachCode/intro-javascript-class/tree/july-aug-2018/week-5)
@@ -165,4 +165,4 @@ And that's it!
 
 :trophy: **Great work!** We built our first application that makes use of a third-party web API!
 
-:point_right: **Next up:** [in section 6.2, we'll work with NASA's API to build another small app together and learn about query parameters, rate limits and API keys](#)!
+:point_right: **Next up:** [in section 6.3, we'll work with NASA's API to build another small app together and learn about query parameters, rate limits and API keys](#)!
