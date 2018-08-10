@@ -1,9 +1,9 @@
 # 5.1: API group practice challenge
 
-[In our previous class](https://github.com/LearnTeachCode/intro-javascript-class/tree/may-2018-int/week-4), we learned the very basics of working with APIs over the web: HTTP, requests vs responses, HTTP request methods (like GET vs POST), headers, data formats, and how to view request/response data in Chrome's network tab, and how to access APIs via the command line using the `curl` command!
+[In our previous class](https://github.com/LearnTeachCode/intro-javascript-class/tree/july-aug-2018/week-5), we learned the very basics of working with APIs over the web: HTTP, requests vs responses, HTTP request methods (like GET vs POST), headers, data formats, and how to view request/response data in Chrome's network tab, and how to access APIs via the command line using the `curl` command!
 
 :books: **Prerequisites:**
-  - [Review APIs and using cURL from our previous class here](https://github.com/LearnTeachCode/intro-javascript-class/tree/may-2018-int/week-4)
+  - [Review APIs and using cURL from our previous class here](https://github.com/LearnTeachCode/intro-javascript-class/tree/july-aug-2018/week-5)
   
 Let's kick off today's class by building a tiny project together! We'll be combining APIs with other concepts like the DOM and event listeners.
 
@@ -75,7 +75,7 @@ OK, the first parts of our app are completed, and we've confirmed that our code 
 
   > With APIs, you can't make any assumptions! If it worked yesterday, it might not still work today. Testing APIs with `curl` is great for debugging, because it's entirely separate from your JavaScript code -- like a little quarantine zone.
   
-  :books: For a **review of using `curl`**, [see the instructions in section 4.4](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-4/4-4-curl-intro.md).
+  :books: For a **review of using `curl`**, [see the instructions in section 5.3](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-5/5-3-curl-intro.md).
 
 <br/>
 
@@ -93,7 +93,7 @@ OK, the first parts of our app are completed, and we've confirmed that our code 
 
 ## Challenge 9:
 
-Using the same example code from last week's API practice in [section 4.5](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-4/4-5-api-challenges-1.md), open a new tab in your browser and run the following JavaScript code directly in the console:
+Using the same example code from last week's API practice in [section 5.4](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-5/5-4-api-practice.md), open a new tab in your browser and run the following JavaScript code directly in the console:
 
 ```javascript
 var requestObject = new XMLHttpRequest();
@@ -177,4 +177,4 @@ And that's it!
 
 :trophy: **Great work!** We built our first application that makes use of a third-party web API!
 
-:point_right: **Next up:** [in section 5.2, we'll work with NASA's API to build another small app together and learn about query parameters, rate limits and API keys](https://github.com/LearnTeachCode/intro-javascript-class/blob/may-2018-int/week-5/5-2-nasa-api.md)!
+:point_right: **Next up:** [in section 6.2, we'll work with NASA's API to build another small app together and learn about query parameters, rate limits and API keys](#)!
