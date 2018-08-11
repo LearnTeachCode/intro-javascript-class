@@ -208,4 +208,4 @@ We'll come back to this topic in more detail later, but if you're curious, here'
 
 :trophy: ***Great job!*** You now know the very basics of how to package up your data in preparation to send it somewhere, whether to a database or a third-party web API!
 
-:point_right: **Next up:** in [section 6.2, we'll put our new API knowledge to use and build another group project!] (#)
+:point_right: **Next up:** in [section 6.2, we'll put our new API knowledge to use and build another group project!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-6/6-2-api-group-challenge.md)
