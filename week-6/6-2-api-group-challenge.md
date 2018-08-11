@@ -165,4 +165,4 @@ And that's it!
 
 :trophy: **Great work!** We built our first application that makes use of a third-party web API!
 
-:point_right: **Next up:** [in section 6.3, we'll work with NASA's API to build another small app together and learn about query parameters, rate limits and API keys](#)!
+:point_right: **Next up:** [in section 6.3, we'll work with NASA's API to build another small app together and learn about query parameters, rate limits and API keys](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-6/6-3-nasa-api.md)!
