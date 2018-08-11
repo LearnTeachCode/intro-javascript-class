@@ -73,8 +73,12 @@ OK, the first parts of our app are completed, and we've confirmed that our code 
 
 **First step:** Review the [**Dad Jokes API documentation**](https://icanhazdadjoke.com/api) and test it one more time via the command line (using the `curl` command) to make sure it still works.
 
+<br/>
+
   > With APIs, you can't make any assumptions! If it worked yesterday, it might not still work today. Testing APIs with `curl` is great for debugging, because it's entirely separate from your JavaScript code -- like a little quarantine zone.
-  
+ 
+ <br/>
+ 
   :books: For a **review of using `curl`**, [see the instructions in section 5.3](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-5/5-3-curl-intro.md).
 
 <br/>
@@ -84,7 +88,7 @@ OK, the first parts of our app are completed, and we've confirmed that our code 
 **Second step:** How can you specify that you'd like to request a dad joke in ***plain text*** format? In JSON format? In HTML format?
 
 **Hints:**
-  1. You'll need to use a new ***flag*** with your cURL command to specify a ***request header***. (In our last class, we've used the `-v` flag. This time you'll need a different letter -- find it in the [Dad Jokes API documentation](https://icanhazdadjoke.com/api)!
+  1. You'll need to use a new ***flag*** with your cURL command to specify a ***request header***. (In our last class, we've used the `-v` flag. This time you'll need a different letter -- find it in the [Dad Jokes API documentation](https://icanhazdadjoke.com/api)!)
   
   2. You need to include a ***key-value pair*** for this request header, and you'll find an example of that in the [documentation](https://icanhazdadjoke.com/api) as well.
   
@@ -93,7 +97,7 @@ OK, the first parts of our app are completed, and we've confirmed that our code 
 
 ## Challenge 9:
 
-Using the same example code from last week's API practice in [section 5.4](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-5/5-4-api-practice.md), open a new tab in your browser and run the following JavaScript code directly in the console:
+Here's the same example code that we tested out in last week's class. Run the code directly in the console or inside a Glitch project to test it out:
 
 ```javascript
 var requestObject = new XMLHttpRequest();
@@ -132,7 +136,11 @@ Remember when we sent a request using `curl`, we could specify a request header 
 
 Great work! Now that we've discovered the missing piece to our API puzzle, let's integrate this new code into our project!
 
-:star: **[Return back here to our shared Glitch project!](https://glitch.com/edit/#!/join/d41c9162-9467-47ea-839d-80d5e994cfdf)**
+<br/>
+
+:star: **[Return back here to our shared Glitch project!](https://glitch.com/edit/#!/join/d41c9162-9467-47ea-839d-80d5e994cfdf)** :star: 
+
+<br/>
 
 **Our next steps:**
 
@@ -140,7 +148,9 @@ Great work! Now that we've discovered the missing piece to our API puzzle, let's
   
   2. Next, instead of showing the random joke in the console, let's show it to the user! The joke should be displayed in our placeholder paragraph.
   
-  3. Finally, let's just *move* this section of our code so that it *only* runs *after* the user clicks the button.
+  3. Finally, let's just *move* this section of our code so that it only runs *after* the user clicks the button.
+
+<br/>
 
 And that's it!
 
@@ -154,11 +164,9 @@ And that's it!
   
   2. What shows up on the page? Why does it look that way?
   
-  3. Fix it so that the actual data appears on the page, using of one of JavaScript's built-in JSON functions.
+  3. Make one more small change so that only the joke's ID is displayed on the page (none of the other info).
   
-  4. Make one more small change so that only the joke's ID is displayed on the page (none of the other info).
-  
-  5. Create another paragraph on the page, and then display the joke's ID inside *one* paragraph, and the joke itself inside *another* paragraph!
+  4. Create another paragraph on the page, and then display the joke's ID inside *one* paragraph, and the joke itself inside *another* paragraph!
 
 <br/>
 <hr/>
