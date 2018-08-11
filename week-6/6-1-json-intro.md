@@ -166,19 +166,7 @@ This opens up all sorts of possibilities:
 
 <br/>
 
-## Bonus challenge 1:
-
-Combine the code from challenge #2 and challenge #3 above to solve our problem in challenge #2: now you should finally be able to display the example object's data on the **web page** itself!
-
-<br/>
-
-## Bonus challenge 2:
-
-What do you think the term *"machine-readable format"* means, compared to *"human-readable format?"* Search online for how other people define both of those terms, and see if you can find some examples that illustrate the difference between them.
-
-<br/>
-
-## Bonus challenge 3:
+## Bonus challenge:
 
 What's the *other* built-in JSON function? And what does it do? Why is it useful? Look around online and see what you find!
 
