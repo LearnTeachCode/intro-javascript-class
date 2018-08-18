@@ -154,4 +154,4 @@ Change your function definition so that it now returns an ***output***. Then cha
 
 <hr/>
 
-:point_right: **Next up:** [in seciton 7.2, ....](#)!
+:point_right: **Next up:** [in seciton 7.2, we'll start learning about variable scope and why functions are so much more useful when they return an output](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-7/7-2-scope-and-function-output.md)!
