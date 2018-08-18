@@ -2,6 +2,8 @@
 
 :weight_lifting_man: Let's practice making our code DRY (Don't Repeat Yourself!) with the magic of functions by ***parameterizing*** some examples of repetitive code.
 
+:books: **Reveiw:** [Section 2.4: intro to functions with parameters and arguments](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-2/2-4-function-challenges.md)
+
 <hr/>
 
 <br/>
