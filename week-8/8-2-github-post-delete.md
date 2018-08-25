@@ -200,4 +200,4 @@ Then run your `curl` command from the previous challenge one more time to delete
 
 :trophy: **Great work!** Now that you've practiced identifying endpoints, sending your own JSON data, and using more of the most common common HTTP request methods, you know just enough to find your way around *any* API!
 
-:point_right: **Next up:** [section 8.3 includes some suggested APIs to experiment with for your next projects!](#)
+:point_right: **Next up:** [section 8.3 includes some suggested APIs to experiment with for your next projects!](https://github.com/LearnTeachCode/intro-javascript-class/blob/july-aug-2018/week-8/8-3-bonus-api-suggestions.md)
